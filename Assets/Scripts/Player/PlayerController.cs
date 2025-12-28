@@ -1,0 +1,49 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
+
+public class PlayerController : MonoBehaviour
+{
+    private PlayerMovement playerMovement;
+    private PlayerAnimation playerAnimation;
+
+    public GameController gameController;
+
+    private WeaponParent weaponParent;
+
+    private Vector2 pointerInput, movementInput;
+
+    public Vector2 PointerInput { get => pointerInput; set => pointerInput = value; }
+    public Vector2 MovementInput { get => movementInput; set => movementInput = value; }
+
+    private void Awake()
+    {
+        gameController = GameObject.Find("GameController").GetComponent<GameController>();
+        playerMovement = GetComponent<PlayerMovement>();
+        weaponParent = GetComponentInChildren<WeaponParent>();
+        playerAnimation = GetComponentInChildren<PlayerAnimation>();
+    }
+
+    private void Update()
+    {
+        playerMovement.movementInput = MovementInput;
+        weaponParent.PointerPosition = PointerInput;
+        AnimatedCharacter();
+    }
+
+    private void AnimatedCharacter()
+    {
+        Vector2 lookDirection = PointerInput - (Vector2)transform.position;
+        playerAnimation.RotateToPointer(lookDirection);
+        playerAnimation.PlayAnimation(MovementInput);
+    }
+    public void PerformAttack()
+    {
+        if (gameController.IsUIBlockingInput)
+            return;
+        weaponParent.Attack();
+    }
+}
