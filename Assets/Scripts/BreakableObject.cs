@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class BreakableObject : MonoBehaviour
 {
     [SerializeField]
     private int maxHealth;
@@ -14,6 +14,10 @@ public class NewBehaviourScript : MonoBehaviour
     public int minQuantity = 1;
     public int maxQuantity = 3;
 
+    private void Awake()
+    {
+        currentHealth = maxHealth;
+    }
     public void TakeDamage(int amount)
     {
         currentHealth -= amount;
@@ -43,14 +47,12 @@ public class NewBehaviourScript : MonoBehaviour
             Item item = itemDrop.GetComponent<Item>();
 
             // GÁN DATA
-            item.itemName = itemData.itemName;
-            item.sprite = itemData.sprite;
-            item.itemDescription = itemData.itemDescription;
+            item.item = itemData;
             item.quantity = randomQuantity;
 
             // CẬP NHẬT HÌNH ẢNH
             SpriteRenderer sr = itemDrop.GetComponent<SpriteRenderer>();
-            sr.sprite = itemData.sprite;
+            sr.sprite = itemData.itemImage;
         }
 
         Destroy(gameObject);

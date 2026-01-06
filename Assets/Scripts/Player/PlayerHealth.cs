@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -6,9 +6,9 @@ using UnityEngine.UI;
 public class PlayerHealth : MonoBehaviour
 {
     public static PlayerHealth instance;
-    public int health;
+    public int currenthealth;
     public int maxHealth;
-    public int Health {  get { return health; } }
+    public int Health {  get { return currenthealth; } }
 
     public SpriteRenderer playerSprite;
     public HealthDisplay healthDisplay;
@@ -16,29 +16,35 @@ public class PlayerHealth : MonoBehaviour
     private Animator animator;
     private void Awake()
     {
-        if(instance == null)
+        if (instance != null && instance != this)
         {
-            instance = this;
+            Destroy(gameObject);
+            return;
         }
+
+        instance = this;
         animator = GetComponent<Animator>();
     }
     // Start is called before the first frame update
     void Start()
     {
-        health = maxHealth;
-        healthDisplay = HealthDisplay.instance;
+        if(currenthealth <= 0)
+        {
+            currenthealth = maxHealth;
+        }
+        healthDisplay = FindObjectOfType<HealthDisplay>();
     }
 
     public void TakeDamage(int damage)
     {
-        health -= damage;
+        currenthealth -= damage;
 
         if (healthDisplay != null)
         {
             healthDisplay.UpdateHearts();
         }
 
-        if (health <= 0)
+        if (currenthealth <= 0)
         {
             playerSprite.enabled = false;
             Destroy(gameObject);
@@ -47,12 +53,19 @@ public class PlayerHealth : MonoBehaviour
 
     public void Heal(int amount)
     {
-        if(health >= maxHealth)
+        if(currenthealth >= maxHealth)
         {
             return;
         }
-        health += amount;
+        int before = currenthealth;
+        currenthealth = Mathf.Min(currenthealth + amount, maxHealth);
 
+        Debug.Log($"Heal {amount} | {before} → {currenthealth}");
+
+        if (healthDisplay == null)
+        {
+            healthDisplay = FindObjectOfType<HealthDisplay>();
+        }
         if (healthDisplay != null)
         {
             healthDisplay.UpdateHearts();

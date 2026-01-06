@@ -301,19 +301,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f8a404e9e3324c41a08ae83fa0fd484, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: 
+  itemData: {fileID: 11400000, guid: 6a2e096fa694d6d4c99fbfbe823c5409, type: 2}
   quantity: 0
-  itemSprite: {fileID: 21300000, guid: 2a9a814ccbe61554e971b0a9f5cde7fa, type: 3}
-  isFull: 0
-  itemDescription: 
-  maxNumberOfItem: 9
+  full: 0
   quantityText: {fileID: 8504232092558984782}
   itemImage: {fileID: 5679077536801739795}
-  itemInfoImage: {fileID: 5679077536801739795}
-  itemInfoName: {fileID: 0}
-  itemInfoDescriptionText: {fileID: 0}
-  selectedShader: {fileID: 9209811117064753928}
+  selectedFrame: {fileID: 9209811117064753928}
   thisItemSelected: 0
+  emptySprite: {fileID: 21300000, guid: 2a9a814ccbe61554e971b0a9f5cde7fa, type: 3}
+  emptyItem: {fileID: 11400000, guid: 6a2e096fa694d6d4c99fbfbe823c5409, type: 2}
 --- !u!1 &8465055973656797870
 GameObject:
   m_ObjectHideFlags: 0

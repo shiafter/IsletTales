@@ -4,18 +4,16 @@ using UnityEngine;
 
 public class Item : MonoBehaviour
 {
-    [SerializeField]
-    public string itemName;
+    //[SerializeField]
+    //public string itemName;
 
     [SerializeField]
     public int quantity;
 
-    [SerializeField]
-    public Sprite sprite;
+    //[SerializeField]
+    //public Sprite sprite;
 
-    [TextArea]
-    [SerializeField]
-    public string itemDescription;
+    public ItemData item;
 
     private InventoryManager inventoryManager;
 
@@ -28,7 +26,13 @@ public class Item : MonoBehaviour
     {
         if(collision.gameObject.tag == "Player")
         {
-            int leftOverItem = inventoryManager.AddItem(itemName, quantity, sprite, itemDescription);
+            int leftOverItem = inventoryManager.AddItem(item, quantity);
+            int pickedAmount = quantity - leftOverItem;
+
+            if(pickedAmount > 0)
+            {
+                PickupItemNoti.Instance?.ShowItemPopup(item.itemName, pickedAmount);
+            }
             if(leftOverItem <= 0)
             {
                 Destroy(gameObject);
@@ -39,5 +43,4 @@ public class Item : MonoBehaviour
             
         }
     }
-
 }
