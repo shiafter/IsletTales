@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 031709caf50521043931bbb5e07f7b36, type: 3}
+  m_Name: StonePickaxe
+  m_EditorClassIdentifier: 
+  itemName: Stone Pickaxe
+  itemImage: {fileID: -213526084, guid: c75fc480defdf47418cd6f624e24c9bd, type: 3}
+  itemDescription: A pickaxe made from stone
+  maxStack: 1
+  empty: 0
+  dropPrefab: {fileID: 7571315216983710251, guid: f2c6cd99cbc173849abbf480c53a11da, type: 3}
+  type: 0
+  damage: 1
+  range: 1.3
+  actionDelay: 0.3
+  equipSprite: {fileID: 1412535407, guid: 12fede4d2c46dfc49845f8507c5f1373, type: 3}
+  material: 1
+  equipType: 4

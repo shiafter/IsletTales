@@ -33,7 +33,7 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, 
 
     private void Start()
     {
-        inventoryManager = GameObject.Find("Panel").GetComponentInChildren<InventoryManager>();
+        inventoryManager = InventoryManager.instance;
     }
     public int AddItem(ItemData item, int amount)
     {
@@ -42,7 +42,7 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, 
             return amount;
         }
 
-        if (itemData == null || itemData.empty)
+        if (itemData == null || itemData.empty) // nếu ô trống thì thêm item vào
         {
             itemData = item;
             quantity = 0;

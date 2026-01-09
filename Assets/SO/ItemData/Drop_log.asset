@@ -16,4 +16,6 @@ MonoBehaviour:
   itemImage: {fileID: -1636840847, guid: 7f46d832cef700b47b7b2e98cd54bab7, type: 3}
   itemDescription: Used to craft things
   maxStack: 16
+  empty: 0
   dropPrefab: {fileID: 3891158351871058457, guid: 4b3a0f9f623c9fc498c47728bc73f241, type: 3}
+  type: 2

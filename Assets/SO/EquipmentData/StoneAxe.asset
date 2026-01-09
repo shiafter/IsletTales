@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 031709caf50521043931bbb5e07f7b36, type: 3}
+  m_Name: StoneAxe
+  m_EditorClassIdentifier: 
+  itemName: Stone Axe
+  itemImage: {fileID: 295677834, guid: 6c0ec345f4374624b834985790221fe9, type: 3}
+  itemDescription: An axe made from stone
+  maxStack: 1
+  empty: 0
+  dropPrefab: {fileID: 2413623538604514855, guid: 30ba2d081492684409829dc577f375a4, type: 3}
+  type: 0
+  damage: 1
+  range: 1
+  actionDelay: 0.3
+  equipSprite: {fileID: -1931509315, guid: 12fede4d2c46dfc49845f8507c5f1373, type: 3}
+  material: 1
+  equipType: 3

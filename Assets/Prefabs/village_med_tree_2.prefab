@@ -95,6 +95,8 @@ GameObject:
   - component: {fileID: 4584319476724837131}
   - component: {fileID: 7248686824246057326}
   - component: {fileID: 2763202711692797706}
+  - component: {fileID: 4594877405483631756}
+  - component: {fileID: 8659146419882169258}
   m_Layer: 0
   m_Name: village_med_tree_2
   m_TagString: Untagged
@@ -205,3 +207,36 @@ CapsuleCollider2D:
   m_Offset: {x: -0.005953312, y: 0.3548741}
   m_Size: {x: 0.3954172, y: 0.7542018}
   m_Direction: 0
+--- !u!114 &4594877405483631756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8443501206522956166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e184d3deda51c3746a4da2d5a672838b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dropItems:
+  - {fileID: 11400000, guid: d4ebf57b9aae2d844bf92d148dfcf53e, type: 2}
+  minQuantity: 1
+  maxQuantity: 3
+--- !u!114 &8659146419882169258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8443501206522956166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 944e140b750c92348ad6650d38d97067, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 3
+  maxHealth: 3
+  dead: 0
+  hitFlash: {r: 0.85882354, g: 0.39215687, b: 0.39215687, a: 0}
+  requiredTool: 1

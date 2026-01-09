@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
 
     public GameController gameController;
 
-    private WeaponParent weaponParent;
+    private Equipment equipment;
 
     private Vector2 pointerInput, movementInput;
 
@@ -23,14 +23,14 @@ public class PlayerController : MonoBehaviour
     {
         gameController = GameObject.Find("GameController").GetComponent<GameController>();
         playerMovement = GetComponent<PlayerMovement>();
-        weaponParent = GetComponentInChildren<WeaponParent>();
+        equipment = GetComponentInChildren<Equipment>();
         playerAnimation = GetComponentInChildren<PlayerAnimation>();
     }
 
     private void Update()
     {
         playerMovement.movementInput = MovementInput;
-        weaponParent.PointerPosition = PointerInput;
+        equipment.PointerPosition = PointerInput;
         AnimatedCharacter();
     }
 
@@ -44,6 +44,6 @@ public class PlayerController : MonoBehaviour
     {
         if (gameController.IsUIBlockingInput)
             return;
-        weaponParent.Attack();
+        equipment.UseEquipment();
     }
 }

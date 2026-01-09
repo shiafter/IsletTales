@@ -18,3 +18,4 @@ MonoBehaviour:
   maxStack: 1
   empty: 1
   dropPrefab: {fileID: 0}
+  type: 2

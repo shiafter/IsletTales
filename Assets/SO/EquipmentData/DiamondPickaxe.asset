@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 031709caf50521043931bbb5e07f7b36, type: 3}
+  m_Name: DiamondPickaxe
+  m_EditorClassIdentifier: 
+  itemName: Diamond Pickaxe
+  itemImage: {fileID: -408037758, guid: c75fc480defdf47418cd6f624e24c9bd, type: 3}
+  itemDescription: A pickaxe made from diamond
+  maxStack: 1
+  empty: 0
+  dropPrefab: {fileID: 4907119171794277951, guid: f4047d848b313934db83c54fe0c2ca3f, type: 3}
+  type: 0
+  damage: 5
+  range: 1.3
+  actionDelay: 0.3
+  equipSprite: {fileID: -894459689, guid: 12fede4d2c46dfc49845f8507c5f1373, type: 3}
+  material: 4
+  equipType: 4

@@ -5,21 +5,26 @@ using UnityEngine.Events;
 
 public class AnimationEventHelper : MonoBehaviour
 {
-    public UnityEvent OnAnimationEventTrigger, OnAttackPerformed;
-    private WeaponParent weaponParent;
+    private Equipment equipment;
 
     private void Awake()
     {
-        weaponParent = GetComponentInParent<WeaponParent>();
-    }
-    public void TriggerEvent()
-    {
-        OnAnimationEventTrigger?.Invoke();
+        equipment = GetComponentInParent<Equipment>();
     }
 
     public void TriggerAttack()
     {
-        OnAttackPerformed?.Invoke();
+        if (equipment == null)
+        {
+            Debug.LogError("Equipment not found in parent");
+            return;
+        }
+        Debug.Log("Deal Dmg");
+        equipment.DetectCollider();
     }
-
+    public void EndAnimation()
+    {
+        Debug.Log("Reset attack");
+        equipment.ResetAction();
+    }
 }
