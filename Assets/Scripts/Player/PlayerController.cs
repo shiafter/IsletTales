@@ -45,5 +45,6 @@ public class PlayerController : MonoBehaviour
         if (gameController.IsUIBlockingInput)
             return;
         equipment.UseEquipment();
+        SoundEffectManager.Play("Swing");
     }
 }

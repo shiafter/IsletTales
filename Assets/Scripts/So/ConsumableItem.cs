@@ -22,6 +22,7 @@ public class ConsumableItem : ScriptableObject
         if(statToChange == StatToChange.Health)
         {
             PlayerHealth.instance.Heal(amount);
+            SoundEffectManager.Play("Heal");
         }
         if (statToChange == StatToChange.MaxHealth)
         {

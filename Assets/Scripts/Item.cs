@@ -32,6 +32,7 @@ public class Item : MonoBehaviour
             if(pickedAmount > 0)
             {
                 PickupItemNoti.Instance?.ShowItemPopup(item.itemName, pickedAmount);
+                SoundEffectManager.Play("PickUpItem");
             }
             if(leftOverItem <= 0)
             {

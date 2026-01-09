@@ -11,6 +11,9 @@ GameObject:
   - component: {fileID: 598790589517243223}
   - component: {fileID: 7824593801478263346}
   - component: {fileID: 5966877335497180487}
+  - component: {fileID: 3061649330487082015}
+  - component: {fileID: 8118362189298138523}
+  - component: {fileID: 1100860826515116940}
   m_Layer: 0
   m_Name: village_med_tree_1
   m_TagString: Untagged
@@ -73,7 +76,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 512415979
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -21643193, guid: 992d0294b514e7a409a99434a2e01482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -121,6 +124,51 @@ CapsuleCollider2D:
   m_Offset: {x: -0.005953312, y: 0.3548741}
   m_Size: {x: 0.3954172, y: 0.7542018}
   m_Direction: 0
+--- !u!114 &3061649330487082015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4085171879140672241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 944e140b750c92348ad6650d38d97067, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 3
+  maxHealth: 3
+  dead: 0
+  hitFlash: {r: 0.85882354, g: 0.39215687, b: 0.39215687, a: 0}
+  requiredTool: 1
+--- !u!114 &8118362189298138523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4085171879140672241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4b5fef5f061ef9489210e384d7172f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1100860826515116940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4085171879140672241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e184d3deda51c3746a4da2d5a672838b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dropItems:
+  - {fileID: 11400000, guid: d4ebf57b9aae2d844bf92d148dfcf53e, type: 2}
+  minQuantity: 1
+  maxQuantity: 3
 --- !u!1 &8662957121156094189
 GameObject:
   m_ObjectHideFlags: 0
