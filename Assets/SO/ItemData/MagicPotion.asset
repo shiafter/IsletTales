@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: MagicPotion
   m_EditorClassIdentifier: 
   itemName: Magic Potion
-  itemImage: {fileID: 21300000, guid: 171819c6385b1c245a23c19946f21e3a, type: 3}
+  itemImage: {fileID: 1462017887, guid: eb2d49f7497411e45bccdefed6d73c9a, type: 3}
   itemDescription: Used to increase max health point by 1
   maxStack: 1
   empty: 0

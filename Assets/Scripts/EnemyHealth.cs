@@ -47,12 +47,11 @@ public class EnemyHealth : MonoBehaviour
         StartCoroutine(DamageFlash());
         if (currentHealth <= 0)
         {
-            animator.SetTrigger("dead");
+            Defeated();
             if (breakable != null)
             {
                 breakable.DestroyObject();
             }
-            Destroy(gameObject);
         }
     }
 
@@ -61,5 +60,13 @@ public class EnemyHealth : MonoBehaviour
         spriteRenderer.color = Color.red;
         yield return new WaitForSeconds(0.15f);
         spriteRenderer.color = color;
+    }
+    public void Defeated()
+    {
+        animator.SetTrigger("dead");
+    }
+    public void RemoveEnemy()
+    {
+        Destroy(gameObject);
     }
 }

@@ -11,7 +11,6 @@ public class AnimationEventHelper : MonoBehaviour
     {
         equipment = GetComponentInParent<Equipment>();
     }
-
     public void TriggerAttack()
     {
         if (equipment == null)

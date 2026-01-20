@@ -13,7 +13,7 @@ public class PlayerHealth : MonoBehaviour
     public SpriteRenderer playerSprite;
     public HealthDisplay healthDisplay;
 
-    private Animator animator;
+    public Animator playerAnimator;
     private void Awake()
     {
         if (instance != null && instance != this)
@@ -23,7 +23,6 @@ public class PlayerHealth : MonoBehaviour
         }
 
         instance = this;
-        animator = GetComponent<Animator>();
     }
     // Start is called before the first frame update
     void Start()
@@ -38,7 +37,6 @@ public class PlayerHealth : MonoBehaviour
     public void TakeDamage(int damage)
     {
         currenthealth -= damage;
-
         if (healthDisplay != null)
         {
             healthDisplay.UpdateHearts();
@@ -46,8 +44,11 @@ public class PlayerHealth : MonoBehaviour
 
         if (currenthealth <= 0)
         {
-            playerSprite.enabled = false;
-            Destroy(gameObject);
+            playerAnimator.SetBool("dead", true);
+        }
+        else
+        {
+            playerAnimator.SetTrigger("Hurt");
         }
     }
 
@@ -82,6 +83,4 @@ public class PlayerHealth : MonoBehaviour
         }
             
     }
-
-
 }

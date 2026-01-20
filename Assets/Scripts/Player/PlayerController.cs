@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
 {
     private PlayerMovement playerMovement;
     private PlayerAnimation playerAnimation;
+    private Animator animator;
 
     public GameController gameController;
 
@@ -25,6 +26,7 @@ public class PlayerController : MonoBehaviour
         playerMovement = GetComponent<PlayerMovement>();
         equipment = GetComponentInChildren<Equipment>();
         playerAnimation = GetComponentInChildren<PlayerAnimation>();
+        animator = GetComponentInChildren<Animator>();
     }
 
     private void Update()
@@ -45,6 +47,8 @@ public class PlayerController : MonoBehaviour
         if (gameController.IsUIBlockingInput)
             return;
         equipment.UseEquipment();
+        animator.ResetTrigger("Action");
+        animator.SetTrigger("Action");
         SoundEffectManager.Play("Swing");
     }
 }

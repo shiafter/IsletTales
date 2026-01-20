@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.U2D.Animation;
 
 public class Equipment : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class Equipment : MonoBehaviour
     private Animator animator;
     public float delay = 0.3f;
     private bool actionBlocked;
+    public SpriteLibrary spriteLibrary;
 
     private ObjectHealth objHealth;
     private EnemyHealth health;
@@ -30,24 +32,15 @@ public class Equipment : MonoBehaviour
         {
             return;
         }
-
-        if(PointerPosition.x < transform.position.x)
-        {
-            facingLeft = -1;
-        }else
-        {
-            facingLeft= 1;
-        }
-
-        Vector3 scale = equipmentPivot.localScale;
-        scale.x = facingLeft;
-        equipmentPivot.localScale = scale;
+        Vector2 scale = transform.localScale;
+        transform.localScale = scale;
     }
     public void Equip(EquipmentData equip)
     {
         currentEquipment = equip;
 
         equipmentRenderer.sprite = equip.equipSprite;
+        spriteLibrary.spriteLibraryAsset = equip.spriteAsset;
         radius = equip.range;
 
         Debug.Log($"Using equipment {equip.equipType}");
@@ -59,7 +52,6 @@ public class Equipment : MonoBehaviour
             return;
         }
         actionBlocked = true;
-        animator.ResetTrigger("Attack");
         animator.SetTrigger("Attack");
     }
     
