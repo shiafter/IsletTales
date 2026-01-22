@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class GuideBookController : MonoBehaviour
 {
-    public GameObject panel;
+    public GameObject inventoryPanel;
     public GameController gameController;
     private bool isActive;
 
     private void Start()
     {
         gameController = GameObject.Find("GameController").GetComponent<GameController>();
-        panel.SetActive(false);
+        inventoryPanel.SetActive(false);
         isActive = false;
     }
 
@@ -25,7 +25,7 @@ public class GuideBookController : MonoBehaviour
     public void ToggleGuideBook()
     {
         isActive = !isActive;
-        panel.SetActive(isActive);
+        inventoryPanel.SetActive(isActive);
         Time.timeScale = isActive ? 0 : 1;
 
         gameController.IsUIBlockingInput = isActive; //ngăn cản click chuột khi tắt ui

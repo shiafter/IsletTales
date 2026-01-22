@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80cf74606ae67c478d16b351d383c1d, type: 3}
+  m_Name: MaxPotion
+  m_EditorClassIdentifier: 
+  itemName: Max Potion
+  itemImage: {fileID: 1912730597, guid: eb2d49f7497411e45bccdefed6d73c9a, type: 3}
+  itemDescription: Used to increase max health point by 1
+  maxStack: 1
+  empty: 0
+  gold: 0
+  dropPrefab: {fileID: 8558314210277869167, guid: 919a0f0bf99f2cb43964dc7055257181, type: 3}
+  type: 1

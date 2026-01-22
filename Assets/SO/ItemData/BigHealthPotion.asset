@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: BigHealthPotion
   m_EditorClassIdentifier: 
   itemName: Big Health Potion
-  itemImage: {fileID: 21300000, guid: 62f6c03e8681ac543a8f1e56e2e9f3d2, type: 3}
+  itemImage: {fileID: -271460987, guid: eb2d49f7497411e45bccdefed6d73c9a, type: 3}
   itemDescription: Used to gain 2 health point
   maxStack: 16
   empty: 0
+  gold: 0
   dropPrefab: {fileID: 8396953992590536942, guid: e75663f04aa16b843b9cb9df3fbecd58, type: 3}
   type: 1

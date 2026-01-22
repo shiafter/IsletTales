@@ -188,7 +188,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13975d825f24dc942b40b038470ae168, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHealth: {fileID: 0}
   damage: 1
 --- !u!114 &3882778992992222290
 MonoBehaviour:
@@ -263,6 +262,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dropItems:
-  - {fileID: 11400000, guid: 1d29eb4faaa76bf4fbae9d712693e519, type: 2}
+  - {fileID: 11400000, guid: 4f2599f20384ffb4383dc9315c14f6ed, type: 2}
   minQuantity: 1
   maxQuantity: 3

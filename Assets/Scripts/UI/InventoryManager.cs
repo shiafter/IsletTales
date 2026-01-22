@@ -18,6 +18,11 @@ public class InventoryManager : MonoBehaviour
 
     private void Awake()
     {
+        if (instance != null && instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
         instance = this;
     }
     public int AddItem(ItemData item, int amount)

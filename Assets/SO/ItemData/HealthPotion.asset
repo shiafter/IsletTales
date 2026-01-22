@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: HealthPotion
   m_EditorClassIdentifier: 
   itemName: Health Potion
-  itemImage: {fileID: 708153498, guid: eb2d49f7497411e45bccdefed6d73c9a, type: 3}
+  itemImage: {fileID: -1368508913, guid: eb2d49f7497411e45bccdefed6d73c9a, type: 3}
   itemDescription: 'Used to gain 1 health point
 
 '
   maxStack: 16
   empty: 0
+  gold: 0
   dropPrefab: {fileID: 2909348975626965575, guid: 1467df82b10794741b6f6e87c27e4da0, type: 3}
   type: 1

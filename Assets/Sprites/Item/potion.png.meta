@@ -97,7 +97,49 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: heath_pot
+      name: health_potion
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3488f9a17a3407c48bc7bedd7919504d
+      internalID: -1368508913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bighealth_potion
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9df8b574243bb4aba36dc41a5bcf1f
+      internalID: -271460987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: max_potion
       rect:
         serializedVersion: 2
         x: 0
@@ -105,20 +147,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 682926692c7a99744af2a4f524139a4e
-      internalID: 708153498
+      spriteID: 11b62b9293e4cec47b8aa8242217e7b5
+      internalID: 1912730597
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: big_heathpot
+      name: forest_potion
       rect:
         serializedVersion: 2
         x: 16
@@ -126,20 +168,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34eb9df474662bc4e873cc1bad2fc6e1
-      internalID: -1529909492
+      spriteID: c0a8998056e5c5146b87f44f0a42ca8d
+      internalID: 1806814039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_pot
+      name: desert_potion
       rect:
         serializedVersion: 2
         x: 32
@@ -147,14 +189,98 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 949b204d9e8c64147aaa6e410db0d993
-      internalID: 1462017887
+      spriteID: 51d65ead976938b489e2e8fd5a5ceea2
+      internalID: 1950967221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grey_potion
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3a11ad2dfcc3e41845ffb3dee4f753
+      internalID: 746368473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swamp_potion
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d881e03e49a3340ae10d3d142b8ac5
+      internalID: 2091106975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_potion
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7063de3ea096c47a8d3c4da5565ce8
+      internalID: -2088472610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_potion
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffdef40776950a4cab9ae4c0d3f27c3
+      internalID: 1058560798
       vertices: []
       indices: 
       edges: []
@@ -170,9 +296,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      big_heathpot: -1529909492
-      heath_pot: 708153498
-      magic_pot: 1462017887
+      bighealth_potion: -271460987
+      desert_potion: 1950967221
+      forest_potion: 1806814039
+      grey_potion: 746368473
+      health_potion: -1368508913
+      ice_potion: -2088472610
+      lava_potion: 1058560798
+      max_potion: 1912730597
+      swamp_potion: 2091106975
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

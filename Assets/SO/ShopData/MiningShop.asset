@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5db5dab07e1db149a459009a220696e, type: 3}
+  m_Name: MiningShop
+  m_EditorClassIdentifier: 
+  items:
+  - itemData: {fileID: 0}
+    price: []
+  - itemData: {fileID: 0}
+    price: []
+  - itemData: {fileID: 0}
+    price:
+    - currencyData: {fileID: 0}
+      amount: 0
+  npcData: {fileID: 11400000, guid: f2e41496adf736e42b23642f31f19f74, type: 2}

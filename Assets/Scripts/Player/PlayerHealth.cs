@@ -21,7 +21,6 @@ public class PlayerHealth : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-
         instance = this;
     }
     // Start is called before the first frame update

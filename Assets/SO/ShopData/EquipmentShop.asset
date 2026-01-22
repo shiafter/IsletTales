@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5db5dab07e1db149a459009a220696e, type: 3}
+  m_Name: EquipmentShop
+  m_EditorClassIdentifier: 
+  items:
+  - itemData: {fileID: 11400000, guid: 9f567b456c784434b91ca87c8de93455, type: 2}
+    price: 3
+  - itemData: {fileID: 11400000, guid: 3be2641daf6954842903575f75499588, type: 2}
+    price: 3
+  - itemData: {fileID: 11400000, guid: 8cd6a6d9a9f08d246bc6f66145fec02c, type: 2}
+    price: 3
+  - itemData: {fileID: 11400000, guid: 33301350d7829124eaf13ba92a3c2525, type: 2}
+    price: 10
+  - itemData: {fileID: 11400000, guid: e9f19ed66366c3a41a6a3ac984fab204, type: 2}
+    price: 10
+  - itemData: {fileID: 11400000, guid: 8baf029f4ff84cb45a780da618767c8b, type: 2}
+    price: 10
+  - itemData: {fileID: 11400000, guid: 2c657347cf14e404e8df548b64c8d7f1, type: 2}
+    price: 15
+  - itemData: {fileID: 11400000, guid: 6cf997fcf67303445a9c773d6b131624, type: 2}
+    price: 15
+  - itemData: {fileID: 11400000, guid: 34a2cd5b0cf9d8f418594920d8b37b3e, type: 2}
+    price: 15
+  - itemData: {fileID: 11400000, guid: 1fbf93177c18caa4c95b8b068afdd281, type: 2}
+    price: 30
+  - itemData: {fileID: 11400000, guid: 481590f067e0d81458e7df1e3f284b4a, type: 2}
+    price: 30
+  - itemData: {fileID: 11400000, guid: 2dd0888cd2836064eb07d16b6744f2f2, type: 2}
+    price: 30
+  npcData: {fileID: 11400000, guid: e528935e222032c499248c96866bdf86, type: 2}

@@ -11,6 +11,7 @@ public class ItemData : ScriptableObject
     public string itemDescription;
     public int maxStack;
     public bool empty;
+    public bool currency;
 
     public GameObject dropPrefab; 
 
@@ -18,7 +19,8 @@ public class ItemData : ScriptableObject
     {
         Equipment,
         Consumable,
-        Material
+        Material,
+        Currency
     }
     public ItemType type;
 }
