@@ -8,18 +8,15 @@ public class ShopSlot : MonoBehaviour
 {
     public ItemData itemData;
     public TMP_Text itemNameText;
-    public TMP_Text itemPriceText;
     public Image itemImage;
 
     private int price;
 
-    public void Initialized(ItemData newItem, int price)
+    public void Initialized(ItemData newItem)
     {
         itemData = newItem;
         itemImage.sprite = itemData.itemImage;
         itemNameText.text = itemData.itemName;
-        this.price = price;
-        itemPriceText.text = price.ToString();
     }
     public void OnBuyButtonClick()
     {

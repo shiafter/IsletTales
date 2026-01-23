@@ -13,12 +13,20 @@ MonoBehaviour:
   m_Name: MiningShop
   m_EditorClassIdentifier: 
   items:
-  - itemData: {fileID: 0}
-    price: []
-  - itemData: {fileID: 0}
-    price: []
-  - itemData: {fileID: 0}
+  - itemData: {fileID: 11400000, guid: 3de5b6d50523a9b45bccab62273b1b85, type: 2}
     price:
-    - currencyData: {fileID: 0}
-      amount: 0
+    - currencyData: {fileID: 11400000, guid: 6094514adb3e4a9468209e78856a606d, type: 2}
+      amount: 1
+  - itemData: {fileID: 11400000, guid: deba04f06b70d0247a7b71581542640b, type: 2}
+    price:
+    - currencyData: {fileID: 11400000, guid: 6094514adb3e4a9468209e78856a606d, type: 2}
+      amount: 3
+  - itemData: {fileID: 11400000, guid: 0c1e1674951bcf24580a7a2f03bd0b7d, type: 2}
+    price:
+    - currencyData: {fileID: 11400000, guid: 6094514adb3e4a9468209e78856a606d, type: 2}
+      amount: 5
+  - itemData: {fileID: 11400000, guid: 04695f7729f3f5b4db554ba7641ffd7d, type: 2}
+    price:
+    - currencyData: {fileID: 11400000, guid: 6094514adb3e4a9468209e78856a606d, type: 2}
+      amount: 10
   npcData: {fileID: 11400000, guid: f2e41496adf736e42b23642f31f19f74, type: 2}

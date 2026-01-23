@@ -14,27 +14,75 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   items:
   - itemData: {fileID: 11400000, guid: 9f567b456c784434b91ca87c8de93455, type: 2}
-    price: 3
+    price:
+    - currencyData: {fileID: 11400000, guid: 6094514adb3e4a9468209e78856a606d, type: 2}
+      amount: 3
+    - currencyData: {fileID: 11400000, guid: a52c28d81c234f147afa17a2eced1a64, type: 2}
+      amount: 1
   - itemData: {fileID: 11400000, guid: 3be2641daf6954842903575f75499588, type: 2}
-    price: 3
+    price:
+    - currencyData: {fileID: 11400000, guid: 6094514adb3e4a9468209e78856a606d, type: 2}
+      amount: 3
+    - currencyData: {fileID: 11400000, guid: a52c28d81c234f147afa17a2eced1a64, type: 2}
+      amount: 1
   - itemData: {fileID: 11400000, guid: 8cd6a6d9a9f08d246bc6f66145fec02c, type: 2}
-    price: 3
+    price:
+    - currencyData: {fileID: 11400000, guid: 6094514adb3e4a9468209e78856a606d, type: 2}
+      amount: 3
+    - currencyData: {fileID: 11400000, guid: a52c28d81c234f147afa17a2eced1a64, type: 2}
+      amount: 1
   - itemData: {fileID: 11400000, guid: 33301350d7829124eaf13ba92a3c2525, type: 2}
-    price: 10
+    price:
+    - currencyData: {fileID: 11400000, guid: 6094514adb3e4a9468209e78856a606d, type: 2}
+      amount: 10
+    - currencyData: {fileID: 11400000, guid: ce66eee468a813c4da1ac4476308094a, type: 2}
+      amount: 1
   - itemData: {fileID: 11400000, guid: e9f19ed66366c3a41a6a3ac984fab204, type: 2}
-    price: 10
+    price:
+    - currencyData: {fileID: 11400000, guid: 6094514adb3e4a9468209e78856a606d, type: 2}
+      amount: 10
+    - currencyData: {fileID: 11400000, guid: ce66eee468a813c4da1ac4476308094a, type: 2}
+      amount: 1
   - itemData: {fileID: 11400000, guid: 8baf029f4ff84cb45a780da618767c8b, type: 2}
-    price: 10
+    price:
+    - currencyData: {fileID: 11400000, guid: 6094514adb3e4a9468209e78856a606d, type: 2}
+      amount: 10
+    - currencyData: {fileID: 11400000, guid: ce66eee468a813c4da1ac4476308094a, type: 2}
+      amount: 1
   - itemData: {fileID: 11400000, guid: 2c657347cf14e404e8df548b64c8d7f1, type: 2}
-    price: 15
+    price:
+    - currencyData: {fileID: 11400000, guid: 6094514adb3e4a9468209e78856a606d, type: 2}
+      amount: 15
+    - currencyData: {fileID: 11400000, guid: d42e4289727e3584485808fce411dab5, type: 2}
+      amount: 1
   - itemData: {fileID: 11400000, guid: 6cf997fcf67303445a9c773d6b131624, type: 2}
-    price: 15
+    price:
+    - currencyData: {fileID: 11400000, guid: 6094514adb3e4a9468209e78856a606d, type: 2}
+      amount: 15
+    - currencyData: {fileID: 11400000, guid: d42e4289727e3584485808fce411dab5, type: 2}
+      amount: 1
   - itemData: {fileID: 11400000, guid: 34a2cd5b0cf9d8f418594920d8b37b3e, type: 2}
-    price: 15
+    price:
+    - currencyData: {fileID: 11400000, guid: 6094514adb3e4a9468209e78856a606d, type: 2}
+      amount: 15
+    - currencyData: {fileID: 11400000, guid: d42e4289727e3584485808fce411dab5, type: 2}
+      amount: 1
   - itemData: {fileID: 11400000, guid: 1fbf93177c18caa4c95b8b068afdd281, type: 2}
-    price: 30
+    price:
+    - currencyData: {fileID: 11400000, guid: 6094514adb3e4a9468209e78856a606d, type: 2}
+      amount: 30
+    - currencyData: {fileID: 11400000, guid: 0d78db7e4a93f13488d0de4b649b08e4, type: 2}
+      amount: 1
   - itemData: {fileID: 11400000, guid: 481590f067e0d81458e7df1e3f284b4a, type: 2}
-    price: 30
+    price:
+    - currencyData: {fileID: 11400000, guid: 6094514adb3e4a9468209e78856a606d, type: 2}
+      amount: 30
+    - currencyData: {fileID: 11400000, guid: 0d78db7e4a93f13488d0de4b649b08e4, type: 2}
+      amount: 1
   - itemData: {fileID: 11400000, guid: 2dd0888cd2836064eb07d16b6744f2f2, type: 2}
-    price: 30
+    price:
+    - currencyData: {fileID: 11400000, guid: 6094514adb3e4a9468209e78856a606d, type: 2}
+      amount: 30
+    - currencyData: {fileID: 11400000, guid: 0d78db7e4a93f13488d0de4b649b08e4, type: 2}
+      amount: 1
   npcData: {fileID: 11400000, guid: e528935e222032c499248c96866bdf86, type: 2}

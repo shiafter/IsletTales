@@ -12,6 +12,8 @@ public class ShopManager : MonoBehaviour
 
     [SerializeField] private ShopSlot[] shopSlots;
 
+    public bool isOpening => shopPanel.activeSelf;
+
     public GameObject shopPanel;
     //===SHOP INFORMATION===
     [SerializeField] private Image NPCImage;
@@ -35,11 +37,27 @@ public class ShopManager : MonoBehaviour
     {
         shopPanel.SetActive(false);
     }
+    public void ToggleShop(ShopData shop)
+    {
+        if (isOpening)
+        {
+            CloseShop();
+        }else if(shop != null)
+        {
+            OpenShop(shop);
+        }
+    }
     public void OpenShop(ShopData shopData)
     {
         currentShop = shopData;
+        shopPanel.SetActive(true);
         ShowShopInfo();
         SetShopItem();
+    }
+    public void CloseShop()
+    {
+        shopPanel.SetActive(false);
+        currentShop = null;
     }
     public void SetShopItem()
     {
@@ -47,8 +65,8 @@ public class ShopManager : MonoBehaviour
         {
             if(i < currentShop.items.Count)
             {
-                ShopItem shopItem = currentShop.items[i];
-                //shopSlots[i].Initialized(shopItem.itemData, shopItem.price); //fill item vào trong các shop slot
+                var shopItem = currentShop.items[i];
+                shopSlots[i].Initialized(shopItem.itemData); //fill item vào trong các shop slot
                 shopSlots[i].gameObject.SetActive(true);
             }
             shopSlots[i].gameObject.SetActive(false); //các ô chưa fill item thì tắt đi 
