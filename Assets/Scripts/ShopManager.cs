@@ -13,9 +13,11 @@ public class ShopManager : MonoBehaviour
     [SerializeField] private ShopSlot[] shopSlots;
 
     public bool isOpening => shopPanel.activeSelf;
+    private GameController gameController;
 
     public GameObject shopPanel;
     //===SHOP INFORMATION===
+    [SerializeField] private TMP_Text shopTitle;
     [SerializeField] private Image NPCImage;
     [SerializeField] private TMP_Text NPCName;
     [SerializeField] private TMP_Text shopDescription;
@@ -35,6 +37,7 @@ public class ShopManager : MonoBehaviour
     }
     private void Start()
     {
+        gameController = GameObject.Find("GameController").GetComponent<GameController>();
         shopPanel.SetActive(false);
     }
     public void ToggleShop(ShopData shop)
@@ -53,11 +56,17 @@ public class ShopManager : MonoBehaviour
         shopPanel.SetActive(true);
         ShowShopInfo();
         SetShopItem();
+
+        gameController.IsUIBlockingInput = true;
+        Time.timeScale = 0f;
     }
     public void CloseShop()
     {
         shopPanel.SetActive(false);
         currentShop = null;
+
+        gameController.IsUIBlockingInput = false;
+        Time.timeScale = 1f;
     }
     public void SetShopItem()
     {
@@ -69,12 +78,17 @@ public class ShopManager : MonoBehaviour
                 shopSlots[i].Initialized(shopItem.itemData); //fill item vào trong các shop slot
                 shopSlots[i].gameObject.SetActive(true);
             }
-            shopSlots[i].gameObject.SetActive(false); //các ô chưa fill item thì tắt đi 
+            else
+            {
+                shopSlots[i].gameObject.SetActive(false); //các ô chưa fill item thì tắt đi
+            }
+            
         }
             
     }
     public void ShowShopInfo()
     {
+        shopTitle.text = currentShop.shopName;
         NPCImage.sprite = currentShop.npcData.npcImage;
         NPCName.text = currentShop.npcData.npcName;
         shopDescription.text = currentShop.npcData.shopDescription;

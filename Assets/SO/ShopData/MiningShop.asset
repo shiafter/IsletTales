@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5db5dab07e1db149a459009a220696e, type: 3}
   m_Name: MiningShop
   m_EditorClassIdentifier: 
+  shopName: Mining Shop
   items:
   - itemData: {fileID: 11400000, guid: 3de5b6d50523a9b45bccab62273b1b85, type: 2}
     price:

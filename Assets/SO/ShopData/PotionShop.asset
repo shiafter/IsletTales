@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5db5dab07e1db149a459009a220696e, type: 3}
   m_Name: PotionShop
   m_EditorClassIdentifier: 
+  shopName: Potion Shop
   items:
   - itemData: {fileID: 11400000, guid: 41d21b33b1a923041b3e82952147745f, type: 2}
     price:

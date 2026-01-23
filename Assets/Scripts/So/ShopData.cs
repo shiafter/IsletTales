@@ -7,15 +7,18 @@ using UnityEngine;
 [CreateAssetMenu]
 public class ShopData : ScriptableObject 
 {
+    public string shopName;
     public List<ShopItem> items;
     public NPCData npcData;
 }
+
 [System.Serializable]
 public class ItemPrice
 {
     public CurrencyData currencyData;
     public int amount;
 }
+
 [System.Serializable]
 public class ShopItem
 {

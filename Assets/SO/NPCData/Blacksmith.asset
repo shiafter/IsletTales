@@ -15,4 +15,4 @@ MonoBehaviour:
   npcName: Ragnar the Blacksmith
   npcImage: {fileID: 1546791021, guid: 9b185a2a999ca9540aa051c927ab3d3d, type: 3}
   shopDescription: Offers enhanced weapons and equipments
-  shopOwner: {fileID: 11400000, guid: f918668c3d26ddd4ab0c6a55f6c16dd2, type: 2}
+  shopOwner: {fileID: 11400000, guid: fd9647025f35f4341bf08611dbef5c0e, type: 2}
