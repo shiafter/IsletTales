@@ -26,6 +26,10 @@ public class ShopManager : MonoBehaviour
     [SerializeField] private Image itemIcon;
     [SerializeField] private TMP_Text itemName;
     [SerializeField] private TMP_Text itemDescription;
+
+    //===ITEM PRICE===
+    [SerializeField] private Transform pricePanel;
+    [SerializeField] private GameObject pricePrefab;
     private void Awake()
     {
         if (instance != null && instance != this)
@@ -75,7 +79,7 @@ public class ShopManager : MonoBehaviour
             if(i < currentShop.items.Count)
             {
                 var shopItem = currentShop.items[i];
-                shopSlots[i].Initialized(shopItem.itemData); //fill item vào trong các shop slot
+                shopSlots[i].Initialized(shopItem); //fill item vào trong các shop slot
                 shopSlots[i].gameObject.SetActive(true);
             }
             else
@@ -84,7 +88,6 @@ public class ShopManager : MonoBehaviour
             }
             
         }
-            
     }
     public void ShowShopInfo()
     {
@@ -93,14 +96,29 @@ public class ShopManager : MonoBehaviour
         NPCName.text = currentShop.npcData.npcName;
         shopDescription.text = currentShop.npcData.shopDescription;
     }
-    public void ShowItemInfo()
+    public void ShowItemInfo(ShopItem item)
     {
+        if (item == null || item.itemData == null) return;
 
-    }
-    public void TryBuyItem(ItemData  item, int price)
-    {
-        if(item != null)
+        //item data
+        itemIcon.sprite = item.itemData.itemImage;
+        itemName.text = item.itemData.itemName;
+        itemDescription.text = item.itemData.itemDescription;
+        for(int i = pricePanel.childCount - 1; i >= 0; i--)
         {
+            Destroy(pricePanel.GetChild(i).gameObject);
+        }
+
+        foreach(ItemPrice itemPrice in item.price)
+        {
+            if (itemPrice.amount <= 0) continue;
+            GameObject price = Instantiate(pricePrefab, pricePanel);
+
+            Image currencyIcon = price.transform.Find("Currency Icon").GetComponent<Image>();
+            TMP_Text priceAmountText = price.transform.Find("Amount Text").GetComponent<TMP_Text>();
+
+            currencyIcon.sprite = itemPrice.currencyData.icon;
+            priceAmountText.text = itemPrice.amount.ToString();
 
         }
     }

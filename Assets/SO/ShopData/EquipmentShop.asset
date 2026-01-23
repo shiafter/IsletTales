@@ -54,19 +54,19 @@ MonoBehaviour:
     price:
     - currencyData: {fileID: 11400000, guid: 6094514adb3e4a9468209e78856a606d, type: 2}
       amount: 15
-    - currencyData: {fileID: 11400000, guid: d42e4289727e3584485808fce411dab5, type: 2}
+    - currencyData: {fileID: 11400000, guid: 9005e991bace3ce438b90e0eed572315, type: 2}
       amount: 1
   - itemData: {fileID: 11400000, guid: 6cf997fcf67303445a9c773d6b131624, type: 2}
     price:
     - currencyData: {fileID: 11400000, guid: 6094514adb3e4a9468209e78856a606d, type: 2}
       amount: 15
-    - currencyData: {fileID: 11400000, guid: d42e4289727e3584485808fce411dab5, type: 2}
+    - currencyData: {fileID: 11400000, guid: 9005e991bace3ce438b90e0eed572315, type: 2}
       amount: 1
   - itemData: {fileID: 11400000, guid: 34a2cd5b0cf9d8f418594920d8b37b3e, type: 2}
     price:
     - currencyData: {fileID: 11400000, guid: 6094514adb3e4a9468209e78856a606d, type: 2}
       amount: 15
-    - currencyData: {fileID: 11400000, guid: d42e4289727e3584485808fce411dab5, type: 2}
+    - currencyData: {fileID: 11400000, guid: 9005e991bace3ce438b90e0eed572315, type: 2}
       amount: 1
   - itemData: {fileID: 11400000, guid: 1fbf93177c18caa4c95b8b068afdd281, type: 2}
     price:
