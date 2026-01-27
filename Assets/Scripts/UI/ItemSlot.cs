@@ -83,10 +83,6 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, 
         {
             OnLeftClick();
         }
-        //if(eventData.button == PointerEventData.InputButton.Right)
-        //{
-        //    OnRightClick();
-        //}
     }
     public void OnLeftClick()
     {
@@ -100,6 +96,7 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, 
             if (Time.time - lastClickTime <= doubleClickTime)
             {
                 // Double click -> sử dụng item
+                if (itemData.type != ItemData.ItemType.Consumable) return;
                 inventoryManager.UseItem(itemData.itemName);
 
                 this.quantity -= 1;
@@ -230,5 +227,25 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, 
 
         UpdateUI();
         itemToSwap.UpdateUI();
+    }
+    public int RemoveAmount(int amount) //trừ số lượng nhất định vào tổng số lượng item đang có  
+    {
+        if(itemData == null || itemData.empty) return amount;
+
+        if (amount <= 0) return 0;
+
+        int removeAmount = Mathf.Min(quantity, amount); //số lượng item trừ khỏi slot
+        quantity -= removeAmount; //số lượng sau khi trừ: nếu về 0 thì clear slot
+
+        if(quantity <= 0)
+        {
+            EmptySlot();
+        }
+        else
+        {
+            quantityText.text = quantity.ToString();
+            quantityText.enabled = quantity > 1;
+        }
+        return amount - removeAmount;
     }
 }

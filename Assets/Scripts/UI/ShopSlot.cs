@@ -30,8 +30,4 @@ public class ShopSlot : MonoBehaviour
     {
         ShopManager.instance.ShowItemInfo(shopItem);
     }
-    public void OnBuyButtonClick()
-    {
-
-    }
 }

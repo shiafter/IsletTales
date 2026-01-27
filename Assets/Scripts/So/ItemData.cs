@@ -9,9 +9,12 @@ public class ItemData : ScriptableObject
     public Sprite itemImage;
     [TextArea]
     public string itemDescription;
+
     public int maxStack;
     public bool empty;
+
     public bool currency;
+    public CurrencyData currencyData;
 
     public GameObject dropPrefab; 
 
@@ -19,8 +22,7 @@ public class ItemData : ScriptableObject
     {
         Equipment,
         Consumable,
-        Material,
-        Currency
+        Material
     }
     public ItemType type;
 }

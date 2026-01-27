@@ -18,5 +18,6 @@ MonoBehaviour:
   maxStack: 16
   empty: 0
   currency: 0
+  currencyData: {fileID: 11400000, guid: 9005e991bace3ce438b90e0eed572315, type: 2}
   dropPrefab: {fileID: 8512901353027908104, guid: b8618609d92da784d9276f3fe29793ce, type: 3}
-  type: 3
+  type: 2

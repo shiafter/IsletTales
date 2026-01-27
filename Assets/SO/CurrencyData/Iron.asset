@@ -12,5 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f8b88f6898173b4dbb2f5f1d83f5972, type: 3}
   m_Name: Iron
   m_EditorClassIdentifier: 
-  currencyType: 2
-  icon: {fileID: -754616967, guid: 7f46d832cef700b47b7b2e98cd54bab7, type: 3}
+  itemName: Iron
+  itemImage: {fileID: -754616967, guid: 7f46d832cef700b47b7b2e98cd54bab7, type: 3}
+  itemDescription: Use to upgrade equipment
+  maxStack: 16
+  empty: 0
+  currency: 0
+  currencyData: {fileID: 11400000}
+  dropPrefab: {fileID: 423089299427070023, guid: 2d9803791026c674b9c7a0e84c709539, type: 3}
+  type: 0
+  currencyType: 3

@@ -12,5 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f8b88f6898173b4dbb2f5f1d83f5972, type: 3}
   m_Name: Stone
   m_EditorClassIdentifier: 
-  currencyType: 2
-  icon: {fileID: 2064572433, guid: 7f46d832cef700b47b7b2e98cd54bab7, type: 3}
+  itemName: Stone
+  itemImage: {fileID: 2064572433, guid: 7f46d832cef700b47b7b2e98cd54bab7, type: 3}
+  itemDescription: Used to craft things
+  maxStack: 16
+  empty: 0
+  currency: 0
+  currencyData: {fileID: 11400000}
+  dropPrefab: {fileID: 1109467804982012543, guid: 03063d8267a0c74419e2dd7864ed8f68, type: 3}
+  type: 2
+  currencyType: 3

@@ -12,5 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f8b88f6898173b4dbb2f5f1d83f5972, type: 3}
   m_Name: Diamond
   m_EditorClassIdentifier: 
-  currencyType: 2
-  icon: {fileID: 1931875564, guid: 7f46d832cef700b47b7b2e98cd54bab7, type: 3}
+  itemName: Diamond
+  itemImage: {fileID: 1931875564, guid: 7f46d832cef700b47b7b2e98cd54bab7, type: 3}
+  itemDescription: Use to upgrade equipment
+  maxStack: 16
+  empty: 0
+  currency: 0
+  currencyData: {fileID: 11400000}
+  dropPrefab: {fileID: 6715314600509712248, guid: 92aee0c6965889348bd21a15e911bdc7, type: 3}
+  type: 2
+  currencyType: 3
+  itemData: {fileID: 11400000, guid: 1fbf93177c18caa4c95b8b068afdd281, type: 2}

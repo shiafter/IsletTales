@@ -26,6 +26,16 @@ public class Item : MonoBehaviour
     {
         if(collision.gameObject.tag == "Player")
         {
+            if (item.currency && (item.currencyData.currencyType == CurrencyData.CurrencyType.Silver ||item.currencyData.currencyType == CurrencyData.CurrencyType.Gold))
+            {
+                CurrencyController.instance.AddCurrency(item.currencyData.currencyType, quantity);
+
+                PickupItemNoti.Instance?.ShowItemPopup(item.itemName, quantity);
+                SoundEffectManager.Play("PickUpItem");
+                Destroy(gameObject);
+                return;
+            }
+
             int leftOverItem = inventoryManager.AddItem(item, quantity);
             int pickedAmount = quantity - leftOverItem;
 

@@ -12,5 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f8b88f6898173b4dbb2f5f1d83f5972, type: 3}
   m_Name: Gold
   m_EditorClassIdentifier: 
-  currencyType: 1
-  icon: {fileID: -458896246, guid: 3600711e50749f640962bc622aef7a63, type: 3}
+  itemName: Gold
+  itemImage: {fileID: -458896246, guid: 3600711e50749f640962bc622aef7a63, type: 3}
+  itemDescription: Currency
+  maxStack: 99
+  empty: 0
+  currency: 1
+  currencyData: {fileID: 11400000}
+  dropPrefab: {fileID: 1625435849945676587, guid: 4aa95e59ac487914fabbaac26a833db9, type: 3}
+  type: 2
+  currencyType: 2

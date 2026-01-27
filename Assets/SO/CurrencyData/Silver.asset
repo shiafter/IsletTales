@@ -12,5 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f8b88f6898173b4dbb2f5f1d83f5972, type: 3}
   m_Name: Silver
   m_EditorClassIdentifier: 
-  currencyType: 0
-  icon: {fileID: -1928892943, guid: 3600711e50749f640962bc622aef7a63, type: 3}
+  itemName: Silver
+  itemImage: {fileID: -1928892943, guid: 3600711e50749f640962bc622aef7a63, type: 3}
+  itemDescription: Currency
+  maxStack: 99
+  empty: 0
+  currency: 1
+  currencyData: {fileID: 11400000}
+  dropPrefab: {fileID: 7218216902943971644, guid: a63543731f025db4a834f168e47559fe, type: 3}
+  type: 2
+  currencyType: 1

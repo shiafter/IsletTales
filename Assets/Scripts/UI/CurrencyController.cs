@@ -1,14 +1,23 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class CurrencyController : MonoBehaviour
 {
     public static CurrencyController instance;
-    [SerializeField] private int startingGold = 10;
+    [SerializeField] private int startingGold = 0;
+    [SerializeField] private int startingSilver = 10;
     private int playerGold;
-    public event Action<int> OnGoldChanged;
+    private int playerSilver;
+
+    //===CURRENCY UI===
+    [SerializeField] private TMP_Text silverText;
+    [SerializeField] private TMP_Text goldText;
+
+    public event Action OnCurrencyChanged;
+    
     private void Awake()
     {
         if (instance != null && instance != this)
@@ -20,22 +29,60 @@ public class CurrencyController : MonoBehaviour
         {
             instance = this;
             playerGold = startingGold;
+            playerSilver = startingSilver;
+
+            silverText.text = playerSilver.ToString();
+            goldText.text = playerGold.ToString();
         }
     }
     public int GetGold() => playerGold;
-    public bool SpendGold(int amount)
+    public  int GetSilver() => playerSilver;
+    public void AddCurrency(CurrencyData.CurrencyType type, int amount)
     {
-        if(playerGold >= amount)
+        if (amount <= 0) return;
+
+        switch (type)
         {
-            playerGold -= amount;
-            OnGoldChanged?.Invoke(playerGold);
-            return true;
+            case CurrencyData.CurrencyType.Silver:
+                playerSilver += amount;
+                UpdateUI();
+                break;
+            case CurrencyData.CurrencyType.Gold:
+                playerGold += amount;
+                UpdateUI();
+                break;
+            default:
+                return;
         }
-        return false;
+
+        OnCurrencyChanged?.Invoke();
     }
-    public void AddGold(int amount)
+    public bool SpendCurrency(CurrencyData.CurrencyType type, int amount)
     {
-        playerGold += amount;
-        OnGoldChanged?.Invoke(playerGold);
+        switch (type)
+        {
+            case CurrencyData.CurrencyType.Silver:
+                if (playerSilver < amount) return false;
+                playerSilver -= amount;
+                UpdateUI();
+                break;
+
+            case CurrencyData.CurrencyType.Gold:
+                if (playerGold < amount) return false;
+                playerGold -= amount;
+                UpdateUI();
+                break;
+
+            default:
+                return false;
+        }
+
+        OnCurrencyChanged?.Invoke();
+        return true;
+    }
+    public void UpdateUI()
+    {
+        silverText.text = playerSilver.ToString();
+        goldText.text = playerGold.ToString();
     }
 }
