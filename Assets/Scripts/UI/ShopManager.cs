@@ -17,6 +17,8 @@ public class ShopManager : MonoBehaviour
 
     public GameObject shopPanel;
     private ShopItem selectedItem;
+    private Dictionary<ItemData, int> boughtCount = new();
+
     //===SHOP INFORMATION===
     [SerializeField] private TMP_Text shopTitle;
     [SerializeField] private Image NPCImage;
@@ -31,6 +33,7 @@ public class ShopManager : MonoBehaviour
     //===ITEM PRICE===
     [SerializeField] private Transform pricePanel;
     [SerializeField] private GameObject pricePrefab;
+    [SerializeField] private TMP_Text inStockText;
 
     //===BUY BUTTON===
     [SerializeField] private Button buyButton;
@@ -65,9 +68,22 @@ public class ShopManager : MonoBehaviour
     public void OpenShop(ShopData shopData)
     {
         currentShop = shopData;
+
+        foreach (var item in currentShop.items)
+        {
+            if (!boughtCount.ContainsKey(item.itemData))
+            {
+                boughtCount.Add(item.itemData, 0);
+            }
+        }
         shopPanel.SetActive(true);
         ShowShopInfo();
         SetShopItem();
+
+        if (currentShop.items.Count > 0)
+        {
+            ShowItemInfo(currentShop.items[0]);
+        }
 
         gameController.IsUIBlockingInput = true;
         Time.timeScale = 0f;
@@ -109,6 +125,7 @@ public class ShopManager : MonoBehaviour
         if (item == null || item.itemData == null) return;
 
         selectedItem = item;
+        Debug.Log("SHOW ITEM INFO: " + item.itemData.itemName);
 
         //item data
         itemIcon.sprite = item.itemData.itemImage;
@@ -119,7 +136,7 @@ public class ShopManager : MonoBehaviour
         {
             Destroy(pricePanel.GetChild(i).gameObject);
         }
-
+        //price ui
         foreach(ItemPrice itemPrice in item.price)
         {
             if (itemPrice.amount <= 0) continue;
@@ -132,16 +149,51 @@ public class ShopManager : MonoBehaviour
             priceAmountText.text = itemPrice.amount.ToString();
 
         }
+        UpdateInStock();
         CheckBuyButton();
+    }
+    private int GetBoughtCount(ShopItem item)
+    {
+        if(item == null || item.itemData == null)
+        {
+            return 0;
+        }
+        return boughtCount.TryGetValue(item.itemData, out int count) ? count : 0;
+    }
+    private void UpdateInStock()
+    {
+        if (selectedItem == null)
+        {
+            inStockText.text = "";
+            return;
+        }
+        int bought = GetBoughtCount(selectedItem);
+        int remain = Mathf.Max(0, selectedItem.inStock - bought);
+        
+        if (selectedItem.inStock < 0 || remain <= 0)
+        {
+            inStockText.text = "Sold Out";
+        }
+        else
+        {
+            inStockText.text = $"Instock: {remain}/{selectedItem.inStock}";
+        }
+    }
+    private bool ReachLimitBoughtCount(ShopItem item)
+    {
+        if (item.inStock < 0) return true;
+        int bought = GetBoughtCount(item);
+        return bought >= item.inStock;
     }
     public bool CanBuyItem(ShopItem item)
     {
         if(item ==  null || item.itemData == null) return false;
 
-        if(!InventoryManager.instance.HasSpaceForItem(item.itemData, 1))
-            return false;
+        if (ReachLimitBoughtCount(item)) return false;
 
-        foreach (ItemPrice price in selectedItem.price)
+        if(!InventoryManager.instance.HasSpaceForItem(item.itemData, 1)) return false;
+
+        foreach (ItemPrice price in item.price)
         {
             if (price == null || price.currencyData == null || price.amount <= 0) continue; //giá mua k yêu cầu thì không cần check 
 
@@ -158,6 +210,7 @@ public class ShopManager : MonoBehaviour
                     break;
                 case CurrencyData.CurrencyType.Ores:
                     int owned = InventoryManager.instance.GetItemAmount(price.currencyData);
+                    Debug.Log($"CHECK ORE: {price.currencyData.name} | Owned = {owned}");
                     if (owned < price.amount)
                         return false;
                     break;
@@ -168,8 +221,7 @@ public class ShopManager : MonoBehaviour
     }
     public bool BuyItem()
     {
-        if (!CanBuyItem(selectedItem))
-            return false;
+        if (!CanBuyItem(selectedItem))  return false;
 
         InventoryManager.instance.AddItem(selectedItem.itemData, 1);
 
@@ -178,15 +230,15 @@ public class ShopManager : MonoBehaviour
             if (price == null  || price.currencyData == null || price.amount <=0) continue;
 
             var type = price.currencyData.currencyType;
-            if (type == CurrencyData.CurrencyType.Gold || type == CurrencyData.CurrencyType.Silver) //check gold
+            if (type == CurrencyData.CurrencyType.Gold || type == CurrencyData.CurrencyType.Silver) // nếu mua bằng gold và sil thì trừ đi trong currency controller
             {
                 CurrencyController.instance.SpendCurrency(type, price.amount);
-            }else if(type == CurrencyData.CurrencyType.Ores)
+            }else if(type == CurrencyData.CurrencyType.Ores) // nếu phải mua bằng cả ore thì trừ đi 1 trong tổng số lượng trong túi
             {
                 InventoryManager.instance.RemoveItem(price.currencyData, price.amount);
             }
         }
-        CheckBuyButton();
+        boughtCount[selectedItem.itemData]++;
         return true;
     }
     private void CheckBuyButton()
@@ -196,18 +248,16 @@ public class ShopManager : MonoBehaviour
             buyButton.interactable = false;
             return;
         }
+        if (ReachLimitBoughtCount(selectedItem))
+        {
+            buyText.text = "Sold Out";
+            buyButton.interactable = false;
+            return;
+        }
 
         bool canBuy = CanBuyItem(selectedItem);
         buyButton.interactable = canBuy;
         buyText.text = canBuy ? "Buy" : "Not enough money";
-        if (!canBuy)
-        {
-            DisableBuyButton(buyButton, buyText);
-        }
-    }
-    public void DisableBuyButton(Button button, TMP_Text text)
-    {
-        button.interactable = false;
     }
     private void OnBuyButtonClicked()
     {
@@ -223,5 +273,3 @@ public class ShopManager : MonoBehaviour
         }
     }
 }
-
-

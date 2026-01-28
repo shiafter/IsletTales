@@ -120,7 +120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   quantity: 1
-  item: {fileID: 11400000, guid: 3de5b6d50523a9b45bccab62273b1b85, type: 2}
+  item: {fileID: 11400000, guid: a52c28d81c234f147afa17a2eced1a64, type: 2}
 --- !u!1 &7737148147661836238
 GameObject:
   m_ObjectHideFlags: 0
@@ -192,7 +192,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 512415979
-  m_SortingLayer: 2
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 2064572433, guid: 7f46d832cef700b47b7b2e98cd54bab7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

@@ -120,7 +120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   quantity: 1
-  item: {fileID: 11400000, guid: fb3477a2eacd44646a08ee800ef99c3d, type: 2}
+  item: {fileID: 11400000, guid: d42e4289727e3584485808fce411dab5, type: 2}
 --- !u!1 &5131643080974706327
 GameObject:
   m_ObjectHideFlags: 0

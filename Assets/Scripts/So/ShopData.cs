@@ -1,4 +1,4 @@
-using JetBrains.Annotations;
+﻿using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -24,4 +24,7 @@ public class ShopItem
 {
     public ItemData itemData;
     public List<ItemPrice> price;
+
+    //===LIMIT BUY TIMES===
+    public int inStock = 99;
 }

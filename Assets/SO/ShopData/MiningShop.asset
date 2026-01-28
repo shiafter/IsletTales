@@ -14,20 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shopName: Mining Shop
   items:
-  - itemData: {fileID: 11400000, guid: 3de5b6d50523a9b45bccab62273b1b85, type: 2}
+  - itemData: {fileID: 11400000, guid: a52c28d81c234f147afa17a2eced1a64, type: 2}
     price:
     - currencyData: {fileID: 11400000, guid: 6094514adb3e4a9468209e78856a606d, type: 2}
       amount: 1
-  - itemData: {fileID: 11400000, guid: deba04f06b70d0247a7b71581542640b, type: 2}
+    inStock: 10
+    boughtCount: 0
+  - itemData: {fileID: 11400000, guid: ce66eee468a813c4da1ac4476308094a, type: 2}
     price:
     - currencyData: {fileID: 11400000, guid: 6094514adb3e4a9468209e78856a606d, type: 2}
       amount: 3
-  - itemData: {fileID: 11400000, guid: 0c1e1674951bcf24580a7a2f03bd0b7d, type: 2}
+    inStock: 10
+    boughtCount: 0
+  - itemData: {fileID: 11400000, guid: 9005e991bace3ce438b90e0eed572315, type: 2}
     price:
     - currencyData: {fileID: 11400000, guid: 6094514adb3e4a9468209e78856a606d, type: 2}
       amount: 5
-  - itemData: {fileID: 11400000, guid: 04695f7729f3f5b4db554ba7641ffd7d, type: 2}
+    inStock: 10
+    boughtCount: 0
+  - itemData: {fileID: 11400000, guid: 0d78db7e4a93f13488d0de4b649b08e4, type: 2}
     price:
     - currencyData: {fileID: 11400000, guid: 6094514adb3e4a9468209e78856a606d, type: 2}
       amount: 10
+    inStock: 10
+    boughtCount: 0
   npcData: {fileID: 11400000, guid: f2e41496adf736e42b23642f31f19f74, type: 2}
