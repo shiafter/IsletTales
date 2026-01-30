@@ -7,11 +7,9 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     [SerializeField]
     private float maxSpeed = 3, acceleration = 50, deacceleration = 100;
-    [SerializeField]
-
-
     private float currentSpeed = 0;
     private Vector2 oldMovementInput;
+    private bool knockback;
     public Vector2 movementInput { get; set; }
 
     private void Awake()
@@ -21,16 +19,32 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if(movementInput.magnitude > 0 && currentSpeed >= 0)
+        if (knockback == false)
         {
-            oldMovementInput = movementInput;
-            currentSpeed += acceleration * maxSpeed * Time.deltaTime;
+            if (movementInput.magnitude > 0 && currentSpeed >= 0)
+            {
+                oldMovementInput = movementInput;
+                currentSpeed += acceleration * maxSpeed * Time.deltaTime;
+            }
+            else
+            {
+                currentSpeed -= deacceleration * maxSpeed * Time.deltaTime;
+            }
+            currentSpeed = Mathf.Clamp(currentSpeed, 0, maxSpeed);
+            rb.velocity = oldMovementInput * currentSpeed;
         }
-        else
-        {
-            currentSpeed -= deacceleration * maxSpeed * Time.deltaTime;
-        }
-        currentSpeed = Mathf.Clamp(currentSpeed, 0, maxSpeed);
-        rb.velocity = oldMovementInput * currentSpeed;
+    }
+    public void Knockback(Transform enemy, float force, float knockbackTime)
+    {
+        knockback = true;
+        Vector2 direction = (transform.position - enemy.position).normalized;
+        rb.velocity = direction * force;
+        StartCoroutine(KnockbackCounter(knockbackTime));
+    }
+    IEnumerator KnockbackCounter(float knockbackTime)
+    {
+        yield return new WaitForSeconds(knockbackTime);
+        rb.velocity = Vector2.zero;
+        knockback = false;
     }
 }

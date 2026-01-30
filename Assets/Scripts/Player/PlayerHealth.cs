@@ -5,15 +5,17 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public static PlayerHealth instance;
+    
     public int currenthealth;
     public int maxHealth;
+    public bool dead {  get; private set; }
     public int Health {  get { return currenthealth; } }
-
+    private Rigidbody2D rb;
     public SpriteRenderer playerSprite;
     public HealthDisplay healthDisplay;
 
     public Animator playerAnimator;
+    public static PlayerHealth instance;
     private void Awake()
     {
         if (instance != null && instance != this)
@@ -31,10 +33,13 @@ public class PlayerHealth : MonoBehaviour
             currenthealth = maxHealth;
         }
         healthDisplay = FindObjectOfType<HealthDisplay>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     public void TakeDamage(int damage)
     {
+        if (dead) return;
+
         currenthealth -= damage;
         if (healthDisplay != null)
         {
@@ -43,7 +48,15 @@ public class PlayerHealth : MonoBehaviour
 
         if (currenthealth <= 0)
         {
-            playerAnimator.SetBool("dead", true);
+            if(dead) return;
+            dead = true;
+
+            rb.velocity = Vector2.zero;
+            rb.simulated = false;
+
+            playerAnimator.ResetTrigger("Hurt");
+            playerAnimator.SetTrigger("dead");
+            DisablePlayerControl();
         }
         else
         {
@@ -81,5 +94,17 @@ public class PlayerHealth : MonoBehaviour
             healthDisplay.UpdateHearts();
         }
             
+    }
+    private void DisablePlayerControl()
+    {
+        foreach (MonoBehaviour script in GetComponents<MonoBehaviour>())
+        {
+            if (script != this)
+                script.enabled = false;
+        }
+    }
+    public void RemovePlayer()
+    {
+        Destroy(gameObject);
     }
 }

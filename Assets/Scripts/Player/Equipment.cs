@@ -79,7 +79,7 @@ public class Equipment : MonoBehaviour
             {
                 if(currentEquipment.equipType == EquipmentData.EquipmentType.Sword)
                 {
-                    enemyHealth.GetHit(1, transform.parent.gameObject);
+                    enemyHealth.GetHit(currentEquipment.damage, transform.parent.gameObject);
                 }
             }
 
@@ -87,7 +87,7 @@ public class Equipment : MonoBehaviour
             {
                 if (currentEquipment.equipType == EquipmentData.EquipmentType.Axe || currentEquipment.equipType == EquipmentData.EquipmentType.Pickaxe)
                 {
-                    objHealth.GetHit(1, transform.parent.gameObject, currentEquipment);
+                    objHealth.GetHit(currentEquipment.damage, transform.parent.gameObject, currentEquipment);
                 }
             }
         }

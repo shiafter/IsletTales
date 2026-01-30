@@ -28,6 +28,6 @@ public class GuideBookController : MonoBehaviour
         inventoryPanel.SetActive(isActive);
         Time.timeScale = isActive ? 0 : 1;
 
-        gameController.IsUIBlockingInput = isActive; //ngăn cản click chuột khi tắt ui
+        gameController.UIBlockingInput = isActive; //ngăn cản click chuột khi tắt ui
     }
 }

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3795884914307126181}
   - component: {fileID: 5324279486738616430}
   - component: {fileID: 4218009377230625441}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: snow_med_tree_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73,7 +73,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 512415979
-  m_SortingLayer: 2
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -1597550363, guid: 992d0294b514e7a409a99434a2e01482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -84,7 +84,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 1
 --- !u!70 &4218009377230625441
 CapsuleCollider2D:
@@ -131,7 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6482461988202975576}
   - component: {fileID: 5282576994903126538}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -192,7 +192,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1299730915
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -1312394148, guid: 992d0294b514e7a409a99434a2e01482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

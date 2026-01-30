@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7071571762609146264}
   - component: {fileID: 6581211202129767197}
   - component: {fileID: 5672015335731742498}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: House_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,8 +72,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 512415979
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -1750586380, guid: 1439275aec3c8a74fbeecfeff6a6a5cd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

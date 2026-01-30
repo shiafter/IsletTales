@@ -85,7 +85,7 @@ public class ShopManager : MonoBehaviour
             ShowItemInfo(currentShop.items[0]);
         }
 
-        gameController.IsUIBlockingInput = true;
+        gameController.UIBlockingInput = true;
         Time.timeScale = 0f;
     }
     public void CloseShop()
@@ -93,7 +93,7 @@ public class ShopManager : MonoBehaviour
         shopPanel.SetActive(false);
         currentShop = null;
 
-        gameController.IsUIBlockingInput = false;
+        gameController.UIBlockingInput = false;
         Time.timeScale = 1f;
     }
     public void SetShopItem()

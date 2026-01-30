@@ -9,10 +9,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27200e9133b7428449e6f99ea4f05323, type: 3}
-  m_Name: Merchant
+  m_Script: {fileID: 11500000, guid: c59bc76afafe3084683bb8faaa6ac38b, type: 3}
+  m_Name: PlantMonster
   m_EditorClassIdentifier: 
-  npcName: Lilia the Merchant
-  npcImage: {fileID: 529665991, guid: 9b185a2a999ca9540aa051c927ab3d3d, type: 3}
-  shopDescription: Collects player's items
-  shopOwner: {fileID: 0}
+  maxHealth: 5
+  moveSpeed: 2
+  chaseRange: 3.5
+  attackRange: 1.5
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  attackDamage: 3
+  attackCooldown: 1.5
+  knockbackTime: 0.2

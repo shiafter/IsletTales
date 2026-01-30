@@ -114,21 +114,21 @@ public class SlimeAI : MonoBehaviour
     private void MoveTowards(Vector2 target)
     {
         Vector2 direction = (target - (Vector2)transform.position).normalized;
-        enemyPathfinding.MoveTo(direction);
+        enemyPathfinding.SetMoveDirection(direction);
     }
 
     //====CHASING====
     private void ChasePlayer()
     {
         Vector2 direction = (player.position - transform.position).normalized;
-        enemyPathfinding.MoveTo(direction);
+        enemyPathfinding.SetMoveDirection(direction);
     }
 
     //====RETURN TO SPAWN====
     private void ReturnToSpawn()
     {
         Vector2 dir = (spawnPosition - (Vector2)transform.position).normalized;
-        enemyPathfinding.MoveTo(dir);
+        enemyPathfinding.SetMoveDirection(dir);
     }
     //====DEBUG====
     private void OnDrawGizmosSelected()

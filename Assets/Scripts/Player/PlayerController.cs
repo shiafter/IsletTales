@@ -44,7 +44,7 @@ public class PlayerController : MonoBehaviour
     }
     public void PerformAttack()
     {
-        if (gameController.IsUIBlockingInput)
+        if (gameController.UIBlockingInput)
             return;
         equipment.UseEquipment();
         animator.ResetTrigger("Action");

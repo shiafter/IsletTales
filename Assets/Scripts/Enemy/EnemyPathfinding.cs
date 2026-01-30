@@ -19,10 +19,13 @@ public class EnemyPathfinding : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.MovePosition(rb.position + moveDir * (moveSpeed * Time.fixedDeltaTime));
+        rb.velocity = moveDir * currentSpeed;
     }
-
-    public void MoveTo(Vector2 targetPosition)
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log("Hit: " + collision.gameObject.name);
+    }
+    public void SetMoveDirection(Vector2 targetPosition)
     {
         moveDir = targetPosition;
     }

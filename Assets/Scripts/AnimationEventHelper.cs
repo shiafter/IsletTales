@@ -26,4 +26,10 @@ public class AnimationEventHelper : MonoBehaviour
         Debug.Log("Reset attack");
         equipment.ResetAction();
     }
+    public void RemovePlayer()
+    {
+        Debug.Log("Game Over");
+        PlayerHealth.instance.RemovePlayer();
+        GameController.instance.OnPlayerDead();
+    }
 }

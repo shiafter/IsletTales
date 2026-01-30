@@ -6,21 +6,22 @@ using static ObjectHealth;
 
 public class EnemyHealth : MonoBehaviour
 {
+    private Rigidbody2D rb;
     private Animator animator;
     [SerializeField]
-    private int currentHealth, maxHealth;
-
+    private int currentHealth;
     [SerializeField]
     private bool dead = false;
 
     private SpriteRenderer spriteRenderer;
     private Color color;
-    //[SerializeField]
-    //private Color hitFlash;
-    BreakableObject breakable;
+
+    public EnemyData enemyData;
+    public BreakableObject breakable;
 
     private void Awake()
     {
+        rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         breakable = GetComponent<BreakableObject>();
 
@@ -31,10 +32,13 @@ public class EnemyHealth : MonoBehaviour
             color = spriteRenderer.color;
         }
     }
+    private void Start()
+    {
+        InitializeHealth(enemyData.maxHealth);
+    }
     public void InitializeHealth(int health)
     {
         currentHealth = health;
-        maxHealth = health;
         dead = false;
     }
 
@@ -63,6 +67,7 @@ public class EnemyHealth : MonoBehaviour
     }
     public void Defeated()
     {
+        rb.velocity = Vector2.zero;
         animator.SetTrigger("dead");
     }
     public void RemoveEnemy()
