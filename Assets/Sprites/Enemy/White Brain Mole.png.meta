@@ -97,316 +97,463 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: White Brain Mole_idle_0
+      name: White Brain Mole_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.45, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e716979f1e6fa2e49a444458c39b8094
+      internalID: -2121633930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Brain Mole_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.45, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e9a0413bd137643b53ff51744f31f3
+      internalID: -1790276337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Brain Mole_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.45, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b8dd8632ffdf44bb1ee2cdb2776979
+      internalID: 1134647502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Brain Mole_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.45, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6dc40d9c5bf0d48a6b35e2318a0bc4
+      internalID: -1006474540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Brain Mole_4
       rect:
         serializedVersion: 2
         x: 0
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.45, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6f97f82444f8044094baa7afc67f944
-      internalID: -1270270980
+      spriteID: b8188d07066a5224e83474a62244ce8e
+      internalID: -1223865109
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White Brain Mole_idle_1
+      name: White Brain Mole_5
       rect:
         serializedVersion: 2
         x: 32
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.45, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8aaa26f6e18e824ab4aeca86aa888d1
-      internalID: -1134806907
+      spriteID: 99c207ccb04089145be30f116487ed22
+      internalID: 1244013217
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White Brain Mole_idle_2
+      name: White Brain Mole_6
       rect:
         serializedVersion: 2
         x: 64
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.45, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0588e45ffddfa14185afc98a4614389
-      internalID: -8458642
+      spriteID: 9d489794d75771b448abb2d38ea5cc69
+      internalID: 1952603268
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White Brain Mole_idle_3
+      name: White Brain Mole_7
       rect:
         serializedVersion: 2
         x: 96
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.45, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd25cb6df5794ed479cf7e3a9bb7df45
-      internalID: 1640595254
+      spriteID: 2bf59b72714720343b18ef158ca70a27
+      internalID: 1817138698
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White Brain Mole_atk_0
+      name: White Brain Mole_8
       rect:
         serializedVersion: 2
         x: 0
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.45, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10fee16661ea309459e05e89c42ca966
-      internalID: 66668302
+      spriteID: 99c3b59160b33eb46882c27fa0065c37
+      internalID: -832959641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White Brain Mole_atk_1
+      name: White Brain Mole_9
       rect:
         serializedVersion: 2
         x: 32
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.45, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8da8441ba4d6df841ad07fdbeeb09ca9
-      internalID: -7200063
+      spriteID: 854c4f084da3ea84b95b8a0441c1fdac
+      internalID: 915282287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White Brain Mole_atk_2
+      name: White Brain Mole_10
       rect:
         serializedVersion: 2
         x: 64
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.45, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e46f09ba86eb3384c89de97fd151e573
-      internalID: 1473011487
+      spriteID: 634f6d30cc299a0439acb8891edba26e
+      internalID: -1467312924
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White Brain Mole_atk_3
+      name: White Brain Mole_11
       rect:
         serializedVersion: 2
         x: 96
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.45, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e5ef59041c9dc048ab310eaa9031fc6
-      internalID: -795488043
+      spriteID: f34ba0f2d45bf8441adc5f99f5e0880b
+      internalID: 1723145284
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White Brain Mole_die_0
+      name: White Brain Mole_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.45, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41172db008bdf3f4ea8a6665f50161a2
+      internalID: -1340212467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Brain Mole_13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.45, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97bba9ee0a9f4b546aeedfca22f8d8c3
+      internalID: -232845159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Brain Mole_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.45, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56faeac527cb76f45bea7b92f3fc8d1e
+      internalID: 1613989541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Brain Mole_15
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.45, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44652f25012e9974bb36f562d98e519f
-      internalID: 822758142
+      spriteID: e5b1ef6b0536c3c478f8e0a99dc3544c
+      internalID: -1178367460
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White Brain Mole_die_1
+      name: White Brain Mole_16
       rect:
         serializedVersion: 2
         x: 32
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.45, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80a902dd58861304f8235d7bbdac64a1
-      internalID: -1911335275
+      spriteID: e8b290b0fb73cb345acb15247b4676d8
+      internalID: 2141981223
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White Brain Mole_die_2
+      name: White Brain Mole_17
       rect:
         serializedVersion: 2
         x: 64
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.45, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5903f348541c71843b6e88edbfaa92b2
-      internalID: -547674128
+      spriteID: ac29c04aa07206f469db60682f2c28e4
+      internalID: 1159832788
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White Brain Mole_die_3
+      name: White Brain Mole_18
       rect:
         serializedVersion: 2
         x: 96
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.45, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22e37f4d5cadda741857e03e90fdc070
-      internalID: 15168195
+      spriteID: 3e3d70d9f90df3f45aaa253e747c4a47
+      internalID: 2145071038
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White Brain Mole_die_4
+      name: White Brain Mole_19
       rect:
         serializedVersion: 2
         x: 128
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.45, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c42dae9f750af554a9428ea9a0fbcb8f
-      internalID: 827312539
+      spriteID: 5f08961f277a9fc49a6b5b7f5255fd8f
+      internalID: -575505389
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White Brain Mole_die_5
+      name: White Brain Mole_20
       rect:
         serializedVersion: 2
         x: 160
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.45, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ad4a433f3056f34a8d7c10870dd10e7
-      internalID: 768781037
+      spriteID: 401e19b965432884a919c0b665a6b1d9
+      internalID: 869151158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White Brain Mole_die_6
+      name: White Brain Mole_21
       rect:
         serializedVersion: 2
         x: 192
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.45, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbb0f38cf9f98164aa712f45f2f5e7a2
-      internalID: 993234413
+      spriteID: ee2ece559bfac8d49a449e7a46bfc1b1
+      internalID: 1616719654
       vertices: []
       indices: 
       edges: []
@@ -422,21 +569,28 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      White Brain Mole_atk_0: 66668302
-      White Brain Mole_atk_1: -7200063
-      White Brain Mole_atk_2: 1473011487
-      White Brain Mole_atk_3: -795488043
-      White Brain Mole_die_0: 822758142
-      White Brain Mole_die_1: -1911335275
-      White Brain Mole_die_2: -547674128
-      White Brain Mole_die_3: 15168195
-      White Brain Mole_die_4: 827312539
-      White Brain Mole_die_5: 768781037
-      White Brain Mole_die_6: 993234413
-      White Brain Mole_idle_0: -1270270980
-      White Brain Mole_idle_1: -1134806907
-      White Brain Mole_idle_2: -8458642
-      White Brain Mole_idle_3: 1640595254
+      White Brain Mole_0: -2121633930
+      White Brain Mole_1: -1790276337
+      White Brain Mole_10: -1467312924
+      White Brain Mole_11: 1723145284
+      White Brain Mole_12: -1340212467
+      White Brain Mole_13: -232845159
+      White Brain Mole_14: 1613989541
+      White Brain Mole_15: -1178367460
+      White Brain Mole_16: 2141981223
+      White Brain Mole_17: 1159832788
+      White Brain Mole_18: 2145071038
+      White Brain Mole_19: -575505389
+      White Brain Mole_2: 1134647502
+      White Brain Mole_20: 869151158
+      White Brain Mole_21: 1616719654
+      White Brain Mole_3: -1006474540
+      White Brain Mole_4: -1223865109
+      White Brain Mole_5: 1244013217
+      White Brain Mole_6: 1952603268
+      White Brain Mole_7: 1817138698
+      White Brain Mole_8: -832959641
+      White Brain Mole_9: 915282287
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

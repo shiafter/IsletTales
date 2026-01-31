@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 041bb23309f587a46827d7e56df28c03
+guid: 9a67a0224c7017d42961d28d5d01cd6d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,421 +97,547 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cacodaemon_idle_0
+      name: IceCube_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15545edacfe39904a9e9d6e8cba7d847
-      internalID: 591093175
+      spriteID: 40a65bef182551144b89a83e50032295
+      internalID: -1541586492
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cacodaemon_idle_1
+      name: IceCube_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586f1edbc20823c4eb15b2f38595fb55
+      internalID: -2115565933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceCube_2
       rect:
         serializedVersion: 2
         x: 64
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b46744d7e46f5c0458602f4a68ffba7e
-      internalID: 1112431854
+      spriteID: a084eabb916735d48ba67d13a9b36840
+      internalID: 445082273
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cacodaemon_idle_2
+      name: IceCube_3
       rect:
         serializedVersion: 2
-        x: 128
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 327c556c47023e846a4c136dc775116f
-      internalID: -1361482495
+      spriteID: c81e0bcfab14453418841e10be7907d5
+      internalID: 963567944
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cacodaemon_idle_3
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d134fe9bff27dfd4994dbb65e1063006
-      internalID: 1969022837
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cacodaemon_idle_4
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 310489316d0006a4e995df4610436abd
-      internalID: -1488385514
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cacodaemon_idle_5
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e052804d58213174988db9907695209c
-      internalID: -699749023
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cacodaemon_atk_0
+      name: IceCube_4
       rect:
         serializedVersion: 2
         x: 0
         y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bc1881ada5e78342ae1fa825ba344be
-      internalID: 966651650
+      spriteID: 76cb7ee7af01ace458a3b536e86fa5a3
+      internalID: 1707147814
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cacodaemon_atk_1
+      name: IceCube_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5bfc5dd0f1351b4797d401d5b7f3ea7
+      internalID: 1422783434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceCube_6
       rect:
         serializedVersion: 2
         x: 64
         y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03de1f9686fab854db3b94da6c173a79
-      internalID: -556476025
+      spriteID: aaa07e5e5a7ce534bb5044afff140acc
+      internalID: -681700321
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cacodaemon_atk_2
+      name: IceCube_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceaaf76e1d62df24287d9dcfa2b562e3
+      internalID: 75744869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceCube_8
       rect:
         serializedVersion: 2
         x: 128
         y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4956f541cab97c449b8fc8a53537bcdb
-      internalID: -462592466
+      spriteID: 0b9ec3e22b2ff9d4d873fc4509b317c3
+      internalID: 675512571
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cacodaemon_atk_
+      name: IceCube_9
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df218785870f3c647a466c4eabfb7a2a
+      internalID: 901010616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceCube_10
       rect:
         serializedVersion: 2
         x: 192
-        y: 65
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f95ad031e9a00be4e9572a4566e76e1c
-      internalID: -2073752147
+      spriteID: c4efbd917b38af1499fb9150e32e1881
+      internalID: -397831488
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cacodaemon_atk_3
+      name: IceCube_11
       rect:
         serializedVersion: 2
-        x: 256
+        x: 224
         y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed0c53668217beb4ebfea3756c1bad49
-      internalID: -319209522
+      spriteID: 03bd995591f742d4098d4f36e7caa414
+      internalID: -1330409601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cacodaemon_atk_4
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 363861ffdabf1d94285835513315cfd5
-      internalID: 1857529875
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cacodaemon_die_0
+      name: IceCube_12
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08e310bc80873d04297bacc9241cff5a
-      internalID: 1486121840
+      spriteID: b29f5251d10db864ca35d55a60074a4c
+      internalID: -1415877272
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cacodaemon_die_1
+      name: IceCube_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0714f13149f09499bc026ceffaa60a
+      internalID: -1953060315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceCube_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93d2fd8be08d3b458a163f1125f4f13
+      internalID: -1124313279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceCube_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941a3341be0e9ab4b8eecafa0029d556
+      internalID: -459579415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceCube_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41498eab1a1e1374191e9d7b2c286c4e
+      internalID: -404322446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceCube_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98fbc83fbe291b74ea374304560c9a5c
+      internalID: 1516746221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceCube_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c101cbc91da87458db16619bdcace6
+      internalID: 1478821373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceCube_19
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae1319c6690a644fbe5af8f408b5562
+      internalID: -1210409613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceCube_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c7880d3b1dfdc48a17733d659b440c
+      internalID: 311574107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceCube_21
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4a2609993b1be42b08de056ecc1aa4
+      internalID: 1188024093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceCube_22
       rect:
         serializedVersion: 2
         x: 64
         y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89e4ed8a2eb7b5b44a6aa6328320cc9b
-      internalID: -854159226
+      spriteID: 2b100aa2346e2a04c84c59fe2ebc6cba
+      internalID: 568921351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cacodaemon_die_2
+      name: IceCube_23
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45734ebd345c34046afd85ec13beae53
+      internalID: -966663704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceCube_24
       rect:
         serializedVersion: 2
         x: 128
         y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5410a04edb09324bb7f2eb6bbabf8f4
-      internalID: -1450357348
+      spriteID: c44c2c7aac135734d95a93eca65ecfe3
+      internalID: -2059363507
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cacodaemon_die_3
+      name: IceCube_25
       rect:
         serializedVersion: 2
-        x: 192
+        x: 160
         y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b918c4ea057c7d4f9162010cf96cb9e
-      internalID: 839632466
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cacodaemon_die_4
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eec7ffa04f08f5f408caf7a4f8715c32
-      internalID: -1840335555
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cacodaemon_die_5
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ac5b01ac4eb089e459c9fb39f037ff6b
-      internalID: 1391213616
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cacodaemon_die_6
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 575d962147533594cb862f76047f2a4b
-      internalID: 274286745
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cacodaemon_die_7
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b0a52c5852bca734896e6cd71b5e5c1a
-      internalID: -994924861
+      spriteID: cf724ee5463ad9c4c98e796fbab5f678
+      internalID: -763582801
       vertices: []
       indices: 
       edges: []
@@ -527,26 +653,32 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Cacodaemon_atk_: -2073752147
-      Cacodaemon_atk_0: 966651650
-      Cacodaemon_atk_1: -556476025
-      Cacodaemon_atk_2: -462592466
-      Cacodaemon_atk_3: -319209522
-      Cacodaemon_atk_4: 1857529875
-      Cacodaemon_die_0: 1486121840
-      Cacodaemon_die_1: -854159226
-      Cacodaemon_die_2: -1450357348
-      Cacodaemon_die_3: 839632466
-      Cacodaemon_die_4: -1840335555
-      Cacodaemon_die_5: 1391213616
-      Cacodaemon_die_6: 274286745
-      Cacodaemon_die_7: -994924861
-      Cacodaemon_idle_0: 591093175
-      Cacodaemon_idle_1: 1112431854
-      Cacodaemon_idle_2: -1361482495
-      Cacodaemon_idle_3: 1969022837
-      Cacodaemon_idle_4: -1488385514
-      Cacodaemon_idle_5: -699749023
+      IceCube_0: -1541586492
+      IceCube_1: -2115565933
+      IceCube_10: -397831488
+      IceCube_11: -1330409601
+      IceCube_12: -1415877272
+      IceCube_13: -1953060315
+      IceCube_14: -1124313279
+      IceCube_15: -459579415
+      IceCube_16: -404322446
+      IceCube_17: 1516746221
+      IceCube_18: 1478821373
+      IceCube_19: -1210409613
+      IceCube_2: 445082273
+      IceCube_20: 311574107
+      IceCube_21: 1188024093
+      IceCube_22: 568921351
+      IceCube_23: -966663704
+      IceCube_24: -2059363507
+      IceCube_25: -763582801
+      IceCube_3: 963567944
+      IceCube_4: 1707147814
+      IceCube_5: 1422783434
+      IceCube_6: -681700321
+      IceCube_7: 75744869
+      IceCube_8: 675512571
+      IceCube_9: 901010616
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

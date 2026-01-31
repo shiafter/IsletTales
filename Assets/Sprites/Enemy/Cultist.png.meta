@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1dc144fe614739b4f84c2c89275a5012
+guid: 4e5bf23ccbda7e44c8be8e617f031e30
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,91 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Plant Monster (2)_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 256
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 821461323917aa54e8c50996af1c4e6b
-      internalID: 1993305063
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Plant Monster (2)_1
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 256
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c3be404ddacef14b9426308136c47bb
-      internalID: 979050400
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Plant Monster (2)_2
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 256
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6258457b195c4e84f88ea83d83c54576
-      internalID: 1006175860
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Plant Monster (2)_3
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 256
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0605dc49484a86848b0f59f5596fee51
-      internalID: 1289490217
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Plant Monster (2)_4
+      name: Cultist_0
       rect:
         serializedVersion: 2
         x: 0
@@ -189,20 +105,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.25, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f875956bc0378f4693e563de3131b95
-      internalID: -614178517
+      spriteID: e99a84f4efa51d9469eb1027dea60cf4
+      internalID: 906035547
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster (2)_5
+      name: Cultist_1
       rect:
         serializedVersion: 2
         x: 64
@@ -210,20 +126,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.25, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59336f98eba04634b9b56431a3ff9d6b
-      internalID: -1044088926
+      spriteID: d943e3cfeed68d548a96e1f6475711f0
+      internalID: -1968125613
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster (2)_6
+      name: Cultist_2
       rect:
         serializedVersion: 2
         x: 128
@@ -231,20 +147,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.25, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ab22d27e823062459882c6eff1a10b3
-      internalID: 1984034062
+      spriteID: a9bfc886f1e890f42b72b812984e2a96
+      internalID: -502910826
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster (2)_7
+      name: Cultist_3
       rect:
         serializedVersion: 2
         x: 192
@@ -252,20 +168,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.25, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdfe0c112f2a79f48994279ceded0fd5
-      internalID: -1496459665
+      spriteID: 865d8fd94a190544e8ee398c1f86bdd5
+      internalID: 1118792251
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster (2)_8
+      name: Cultist_4
       rect:
         serializedVersion: 2
         x: 256
@@ -273,20 +189,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.25, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b00af031c6019254d81f37850cfcc981
-      internalID: -529033918
+      spriteID: c514507a8fe4a6e4d96d09ac061ccec7
+      internalID: -757657371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster (2)_9
+      name: Cultist_5
       rect:
         serializedVersion: 2
         x: 320
@@ -294,167 +210,314 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.25, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 847c633ae6abee645b883776050b6f9d
-      internalID: 1658118319
+      spriteID: 14000788a44ef414cafe02d043bdb4d3
+      internalID: 1597111871
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster (2)_10
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 128
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f4dda214608a0504cb006d76cedd9869
-      internalID: 1188990133
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Plant Monster (2)_11
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 128
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d75c93edb282eee42922f5f28c8625af
-      internalID: 1514530096
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Plant Monster (2)_12
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 128
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 51d51163e6ba3964aa73011cb89c9277
-      internalID: 956039950
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Plant Monster (2)_13
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 128
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1c5671084ff152040a3e153ee2f9036c
-      internalID: 2083141167
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Plant Monster (2)_14
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 128
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 26753c7edaa05a14cb922118736984ec
-      internalID: -661243940
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Plant Monster (2)_15
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 128
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d7813674474bd1443a9b1b1a80aa76b5
-      internalID: 718695658
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Plant Monster (2)_16
+      name: Cultist_6
       rect:
         serializedVersion: 2
         x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e323cdfb47b7dd24bbd0ae0a37b6a39d
+      internalID: -1637149010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf3a92069ee9f342bdcf938c608ca5a
+      internalID: 2032071665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc93ed94c115094d9d6509fe77e1c04
+      internalID: -1690665208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276e255c5bd70404681faeddb0eae9cd
+      internalID: -1484076678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7424c7aa67fe494eae53488bf470eba
+      internalID: 991198577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbedd1f41fda2824e8998c017204bdaa
+      internalID: 1020340393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10c34f76ac32f942ad5c33a599e0d41
+      internalID: 1795240488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_13
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24c40eb195c3994195e3c5f50c3657b
+      internalID: -494332597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_14
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6033b594f18184fa37150b6f8a0cc1
+      internalID: -1927333097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c957a56bf79354548b3b773c9fc55785
+      internalID: 1990699898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_16
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 128
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.25, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4612172f8ee71264faaa151b91d5cb6a
-      internalID: -860065122
+      spriteID: 536de61aa38e3a948bc842997f4e13ed
+      internalID: 932624444
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster (2)_17
+      name: Cultist_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a771200d1e5035047be45e51c94d38f6
+      internalID: 420386844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2371094b05f21b46b4b4cd13f012e58
+      internalID: 1317440661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078e393f6b7574e4f9af16d5ca53f8b1
+      internalID: -2062705487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_20
       rect:
         serializedVersion: 2
         x: 0
@@ -462,20 +525,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.25, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb7df58ecbfcdb545b81dcb8373e6b88
-      internalID: 1647482866
+      spriteID: a3350c5b2fae7c447b9445c22993ae42
+      internalID: -1783798951
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster (2)_18
+      name: Cultist_21
       rect:
         serializedVersion: 2
         x: 64
@@ -483,20 +546,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.25, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2636d6e699426794aac740af23c0f3ac
-      internalID: -790799109
+      spriteID: 67727541285c7f34db7913f551de6a9b
+      internalID: 1269621160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster (2)_19
+      name: Cultist_22
       rect:
         serializedVersion: 2
         x: 128
@@ -504,20 +567,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.25, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a89d0521fad3594191191333e712953
-      internalID: -1998402182
+      spriteID: 82eabaccc03a4e0479bca5f197a3084c
+      internalID: -413436738
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster (2)_20
+      name: Cultist_23
       rect:
         serializedVersion: 2
         x: 192
@@ -525,20 +588,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.25, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb9f8f9b4f6b4a241b57c7153227cf10
-      internalID: -217270139
+      spriteID: fdced1e2e777b254b8a21d3160a0912f
+      internalID: 1598104284
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster (2)_21
+      name: Cultist_24
       rect:
         serializedVersion: 2
         x: 256
@@ -546,20 +609,167 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.25, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29177ea5628ff7f4180153b275f5e96f
-      internalID: -631902354
+      spriteID: 22f3f6c03c6cb2944acc1a0ad3b2f93a
+      internalID: -1038221648
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster (2)_22
+      name: Cultist_25
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd57a4ba1f5f094b9feb677b8636702
+      internalID: -1883400475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_26
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00679077d5601994e80ecd43a6b476b6
+      internalID: -1996683103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_27
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9f600b06773964795a863b4fb5e8bb
+      internalID: -1591379251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_28
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6969f4016f01443a459805ee7a9a4f
+      internalID: -285673029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_29
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d1a3dc8d225cd44bebafaa3f06fc5c
+      internalID: 433959238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_30
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71370a75bc57dc94ab08b13aec070fb7
+      internalID: -227277220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_31
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3f954abb02f4f46a46c3624297141a
+      internalID: -1295970078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_32
       rect:
         serializedVersion: 2
         x: 0
@@ -567,20 +777,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.25, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5200e32afa12ef46860f276b27064e8
-      internalID: -170880058
+      spriteID: 63cffd3fbf5ef4b4ea719dfd5c9489dc
+      internalID: -1175136090
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster (2)_23
+      name: Cultist_33
       rect:
         serializedVersion: 2
         x: 64
@@ -588,20 +798,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.25, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 816c8cad552b35142b73ff6bde1cfc7e
-      internalID: 1325657874
+      spriteID: bfae0b56bbcb7d14193d8a82214ba9d2
+      internalID: -621402765
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster (2)_24
+      name: Cultist_34
       rect:
         serializedVersion: 2
         x: 128
@@ -609,20 +819,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.25, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f437907b2a32c5429d8e06027efb793
-      internalID: -878963982
+      spriteID: 79821932aa98d9543aa41642e10f0eb3
+      internalID: -203815224
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster (2)_25
+      name: Cultist_35
       rect:
         serializedVersion: 2
         x: 192
@@ -630,20 +840,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.25, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55a315e6a637e0a4589b48377ee02119
-      internalID: -9857579
+      spriteID: 5d9d557f74a092947bd6536f2fdd91ec
+      internalID: -307715609
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster (2)_26
+      name: Cultist_36
       rect:
         serializedVersion: 2
         x: 256
@@ -651,20 +861,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.25, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4bf8da335d39554cbbea8500e282f16
-      internalID: 423347824
+      spriteID: 3a7c79325441cda4da04f63bfba157ee
+      internalID: -191078412
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster (2)_27
+      name: Cultist_37
       rect:
         serializedVersion: 2
         x: 320
@@ -672,20 +882,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.25, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c45b7860977ee84d9623b2860459ff6
-      internalID: 879915865
+      spriteID: 68b05d9324bcef946b80a97cda0f0751
+      internalID: -1330319089
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster (2)_28
+      name: Cultist_38
       rect:
         serializedVersion: 2
         x: 384
@@ -693,14 +903,77 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.25, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e801b514a10d5c2459a72aeb0a69c582
-      internalID: 1043758773
+      spriteID: db01f6bbf41c32045ac413405bd60c1c
+      internalID: 581913482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_39
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 341250e808620d24e830ddb9ff485165
+      internalID: 355299534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_40
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8846c6051459484cb0ff0cc37fd90a7
+      internalID: -253126586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist_41
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430b48bdc59c3b443a8c7bdb84d43ede
+      internalID: 1485945143
       vertices: []
       indices: 
       edges: []
@@ -716,35 +989,48 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Plant Monster (2)_0: 1993305063
-      Plant Monster (2)_1: 979050400
-      Plant Monster (2)_10: 1188990133
-      Plant Monster (2)_11: 1514530096
-      Plant Monster (2)_12: 956039950
-      Plant Monster (2)_13: 2083141167
-      Plant Monster (2)_14: -661243940
-      Plant Monster (2)_15: 718695658
-      Plant Monster (2)_16: -860065122
-      Plant Monster (2)_17: 1647482866
-      Plant Monster (2)_18: -790799109
-      Plant Monster (2)_19: -1998402182
-      Plant Monster (2)_2: 1006175860
-      Plant Monster (2)_20: -217270139
-      Plant Monster (2)_21: -631902354
-      Plant Monster (2)_22: -170880058
-      Plant Monster (2)_23: 1325657874
-      Plant Monster (2)_24: -878963982
-      Plant Monster (2)_25: -9857579
-      Plant Monster (2)_26: 423347824
-      Plant Monster (2)_27: 879915865
-      Plant Monster (2)_28: 1043758773
-      Plant Monster (2)_3: 1289490217
-      Plant Monster (2)_4: -614178517
-      Plant Monster (2)_5: -1044088926
-      Plant Monster (2)_6: 1984034062
-      Plant Monster (2)_7: -1496459665
-      Plant Monster (2)_8: -529033918
-      Plant Monster (2)_9: 1658118319
+      Cultist_0: 906035547
+      Cultist_1: -1968125613
+      Cultist_10: 991198577
+      Cultist_11: 1020340393
+      Cultist_12: 1795240488
+      Cultist_13: -494332597
+      Cultist_14: -1927333097
+      Cultist_15: 1990699898
+      Cultist_16: 932624444
+      Cultist_17: 420386844
+      Cultist_18: 1317440661
+      Cultist_19: -2062705487
+      Cultist_2: -502910826
+      Cultist_20: -1783798951
+      Cultist_21: 1269621160
+      Cultist_22: -413436738
+      Cultist_23: 1598104284
+      Cultist_24: -1038221648
+      Cultist_25: -1883400475
+      Cultist_26: -1996683103
+      Cultist_27: -1591379251
+      Cultist_28: -285673029
+      Cultist_29: 433959238
+      Cultist_3: 1118792251
+      Cultist_30: -227277220
+      Cultist_31: -1295970078
+      Cultist_32: -1175136090
+      Cultist_33: -621402765
+      Cultist_34: -203815224
+      Cultist_35: -307715609
+      Cultist_36: -191078412
+      Cultist_37: -1330319089
+      Cultist_38: 581913482
+      Cultist_39: 355299534
+      Cultist_4: -757657371
+      Cultist_40: -253126586
+      Cultist_41: 1485945143
+      Cultist_5: 1597111871
+      Cultist_6: -1637149010
+      Cultist_7: 2032071665
+      Cultist_8: -1690665208
+      Cultist_9: -1484076678
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

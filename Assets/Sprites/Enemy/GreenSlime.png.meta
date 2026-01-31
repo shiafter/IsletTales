@@ -97,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idle_0
+      name: GreenSlime_0
       rect:
         serializedVersion: 2
         x: 0
@@ -111,14 +111,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65e7a6df53934d74f88bc244216aeea3
-      internalID: -1198769678
+      spriteID: a93c8a7fa6d6d4e4294ac45c75814051
+      internalID: 997969429
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_1
+      name: GreenSlime_1
       rect:
         serializedVersion: 2
         x: 16
@@ -132,14 +132,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71116ff6f11fd8c4e8a23aa9d7d09f3f
-      internalID: 1237803231
+      spriteID: cbc9ef7202f641a43bda0cf1bb0ec2bc
+      internalID: -1506225416
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_2
+      name: GreenSlime_2
       rect:
         serializedVersion: 2
         x: 32
@@ -153,14 +153,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ac5a26578e0dde4b9fd4e19fd4d9c3a
-      internalID: -1820791698
+      spriteID: 8535b4dffe5cd36458aba5949506ec86
+      internalID: -722953329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_3
+      name: GreenSlime_3
       rect:
         serializedVersion: 2
         x: 48
@@ -174,14 +174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a251b094a6d849443a2aa1c798cddcd4
-      internalID: 1588669830
+      spriteID: 7a129ac2b6951fd4ebc4c040279fb0ae
+      internalID: 1283635044
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_0
+      name: GreenSlime_4
       rect:
         serializedVersion: 2
         x: 0
@@ -195,14 +195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7cf8a65eb3bc2984891fc9cc1f202cc8
-      internalID: 1539509417
+      spriteID: 76ce8595cc58f0a44b76ff0fe2c9822f
+      internalID: -94242147
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_1
+      name: GreenSlime_5
       rect:
         serializedVersion: 2
         x: 16
@@ -216,14 +216,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b95263298f85caa4293b7d553edd7cc4
-      internalID: -1972581578
+      spriteID: 2f14f741622905e4a81323089da583b0
+      internalID: -1638401113
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_2
+      name: GreenSlime_6
       rect:
         serializedVersion: 2
         x: 32
@@ -237,14 +237,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2b97720d0aa22444b96956fc0fdd242
-      internalID: 1780392012
+      spriteID: 19de2af850320354c8913ee7e9c80ce3
+      internalID: -332454790
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_3
+      name: GreenSlime_7
       rect:
         serializedVersion: 2
         x: 48
@@ -258,14 +258,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a97179963071e547b41bfdac8cd34d9
-      internalID: 423974373
+      spriteID: 7122b823c94f9aa4ca9c81d3826b1db2
+      internalID: -1630725357
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hurt_0
+      name: GreenSlime_8
       rect:
         serializedVersion: 2
         x: 0
@@ -279,14 +279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed594817da471bb40bc0acde39770bea
-      internalID: 2089638208
+      spriteID: f507c46405bbb284399e79c353427b08
+      internalID: 277931409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hurt_1
+      name: GreenSlime_9
       rect:
         serializedVersion: 2
         x: 16
@@ -300,14 +300,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3630689d89386742a5425ca5a513150
-      internalID: -1478508602
+      spriteID: 75dc941c3c024ef4b9e2426ca1cf0293
+      internalID: -861898003
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hurt_2
+      name: GreenSlime_10
       rect:
         serializedVersion: 2
         x: 32
@@ -321,14 +321,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35abf5ef3adf2a249bc7f6c3213dec3a
-      internalID: -1904183285
+      spriteID: b45cad05747282142a404fc5265a9762
+      internalID: -441653728
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hurt_3
+      name: GreenSlime_11
       rect:
         serializedVersion: 2
         x: 48
@@ -342,14 +342,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbb313dd67f467646bd4324aa5e11943
-      internalID: -228770243
+      spriteID: 93bf7a15834ccfe4c8d0a32045901f4a
+      internalID: 1217385445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Die_0
+      name: GreenSlime_12
       rect:
         serializedVersion: 2
         x: 0
@@ -363,14 +363,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a051143e98d5344b88ab365fb9cf3de
-      internalID: 1248128651
+      spriteID: 79cc40d419eaa424d840e0f74a15e4c2
+      internalID: -2088053033
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Die_1
+      name: GreenSlime_13
       rect:
         serializedVersion: 2
         x: 16
@@ -384,14 +384,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dde20a2480f9d3a428f629a55b7e8866
-      internalID: -1567752506
+      spriteID: 542c03036aff5074e9d2568ac2e9739b
+      internalID: 1294024589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Die_2
+      name: GreenSlime_14
       rect:
         serializedVersion: 2
         x: 32
@@ -405,14 +405,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26581d4ec54800e4ebe147141ff563b7
-      internalID: 1563330145
+      spriteID: bed38ddd8789b0d488775bb62e88639f
+      internalID: 2135502245
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Die_3
+      name: GreenSlime_15
       rect:
         serializedVersion: 2
         x: 48
@@ -426,8 +426,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0eaed380ea5bf0f4481258308cb30f41
-      internalID: -1682833790
+      spriteID: 99ee0ca38bfe31f4f81d5f14010659be
+      internalID: 1573878990
       vertices: []
       indices: 
       edges: []
@@ -443,22 +443,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Die_0: 1248128651
-      Die_1: -1567752506
-      Die_2: 1563330145
-      Die_3: -1682833790
-      Hurt_0: 2089638208
-      Hurt_1: -1478508602
-      Hurt_2: -1904183285
-      Hurt_3: -228770243
-      Idle_0: -1198769678
-      Idle_1: 1237803231
-      Idle_2: -1820791698
-      Idle_3: 1588669830
-      Walk_0: 1539509417
-      Walk_1: -1972581578
-      Walk_2: 1780392012
-      Walk_3: 423974373
+      GreenSlime_0: 997969429
+      GreenSlime_1: -1506225416
+      GreenSlime_10: -441653728
+      GreenSlime_11: 1217385445
+      GreenSlime_12: -2088053033
+      GreenSlime_13: 1294024589
+      GreenSlime_14: 2135502245
+      GreenSlime_15: 1573878990
+      GreenSlime_2: -722953329
+      GreenSlime_3: 1283635044
+      GreenSlime_4: -94242147
+      GreenSlime_5: -1638401113
+      GreenSlime_6: -332454790
+      GreenSlime_7: -1630725357
+      GreenSlime_8: 277931409
+      GreenSlime_9: -861898003
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

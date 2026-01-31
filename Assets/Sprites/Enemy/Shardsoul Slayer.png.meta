@@ -97,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Shardsoul Slayer_idle_0
+      name: Shardsoul Slayer_0
       rect:
         serializedVersion: 2
         x: 0
@@ -111,14 +111,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e95eea5d6b52d104d9155d1eefee31ad
-      internalID: 305023479
+      spriteID: 6266df98ef4fc5040be49de2f04f5279
+      internalID: 1026466543
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shardsoul Slayer_idle_1
+      name: Shardsoul Slayer_1
       rect:
         serializedVersion: 2
         x: 64
@@ -132,14 +132,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e338a0049dabe747ba7725395fe935a
-      internalID: 76559795
+      spriteID: 2157ca99501242940a9468309ce11f31
+      internalID: 1478381678
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shardsoul Slayer_idle_2
+      name: Shardsoul Slayer_2
       rect:
         serializedVersion: 2
         x: 128
@@ -153,14 +153,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 524b82df432e62b4d822a830e0ba17ea
-      internalID: -1397704286
+      spriteID: cee97a35bbe18bb4dab5c43e3c6df205
+      internalID: -1686077187
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shardsoul Slayer_idle_3
+      name: Shardsoul Slayer_3
       rect:
         serializedVersion: 2
         x: 192
@@ -174,14 +174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27cd291fc55c41341a977c4bdf196c0b
-      internalID: -2032094130
+      spriteID: c200e76bbc1ef6d468b43ec970f7377e
+      internalID: -106432850
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shardsoul Slayer_idle_4
+      name: Shardsoul Slayer_4
       rect:
         serializedVersion: 2
         x: 256
@@ -195,14 +195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc4c74ac2431887479c1a10c8ccfbee0
-      internalID: -268889195
+      spriteID: 38869552e86ad4346988dab1b4435637
+      internalID: 1051019884
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shardsoul Slayer_idle_5
+      name: Shardsoul Slayer_5
       rect:
         serializedVersion: 2
         x: 320
@@ -216,14 +216,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc4cff436fd7e654db05e38fb48cfa53
-      internalID: -1018554280
+      spriteID: 6b0f080122a7aa249b18621619d5ba0f
+      internalID: -1820081728
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_6
+      name: Shardsoul Slayer_6
       rect:
         serializedVersion: 2
         x: 384
@@ -237,14 +237,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b18fb2fd1d0d0ce47a7a98a6eccc5453
-      internalID: 2141955987
+      spriteID: 3d4f0ac99f9625148986d4c5aa113ede
+      internalID: 1936048060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shardsoul Slayer_idle_7
+      name: Shardsoul Slayer_7
       rect:
         serializedVersion: 2
         x: 448
@@ -258,14 +258,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0efa41e5dca8dab4993fa40dc4bb5475
-      internalID: 1341166300
+      spriteID: dcffcbfc217dbab4cb70693004ee63c1
+      internalID: 141690983
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shardsoul Slayer_walk_0
+      name: Shardsoul Slayer_8
       rect:
         serializedVersion: 2
         x: 0
@@ -279,14 +279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 420f42641d2eb1b4ab6a4cef4fa30bfb
-      internalID: 1385098827
+      spriteID: 7b468572def4efa48982190a6c9121f4
+      internalID: -17934024
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shardsoul Slayer_walk_1
+      name: Shardsoul Slayer_9
       rect:
         serializedVersion: 2
         x: 64
@@ -300,14 +300,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de3f73cedadcae14ea5de9ff5f440bbe
-      internalID: 21131463
+      spriteID: 373ec474da122bf4e9b0e50871d28e21
+      internalID: -221538005
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shardsoul Slayer_walk_2
+      name: Shardsoul Slayer_10
       rect:
         serializedVersion: 2
         x: 128
@@ -321,14 +321,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa7579fa3d2e2284598c98d0142eea2e
-      internalID: 932511456
+      spriteID: 218ad19166fcf064cb28b5eac06f11c2
+      internalID: 343053612
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shardsoul Slayer_walk_3
+      name: Shardsoul Slayer_11
       rect:
         serializedVersion: 2
         x: 192
@@ -342,14 +342,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b683c647d232954d86557af718a701f
-      internalID: -178605058
+      spriteID: d47bb6307c7fa4845a46e4d68c0b7dd5
+      internalID: 369980575
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shardsoul Slayer_walk_4
+      name: Shardsoul Slayer_12
       rect:
         serializedVersion: 2
         x: 256
@@ -363,14 +363,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43154446717225e41853cb9d881667fc
-      internalID: 1321696662
+      spriteID: 10030f47fc52a6641baadde3c9f06fa1
+      internalID: -1875745805
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shardsoul Slayer_walk_5
+      name: Shardsoul Slayer_13
       rect:
         serializedVersion: 2
         x: 320
@@ -384,14 +384,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8623f0d385a633c459fcaca2b50ae31b
-      internalID: -1162138278
+      spriteID: 20ca7c1d7cdeef14dbf77dc60d4bcc77
+      internalID: -822096412
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shardsoul Slayer_walk_6
+      name: Shardsoul Slayer_14
       rect:
         serializedVersion: 2
         x: 384
@@ -405,14 +405,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66304f6a696e0b04d94402e827354c16
-      internalID: -2030632205
+      spriteID: 9132c5ce49eb8234fae2709e5776799b
+      internalID: -1833797377
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shardsoul Slayer_walk_7
+      name: Shardsoul Slayer_15
       rect:
         serializedVersion: 2
         x: 448
@@ -426,38 +426,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d976c94ee1b065544999f0dbad58d3b6
-      internalID: 1662879801
+      spriteID: 59440a2f0390a914989445c88013a4a7
+      internalID: 2142581596
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shardsoul Slayer_atk_0
+      name: Shardsoul Slayer_16
       rect:
         serializedVersion: 2
-        x: 1
-        y: 49
-        width: 64
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ddb90baa8beb4c8448d7de733d2d02d5
-      internalID: 656196646
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shardsoul Slayer_atk_1
-      rect:
-        serializedVersion: 2
-        x: 65
+        x: 0
         y: 48
         width: 64
         height: 48
@@ -468,14 +447,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d60d81f360594a4b9dc0bf8c168f2f1
-      internalID: -1969622394
+      spriteID: 095055c77bb8b1e4bbc5c12118663f5c
+      internalID: -830956287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shardsoul Slayer_atk_2
+      name: Shardsoul Slayer_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 64
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a19c98d69d2884780b1339f2577e37
+      internalID: 1005915767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shardsoul Slayer_18
       rect:
         serializedVersion: 2
         x: 128
@@ -489,18 +489,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5bddd95a05a01c24982adc110024f1ef
-      internalID: 1439293972
+      spriteID: 78eb6f070f474d54dbea3a56cd371a60
+      internalID: -1698882634
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shardsoul Slayer_atk_3
+      name: Shardsoul Slayer_19
       rect:
         serializedVersion: 2
         x: 192
-        y: 49
+        y: 48
         width: 64
         height: 48
       alignment: 7
@@ -510,14 +510,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65554a7b747b6004fa486b50ef2e2bb4
-      internalID: -1144443492
+      spriteID: df304cfba69376241aa499b4460f9ab6
+      internalID: -1862376102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shardsoul Slayer_atk_4
+      name: Shardsoul Slayer_20
       rect:
         serializedVersion: 2
         x: 256
@@ -531,14 +531,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1838a33ac09b24841923763110c70680
-      internalID: 1180452973
+      spriteID: 6bc7dc18d32490d40b3ba857b99d5b73
+      internalID: 1346358064
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shardsoul Slayer_die_0
+      name: Shardsoul Slayer_21
       rect:
         serializedVersion: 2
         x: 0
@@ -552,14 +552,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: addf1a8979e54cc45aeae34efbac45e0
-      internalID: -840469461
+      spriteID: dc7d5b1f5fefe0c41b598899047eb3a0
+      internalID: 1549084153
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shardsoul Slayer_die_1
+      name: Shardsoul Slayer_22
       rect:
         serializedVersion: 2
         x: 64
@@ -573,14 +573,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd20d3dbfc0856c46bead9aebd94aa74
-      internalID: 390075046
+      spriteID: ebb99c2daa5373e45acb0f61a69abf93
+      internalID: -2024319217
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shardsoul Slayer_die_2
+      name: Shardsoul Slayer_23
       rect:
         serializedVersion: 2
         x: 128
@@ -594,14 +594,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f409b958a68a623419f3d55f6042efaf
-      internalID: -27918350
+      spriteID: 7f5566e1b498ac241877712a3dc8093c
+      internalID: -991874402
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shardsoul Slayer_die_3
+      name: Shardsoul Slayer_24
       rect:
         serializedVersion: 2
         x: 192
@@ -615,14 +615,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8882f8d9e7ca8a34bb80ffd5c68afafd
-      internalID: -467146995
+      spriteID: 2e5fa5ac133db2a4aacc0710e61d2d5a
+      internalID: -1768370609
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shardsoul Slayer_die_4
+      name: Shardsoul Slayer_25
       rect:
         serializedVersion: 2
         x: 256
@@ -636,14 +636,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 309add9201dbcfc4499923b88a8b427a
-      internalID: 1449568763
+      spriteID: 221911cfc37889947990018030ec1dcc
+      internalID: 845631494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shardsoul Slayer_die_5
+      name: Shardsoul Slayer_26
       rect:
         serializedVersion: 2
         x: 320
@@ -657,8 +657,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e4bc3bd7ec14ea47b4d8f31491a7f27
-      internalID: 1464314338
+      spriteID: 7f006552e9590904680b7d297e650f06
+      internalID: -1185818164
       vertices: []
       indices: 
       edges: []
@@ -674,33 +674,33 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Shardsoul Slayer_atk_0: 656196646
-      Shardsoul Slayer_atk_1: -1969622394
-      Shardsoul Slayer_atk_2: 1439293972
-      Shardsoul Slayer_atk_3: -1144443492
-      Shardsoul Slayer_atk_4: 1180452973
-      Shardsoul Slayer_die_0: -840469461
-      Shardsoul Slayer_die_1: 390075046
-      Shardsoul Slayer_die_2: -27918350
-      Shardsoul Slayer_die_3: -467146995
-      Shardsoul Slayer_die_4: 1449568763
-      Shardsoul Slayer_die_5: 1464314338
-      Shardsoul Slayer_idle_0: 305023479
-      Shardsoul Slayer_idle_1: 76559795
-      Shardsoul Slayer_idle_2: -1397704286
-      Shardsoul Slayer_idle_3: -2032094130
-      Shardsoul Slayer_idle_4: -268889195
-      Shardsoul Slayer_idle_5: -1018554280
-      Shardsoul Slayer_idle_7: 1341166300
-      Shardsoul Slayer_walk_0: 1385098827
-      Shardsoul Slayer_walk_1: 21131463
-      Shardsoul Slayer_walk_2: 932511456
-      Shardsoul Slayer_walk_3: -178605058
-      Shardsoul Slayer_walk_4: 1321696662
-      Shardsoul Slayer_walk_5: -1162138278
-      Shardsoul Slayer_walk_6: -2030632205
-      Shardsoul Slayer_walk_7: 1662879801
-      idle_6: 2141955987
+      Shardsoul Slayer_0: 1026466543
+      Shardsoul Slayer_1: 1478381678
+      Shardsoul Slayer_10: 343053612
+      Shardsoul Slayer_11: 369980575
+      Shardsoul Slayer_12: -1875745805
+      Shardsoul Slayer_13: -822096412
+      Shardsoul Slayer_14: -1833797377
+      Shardsoul Slayer_15: 2142581596
+      Shardsoul Slayer_16: -830956287
+      Shardsoul Slayer_17: 1005915767
+      Shardsoul Slayer_18: -1698882634
+      Shardsoul Slayer_19: -1862376102
+      Shardsoul Slayer_2: -1686077187
+      Shardsoul Slayer_20: 1346358064
+      Shardsoul Slayer_21: 1549084153
+      Shardsoul Slayer_22: -2024319217
+      Shardsoul Slayer_23: -991874402
+      Shardsoul Slayer_24: -1768370609
+      Shardsoul Slayer_25: 845631494
+      Shardsoul Slayer_26: -1185818164
+      Shardsoul Slayer_3: -106432850
+      Shardsoul Slayer_4: 1051019884
+      Shardsoul Slayer_5: -1820081728
+      Shardsoul Slayer_6: 1936048060
+      Shardsoul Slayer_7: 141690983
+      Shardsoul Slayer_8: -17934024
+      Shardsoul Slayer_9: -221538005
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

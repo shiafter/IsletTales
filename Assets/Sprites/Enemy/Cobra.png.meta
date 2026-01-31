@@ -454,7 +454,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cobra_walk_
+      name: Cobra_atk_1
       rect:
         serializedVersion: 2
         x: 32
@@ -475,7 +475,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cobra_walk
+      name: Cobra_atk_2
       rect:
         serializedVersion: 2
         x: 64
@@ -496,7 +496,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cobra_wal
+      name: Cobra_atk_3
       rect:
         serializedVersion: 2
         x: 96
@@ -517,7 +517,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cobra_wa
+      name: Cobra_atk_4
       rect:
         serializedVersion: 2
         x: 128
@@ -538,7 +538,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cobra_w
+      name: Cobra_atk_5
       rect:
         serializedVersion: 2
         x: 160
@@ -696,6 +696,11 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Cobra_atk_0: -677801505
+      Cobra_atk_1: -12014791
+      Cobra_atk_2: -2053112114
+      Cobra_atk_3: 270928666
+      Cobra_atk_4: 1696540880
+      Cobra_atk_5: -1654788996
       Cobra_die_0: 1434242034
       Cobra_die_1: -344708534
       Cobra_die_2: -1208727953
@@ -710,11 +715,6 @@ TextureImporter:
       Cobra_idle_5: -93952062
       Cobra_idle_6: -2000845015
       Cobra_idle_7: -446849739
-      Cobra_w: -1654788996
-      Cobra_wa: 1696540880
-      Cobra_wal: 270928666
-      Cobra_walk: -2053112114
-      Cobra_walk_: -12014791
       Cobra_walk_0: -588407873
       Cobra_walk_1: -1477363335
       Cobra_walk_2: -2088618192

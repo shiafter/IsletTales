@@ -97,91 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Plant Monster_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 256
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cc3b756a46b525c4cbaf891a09b4e46d
-      internalID: -1856715644
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Plant Monster_1
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 256
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3daf1548603d1604ba4351772cc2799e
-      internalID: 647603868
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Plant Monster_2
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 256
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b791efed4cf09344cba1c1a2722677b9
-      internalID: -1847482752
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Plant Monster_3
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 256
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3c406050c291a3f448f933fd07df23a7
-      internalID: -1256584257
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Plant Monster_4
+      name: Plant Monster_Idle_0
       rect:
         serializedVersion: 2
         x: 0
@@ -202,7 +118,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_5
+      name: Plant Monster_Idle_1
       rect:
         serializedVersion: 2
         x: 64
@@ -223,7 +139,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_6
+      name: Plant Monster_Idle_2
       rect:
         serializedVersion: 2
         x: 128
@@ -244,7 +160,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_7
+      name: Plant Monster_Idle_3
       rect:
         serializedVersion: 2
         x: 192
@@ -265,49 +181,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_8
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 192
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 699bfdd81b1ea154db4ecf1e21cbb2d3
-      internalID: 586075604
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Plant Monster_9
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 192
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7ad5bf32b9cbac944b5ba92c42bc542f
-      internalID: 1429528416
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Plant Monster_10
+      name: Plant Monster_Walk_0
       rect:
         serializedVersion: 2
         x: 0
@@ -328,7 +202,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_11
+      name: Plant Monster_Walk_1
       rect:
         serializedVersion: 2
         x: 64
@@ -349,7 +223,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_12
+      name: Plant Monster_Walk_2
       rect:
         serializedVersion: 2
         x: 128
@@ -370,7 +244,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_13
+      name: Plant Monster_Walk_3
       rect:
         serializedVersion: 2
         x: 192
@@ -391,7 +265,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_14
+      name: Plant Monster_Walk_4
       rect:
         serializedVersion: 2
         x: 256
@@ -412,7 +286,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_15
+      name: Plant Monster_Walk_5
       rect:
         serializedVersion: 2
         x: 320
@@ -433,28 +307,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_16
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 128
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: baa0e5c5f2855aa4a812d0b1aa2ca4d9
-      internalID: -665635160
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Plant Monster_17
+      name: Plant Monster_Atk_0
       rect:
         serializedVersion: 2
         x: 0
@@ -475,7 +328,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_18
+      name: Plant Monster_Atk_1
       rect:
         serializedVersion: 2
         x: 64
@@ -496,7 +349,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_19
+      name: Plant Monster_Atk_2
       rect:
         serializedVersion: 2
         x: 128
@@ -517,7 +370,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_20
+      name: Plant Monster_Atk_3
       rect:
         serializedVersion: 2
         x: 192
@@ -538,7 +391,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_21
+      name: Plant Monster_Atk_4
       rect:
         serializedVersion: 2
         x: 256
@@ -559,7 +412,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_22
+      name: Plant Monster_Dead_0
       rect:
         serializedVersion: 2
         x: 0
@@ -580,7 +433,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_23
+      name: Plant Monster_Dead_1
       rect:
         serializedVersion: 2
         x: 64
@@ -601,7 +454,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_24
+      name: Plant Monster_Dead_2
       rect:
         serializedVersion: 2
         x: 128
@@ -622,7 +475,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_25
+      name: Plant Monster_Dead_3
       rect:
         serializedVersion: 2
         x: 192
@@ -643,7 +496,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_26
+      name: Plant Monster_Dead_4
       rect:
         serializedVersion: 2
         x: 256
@@ -664,7 +517,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_27
+      name: Plant Monster_Dead_5
       rect:
         serializedVersion: 2
         x: 320
@@ -685,7 +538,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_28
+      name: Plant Monster_Dead_6
       rect:
         serializedVersion: 2
         x: 384
@@ -705,6 +558,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Plant Monster_Atk_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762bbf352bcf2dc40ad67d8ef7ad8549
+      internalID: -1847482752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant Monster_Atk_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3458bfdd3c32dd4f8321ae48166dd7e
+      internalID: 647603868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -716,35 +611,33 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Plant Monster_0: -1856715644
-      Plant Monster_1: 647603868
-      Plant Monster_10: 1536419177
-      Plant Monster_11: 647742452
-      Plant Monster_12: 243120957
-      Plant Monster_13: 718772824
-      Plant Monster_14: -1879820122
-      Plant Monster_15: 1871318887
       Plant Monster_16: -665635160
-      Plant Monster_17: -819136309
-      Plant Monster_18: 1387620922
-      Plant Monster_19: -1259033272
-      Plant Monster_2: -1847482752
-      Plant Monster_20: 1066567350
-      Plant Monster_21: -1818003453
-      Plant Monster_22: 311845867
-      Plant Monster_23: 2035777601
-      Plant Monster_24: -207837313
-      Plant Monster_25: -941450076
-      Plant Monster_26: -701021070
-      Plant Monster_27: -1987927360
-      Plant Monster_28: -1003136653
-      Plant Monster_3: -1256584257
-      Plant Monster_4: -1516987764
-      Plant Monster_5: -623373281
-      Plant Monster_6: -1676954312
-      Plant Monster_7: -624914722
       Plant Monster_8: 586075604
       Plant Monster_9: 1429528416
+      Plant Monster_Atk_0: -819136309
+      Plant Monster_Atk_1: 1387620922
+      Plant Monster_Atk_2: -1259033272
+      Plant Monster_Atk_3: 1066567350
+      Plant Monster_Atk_4: -1818003453
+      Plant Monster_Atk_5: -1847482752
+      Plant Monster_Atk_6: 647603868
+      Plant Monster_Dead_0: 311845867
+      Plant Monster_Dead_1: 2035777601
+      Plant Monster_Dead_2: -207837313
+      Plant Monster_Dead_3: -941450076
+      Plant Monster_Dead_4: -701021070
+      Plant Monster_Dead_5: -1987927360
+      Plant Monster_Dead_6: -1003136653
+      Plant Monster_Idle_0: -1516987764
+      Plant Monster_Idle_1: -623373281
+      Plant Monster_Idle_2: -1676954312
+      Plant Monster_Idle_3: -624914722
+      Plant Monster_Walk_0: 1536419177
+      Plant Monster_Walk_1: 647742452
+      Plant Monster_Walk_2: 243120957
+      Plant Monster_Walk_3: 718772824
+      Plant Monster_Walk_4: -1879820122
+      Plant Monster_Walk_5: 1871318887
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

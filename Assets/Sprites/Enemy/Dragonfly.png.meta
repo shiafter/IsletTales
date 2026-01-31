@@ -97,316 +97,400 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Dragonfly_idle_0
+      name: Dragonfly_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd815a1af97a69f46a78ae77701c04c1
+      internalID: -1515268433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragonfly_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac12c017d5afca4e8e3e81aaa038235
+      internalID: -128839102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragonfly_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5d45d4cdb455942a7a11e81d9655fc
+      internalID: 390596336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragonfly_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97972f6fe0ebcce429e00191e5d6d208
+      internalID: -421945529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragonfly_4
       rect:
         serializedVersion: 2
         x: 0
         y: 64
         width: 32
         height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe445b5502bb628478c9dc8396cd5196
-      internalID: 2100456521
+      spriteID: 59b70301ca5732a4d934d1b1cb1af219
+      internalID: 544898568
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dragonfly_idle_1
+      name: Dragonfly_5
       rect:
         serializedVersion: 2
         x: 32
         y: 64
         width: 32
         height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e30cceec2f4ee3f4e85247378a7e30c5
-      internalID: 1881395306
+      spriteID: 5b6b30ec3b100f142bc3ef579cb53098
+      internalID: 710931777
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dragonfly_idle_2
+      name: Dragonfly_6
       rect:
         serializedVersion: 2
         x: 64
         y: 64
         width: 32
         height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdc7f36888dc4ae47a93f9fa645c6bf8
-      internalID: -1581960230
+      spriteID: 26406c26a3f1a4242b86ea7a4f93ea4d
+      internalID: -2083141570
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dragonfly_idle_3
+      name: Dragonfly_7
       rect:
         serializedVersion: 2
         x: 96
         y: 64
         width: 32
         height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 406889e933b5fd74baf9ed2c9aa32093
-      internalID: 1225583897
+      spriteID: 483d24f0a6f4d824da70c1cc85d53f79
+      internalID: -1305616841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dragonfly_walk_0
+      name: Dragonfly_8
       rect:
         serializedVersion: 2
         x: 0
         y: 32
         width: 32
         height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8408dc17aaa228e4499b99536ea77f78
-      internalID: 1947275216
+      spriteID: 650da57e094218944b5343b068ee0927
+      internalID: -463417508
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dragonfly_walk_1
+      name: Dragonfly_9
       rect:
         serializedVersion: 2
         x: 32
         y: 32
         width: 32
         height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d13a74a473a33b542a5ceec577546525
-      internalID: -1726938957
+      spriteID: e44e2c128f752e3449a984c7fb764994
+      internalID: -1527157499
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dragonfly_walk_2
+      name: Dragonfly_10
       rect:
         serializedVersion: 2
         x: 64
         y: 32
         width: 32
         height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 372b590f97f34e14bbfea7af2fa93bac
-      internalID: -1385109893
+      spriteID: 299bfed9fe8cb1b42a69847353b5541f
+      internalID: 1718018098
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dragonfly_walk_3
+      name: Dragonfly_11
       rect:
         serializedVersion: 2
         x: 96
         y: 32
         width: 32
         height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb6246dd4b0d6f244a5e25fa2693791b
-      internalID: -1320131692
+      spriteID: 8cfbdb4c84c405d4f8ac337bbfc1bb2c
+      internalID: -880196648
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dragonfly_die_0
+      name: Dragonfly_12
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 32
         height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c167ec50988ecc4988b45fce4fd85f3
-      internalID: 1467777035
+      spriteID: 67022fbaec2051741819a205c7c3cebc
+      internalID: 1239856321
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dragonfly_die_1
+      name: Dragonfly_13
       rect:
         serializedVersion: 2
         x: 32
         y: 0
         width: 32
         height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33d08b9cb9d3d4f4589e9c97301d8956
-      internalID: -1418341050
+      spriteID: 940ff420b2929a347ae384932b5c1cdb
+      internalID: -996475233
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dragonfly_die_2
+      name: Dragonfly_14
       rect:
         serializedVersion: 2
         x: 64
         y: 0
         width: 32
         height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d56e2825a6130744f9eba13c07e16b02
-      internalID: -1070331528
+      spriteID: dc67456ad9a7c01439a55eb2ace5c86f
+      internalID: 932090945
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dragonfly_die_3
+      name: Dragonfly_15
       rect:
         serializedVersion: 2
         x: 96
         y: 0
         width: 32
         height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2771546503bbdea40857251fe2e3d311
-      internalID: -1090792028
+      spriteID: cbb5bec4d152a054cb142a612aba8186
+      internalID: -580975665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dragonfly_die_4
+      name: Dragonfly_16
       rect:
         serializedVersion: 2
         x: 128
         y: 0
         width: 32
         height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fc342d4dd1937a4f89534f01c4059a4
-      internalID: 2106429526
+      spriteID: 3ccd54841118a35448e344b72103858a
+      internalID: -1691116512
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dragonfly_die_5
+      name: Dragonfly_17
       rect:
         serializedVersion: 2
         x: 160
         y: 0
         width: 32
         height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7118e802958986a458e811eb0d628a51
-      internalID: -871212845
+      spriteID: 241588643ac4ea04dab919c523c7cb46
+      internalID: 1654301914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dragonfly_die_6
+      name: Dragonfly_18
       rect:
         serializedVersion: 2
         x: 192
         y: 0
         width: 32
         height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65137996c1767cd4b95b7aaacc1f0635
-      internalID: -1412283263
+      spriteID: 65e5aff5004ab1c498e61c16d0738cd5
+      internalID: 682572686
       vertices: []
       indices: 
       edges: []
@@ -422,21 +506,25 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Dragonfly_die_0: 1467777035
-      Dragonfly_die_1: -1418341050
-      Dragonfly_die_2: -1070331528
-      Dragonfly_die_3: -1090792028
-      Dragonfly_die_4: 2106429526
-      Dragonfly_die_5: -871212845
-      Dragonfly_die_6: -1412283263
-      Dragonfly_idle_0: 2100456521
-      Dragonfly_idle_1: 1881395306
-      Dragonfly_idle_2: -1581960230
-      Dragonfly_idle_3: 1225583897
-      Dragonfly_walk_0: 1947275216
-      Dragonfly_walk_1: -1726938957
-      Dragonfly_walk_2: -1385109893
-      Dragonfly_walk_3: -1320131692
+      Dragonfly_0: -1515268433
+      Dragonfly_1: -128839102
+      Dragonfly_10: 1718018098
+      Dragonfly_11: -880196648
+      Dragonfly_12: 1239856321
+      Dragonfly_13: -996475233
+      Dragonfly_14: 932090945
+      Dragonfly_15: -580975665
+      Dragonfly_16: -1691116512
+      Dragonfly_17: 1654301914
+      Dragonfly_18: 682572686
+      Dragonfly_2: 390596336
+      Dragonfly_3: -421945529
+      Dragonfly_4: 544898568
+      Dragonfly_5: 710931777
+      Dragonfly_6: -2083141570
+      Dragonfly_7: -1305616841
+      Dragonfly_8: -463417508
+      Dragonfly_9: -1527157499
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

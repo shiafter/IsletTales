@@ -64,6 +64,12 @@ public class EnemyMovement : MonoBehaviour
         {
             player = hits[0].transform;
 
+            if (enemyData.enemyType == EnemyData.EnemyType.Collision)
+            {
+                ChangeState(EnemyState.Chase);
+                return;
+            }
+
             if (Vector2.Distance(attackPoint.position, player.transform.position) <= enemyData.attackRange && cooldownTimer <= 0)
             {
                 cooldownTimer = enemyData.attackCooldown;

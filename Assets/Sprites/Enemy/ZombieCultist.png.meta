@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1fdec94e125d8ba49b43f0df3cb45925
+guid: 9af51bceeaa6ff34290bf709e9ebab92
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,505 +97,505 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Phoenixling_idle_0
+      name: ZombieCultist_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 96
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.35, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d791d8b6c95c0640a1b1e981e8c9886
-      internalID: 1264924365
+      spriteID: ccca6a756a0344e4c98446d54beeb98f
+      internalID: 790601954
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Phoenixling_idle_1
+      name: ZombieCultist_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 48
+        y: 96
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.35, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02eb7561ec1913c4fbbd0f2be9c1d065
-      internalID: -1582015989
+      spriteID: 3d32259ec1366ce4f838fde4edff1e5f
+      internalID: 616638078
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Phoenixling_idle_2
+      name: ZombieCultist_2
       rect:
         serializedVersion: 2
-        x: 128
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 96
+        y: 96
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.35, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b746d889a8b0164e8ef1c54178bebbd
-      internalID: 515570425
+      spriteID: 20b4367090f50bf47b526b68c9f39d7a
+      internalID: 473075548
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Phoenixling_idle_3
+      name: ZombieCultist_3
       rect:
         serializedVersion: 2
-        x: 192
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 144
+        y: 96
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.35, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91d5c05b9e619644887d7daf5fb8aba9
-      internalID: -950704431
+      spriteID: e243dee8aa5725344beb644eedd193ad
+      internalID: -225683002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Phoenixling_walk_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 59d4870597bb0a94d99a0049a3dd3f29
-      internalID: -1758793109
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Phoenixling_walk_1
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3efedbb85c288ff4eb8ae268350719a8
-      internalID: -1082914745
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Phoenixling_walk_2
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 960174a79bde40447b9e06c8d2edf980
-      internalID: -876826654
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Phoenixling_walk_3
+      name: ZombieCultist_4
       rect:
         serializedVersion: 2
         x: 192
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 96
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.35, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cce3be94cc1857846ae0b27e02f71930
-      internalID: 559561310
+      spriteID: 8494d4783c0768948a295e8b40579a7a
+      internalID: -537077729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Phoenixling_atk_0
+      name: ZombieCultist_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.35, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062f4300adcc3fa4d970e276bf2a70da
+      internalID: 2091614936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieCultist_6
       rect:
         serializedVersion: 2
         x: 0
         y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.35, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95939ee3762f04940a12e3fe35805827
-      internalID: 1333657793
+      spriteID: d0455adb6dc96384e952a260f473f01a
+      internalID: -1281739066
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Phoenixling_atk_1
+      name: ZombieCultist_7
       rect:
         serializedVersion: 2
-        x: 64
+        x: 48
         y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.35, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6de3903c025d06b46b84dba831695390
-      internalID: 970070787
+      spriteID: 518c68f5ab6b561499ad2f282e771189
+      internalID: -483792292
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Phoenixling_atk_2
+      name: ZombieCultist_8
       rect:
         serializedVersion: 2
-        x: 128
+        x: 96
         y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.35, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 947afdc2728a4354f8e9e9db7762e12f
-      internalID: -224698410
+      spriteID: 9e678c143f4697041ae49e747f5165a2
+      internalID: -545588492
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Phoenixling_atk_3
+      name: ZombieCultist_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.35, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1584db430a0674e8ae4c36a0fc726f
+      internalID: -1428265313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieCultist_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.35, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 341a89fa335984446a856dcf25c76ff9
+      internalID: -1330922328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieCultist_11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.35, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afdbe554aa8abf34fb001bc654d0254b
+      internalID: -223835362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieCultist_12
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.35, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d94701d3c7e5f478ff4612d5e66dda
+      internalID: 101149588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieCultist_13
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.35, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f36fc743aa9c534d991f378413f6caf
+      internalID: -720382031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieCultist_14
       rect:
         serializedVersion: 2
         x: 192
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 32
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.35, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 658d2f920920f6a428285549eca84cdd
-      internalID: -1716789078
+      spriteID: d82b49e90f8df9446966942bd172c7e2
+      internalID: -204589846
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Phoenixling_atk_4
+      name: ZombieCultist_15
       rect:
         serializedVersion: 2
-        x: 256
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 240
+        y: 32
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.35, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fccc10b55aac64c4c9a581b6eca3e141
-      internalID: -1945858172
+      spriteID: c18e9f1a1caedac489d89c41f4647a28
+      internalID: 1638905426
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Phoenixling_atk_5
+      name: ZombieCultist_16
       rect:
         serializedVersion: 2
-        x: 320
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 288
+        y: 32
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.35, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0c224e7c2811ea4db7029f4dc3ea97e
-      internalID: 1185917825
+      spriteID: f71708043256aaf46a2907ca0b545f3e
+      internalID: 1296237070
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Phoenixling_atk_6
+      name: ZombieCultist_17
       rect:
         serializedVersion: 2
-        x: 384
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 336
+        y: 32
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.35, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54dd5a79350b2684ea519b43b5104d0d
-      internalID: 2143022063
+      spriteID: 3fb43568bd7b5ab489abc64199a1e284
+      internalID: 983434413
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Phoenixling_atk_7
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e8cbe27852186574c92016751be3f4a6
-      internalID: 216802014
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Phoenixling_die_0
+      name: ZombieCultist_18
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.35, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a6c97a0dcd91094383dd7bb0255a378
-      internalID: -114041953
+      spriteID: 78af11119f86d674e8996d1ee822b24f
+      internalID: -454570838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Phoenixling_die_1
+      name: ZombieCultist_19
       rect:
         serializedVersion: 2
-        x: 64
+        x: 48
         y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.35, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc6d459b81323bf49b1874565a4cd432
-      internalID: -329750001
+      spriteID: 17e87d4bcd3840341a7498d8881a1a63
+      internalID: -702480556
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Phoenixling_die_2
+      name: ZombieCultist_20
       rect:
         serializedVersion: 2
-        x: 128
+        x: 96
         y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.35, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdd01db342073aa409e710e821e06783
-      internalID: 806794573
+      spriteID: 9958c28c059d2384aa537423993ede00
+      internalID: -468188442
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Phoenixling_die_3
+      name: ZombieCultist_21
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.35, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc2f4b6dd5d7544e9be4d3983387d6f
+      internalID: -772314317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieCultist_22
       rect:
         serializedVersion: 2
         x: 192
         y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.35, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3548157d66ec06409283a920bc36030
-      internalID: -1526853676
+      spriteID: cf059fa1b87a1cd4386b262349caa1ae
+      internalID: -439482324
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Phoenixling_die_4
+      name: ZombieCultist_23
       rect:
         serializedVersion: 2
-        x: 256
+        x: 240
         y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.35, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c0b494eb2fa40c40be76f3cd195f9dd
-      internalID: -815027712
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Phoenixling_die_5
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0c997fb1ff2326549a697d8d1f560298
-      internalID: -1921654109
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Phoenixling_die_6
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7d180fe26c3d6ca45a064d2e21f49b12
-      internalID: -1313663506
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Phoenixling_die_7
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b5a547b30eba45c44a780993a39f5591
-      internalID: -1277252527
+      spriteID: 92931256dddd23d48901bbef09ee6f16
+      internalID: -1847291680
       vertices: []
       indices: 
       edges: []
@@ -611,30 +611,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Phoenixling_atk_0: 1333657793
-      Phoenixling_atk_1: 970070787
-      Phoenixling_atk_2: -224698410
-      Phoenixling_atk_3: -1716789078
-      Phoenixling_atk_4: -1945858172
-      Phoenixling_atk_5: 1185917825
-      Phoenixling_atk_6: 2143022063
-      Phoenixling_atk_7: 216802014
-      Phoenixling_die_0: -114041953
-      Phoenixling_die_1: -329750001
-      Phoenixling_die_2: 806794573
-      Phoenixling_die_3: -1526853676
-      Phoenixling_die_4: -815027712
-      Phoenixling_die_5: -1921654109
-      Phoenixling_die_6: -1313663506
-      Phoenixling_die_7: -1277252527
-      Phoenixling_idle_0: 1264924365
-      Phoenixling_idle_1: -1582015989
-      Phoenixling_idle_2: 515570425
-      Phoenixling_idle_3: -950704431
-      Phoenixling_walk_0: -1758793109
-      Phoenixling_walk_1: -1082914745
-      Phoenixling_walk_2: -876826654
-      Phoenixling_walk_3: 559561310
+      ZombieCultist_0: 790601954
+      ZombieCultist_1: 616638078
+      ZombieCultist_10: -1330922328
+      ZombieCultist_11: -223835362
+      ZombieCultist_12: 101149588
+      ZombieCultist_13: -720382031
+      ZombieCultist_14: -204589846
+      ZombieCultist_15: 1638905426
+      ZombieCultist_16: 1296237070
+      ZombieCultist_17: 983434413
+      ZombieCultist_18: -454570838
+      ZombieCultist_19: -702480556
+      ZombieCultist_2: 473075548
+      ZombieCultist_20: -468188442
+      ZombieCultist_21: -772314317
+      ZombieCultist_22: -439482324
+      ZombieCultist_23: -1847291680
+      ZombieCultist_3: -225683002
+      ZombieCultist_4: -537077729
+      ZombieCultist_5: 2091614936
+      ZombieCultist_6: -1281739066
+      ZombieCultist_7: -483792292
+      ZombieCultist_8: -545588492
+      ZombieCultist_9: -1428265313
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

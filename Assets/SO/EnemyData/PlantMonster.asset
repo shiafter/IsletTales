@@ -12,13 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c59bc76afafe3084683bb8faaa6ac38b, type: 3}
   m_Name: PlantMonster
   m_EditorClassIdentifier: 
-  maxHealth: 5
+  maxHealth: 10
   moveSpeed: 2
+  enemyType: 1
   chaseRange: 3.5
   attackRange: 1.5
   targetLayer:
     serializedVersion: 2
     m_Bits: 64
-  attackDamage: 3
-  attackCooldown: 1.5
+  collisionDamage: 0
+  meeleDamage: 3
+  explodeDamage: 0
+  rangeDamage: 0
+  attackCooldown: 1
   knockbackTime: 0.2

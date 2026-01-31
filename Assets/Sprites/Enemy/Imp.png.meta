@@ -97,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Imp_idle_0
+      name: Imp_0
       rect:
         serializedVersion: 2
         x: 0
@@ -111,14 +111,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b804dec0ff5a9914cb9c9dd6cc86f882
-      internalID: 981405776
+      spriteID: 609485774721b094aad63bb2712831c1
+      internalID: -1464229265
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Imp_idle_1
+      name: Imp_1
       rect:
         serializedVersion: 2
         x: 32
@@ -132,14 +132,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a721277676b4f54ea5d090b0b84e85d
-      internalID: 982873125
+      spriteID: 89fe3ae5d2b90544faa550c3a7aae003
+      internalID: 940395228
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Imp_idle_2
+      name: Imp_2
       rect:
         serializedVersion: 2
         x: 64
@@ -153,14 +153,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e066c32111accf4997670fd2efd086e
-      internalID: 1108324238
+      spriteID: fc67771e2ef7381409dc66a3f9552d15
+      internalID: -401994938
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Imp_idle_3
+      name: Imp_3
       rect:
         serializedVersion: 2
         x: 96
@@ -174,14 +174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d611bd0105d02d488c70fc7de341a3a
-      internalID: 686473750
+      spriteID: 4d73b9bb349d39f4a92409fae567c591
+      internalID: -1034011117
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Imp_idle_4
+      name: Imp_4
       rect:
         serializedVersion: 2
         x: 128
@@ -195,14 +195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ae51a478bfa4a6468bd82555c3d6264
-      internalID: -506763096
+      spriteID: 7477f3d8e96f126458f93785bace5dcc
+      internalID: -517502625
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Imp_idle_5
+      name: Imp_5
       rect:
         serializedVersion: 2
         x: 160
@@ -216,14 +216,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3efef604f7cbfd946a4b58a11e9e1280
-      internalID: -1031945657
+      spriteID: 16bc607745a538e4b89d422d717b962f
+      internalID: -2056344575
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Imp_idle_6
+      name: Imp_6
       rect:
         serializedVersion: 2
         x: 192
@@ -237,14 +237,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84125077f68cbb240afb1fc6ac7beb2d
-      internalID: -377405003
+      spriteID: 45a15f53f3e50034bb7d603e8f6558f8
+      internalID: -1239816244
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Imp_walk_0
+      name: Imp_7
       rect:
         serializedVersion: 2
         x: 0
@@ -258,14 +258,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbe67689c9a44fe428adcbac9bc3d586
-      internalID: 913831902
+      spriteID: 560e168dd1204fe4aad9aa56a702d213
+      internalID: -464281964
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Imp_walk_1
+      name: Imp_8
       rect:
         serializedVersion: 2
         x: 32
@@ -279,14 +279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f290d88d68c98c4e8db44b47f9ced01
-      internalID: 1817273604
+      spriteID: 65c99ea6f8fc747439e1a559735191dd
+      internalID: 1498240257
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Imp_walk_2
+      name: Imp_9
       rect:
         serializedVersion: 2
         x: 64
@@ -300,14 +300,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db94bad160a51524c9649bcd26e86b2c
-      internalID: -543533663
+      spriteID: 8885b62f41b097149a68e554c3cd90a0
+      internalID: -2036715107
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Imp_walk_3
+      name: Imp_10
       rect:
         serializedVersion: 2
         x: 96
@@ -321,14 +321,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ba23325e3c7f844b8fe928e5c3e517a
-      internalID: 1817041226
+      spriteID: e588f9b10bca33f4a85fe4cb90d3b184
+      internalID: 918208749
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Imp_walk_4
+      name: Imp_11
       rect:
         serializedVersion: 2
         x: 128
@@ -342,14 +342,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5846f7473b0d2cb43a61c691bdc35b1e
-      internalID: 586492046
+      spriteID: 6d5a37be38e4149498db9f4611a1d34f
+      internalID: 1016545761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Imp_walk_5
+      name: Imp_12
       rect:
         serializedVersion: 2
         x: 160
@@ -363,14 +363,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3344ca2dbb5731d458a3a0a8af9f8a17
-      internalID: 71359391
+      spriteID: 4b0ff94d384eb764cae584d5a79ef21f
+      internalID: -176596847
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Imp_walk_6
+      name: Imp_13
       rect:
         serializedVersion: 2
         x: 192
@@ -384,14 +384,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56b8acd5e74446e45b76fd25d5725112
-      internalID: 1586715251
+      spriteID: 21b306e8d40eee54da139ade3474cbd9
+      internalID: -523632355
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Imp_walk_7
+      name: Imp_14
       rect:
         serializedVersion: 2
         x: 224
@@ -405,14 +405,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 708d5984bf337044886f7ce897811a4b
-      internalID: -1179767183
+      spriteID: 2c80d87438951c94bb4574d9ab9d47b5
+      internalID: -1895335908
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Imp_atk_0
+      name: Imp_15
       rect:
         serializedVersion: 2
         x: 0
@@ -426,14 +426,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 223ae409e1497d443aa927f5e77d08b1
-      internalID: 1458547061
+      spriteID: 322641fdbf4efce46bbe49f557ce4c70
+      internalID: -2058217081
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Imp_atk_1
+      name: Imp_16
       rect:
         serializedVersion: 2
         x: 32
@@ -447,14 +447,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e578786a5057d554b8cdbbe5f326d07e
-      internalID: 611168963
+      spriteID: c3005fc6a170e6c4399d2fe0f214288b
+      internalID: -1104698746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Imp_atk_2
+      name: Imp_17
       rect:
         serializedVersion: 2
         x: 64
@@ -468,14 +468,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2b4b90e0f130bc459d578a817252a91
-      internalID: 1073714882
+      spriteID: bbd7ea395a8b0e042a08fb2847e328ef
+      internalID: 1852560644
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Imp_atk_3
+      name: Imp_18
       rect:
         serializedVersion: 2
         x: 96
@@ -489,14 +489,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77cf3563accbd4843a1f5894608c2a38
-      internalID: 2035243920
+      spriteID: 4a8fdca9b65ae0c4ab9385140f98b972
+      internalID: 1266176773
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Imp_atk_4
+      name: Imp_19
       rect:
         serializedVersion: 2
         x: 128
@@ -510,14 +510,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ade5a5e88cb4534b8e31711dcdf3129
-      internalID: 9057898
+      spriteID: f6380294ad7ec7944815dd27addcb581
+      internalID: 1493322103
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Imp_atk_5
+      name: Imp_20
       rect:
         serializedVersion: 2
         x: 160
@@ -531,14 +531,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf08c2dcceba444449d591f36dfbd6ce
-      internalID: 1185907473
+      spriteID: 851ab0d545e4ace4ebdb1fe3ad69ec6a
+      internalID: 1650260288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Imp_die_1
+      name: Imp_21
       rect:
         serializedVersion: 2
         x: 0
@@ -552,14 +552,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c0d12b14165a2647be4fd99c898f1e8
-      internalID: 1907911134
+      spriteID: 9f63101a6807df941b38a7f28b6e5ee9
+      internalID: 866303814
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Imp_die_
+      name: Imp_22
       rect:
         serializedVersion: 2
         x: 32
@@ -573,14 +573,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16cbbff1d2946594e99167485c89b4ed
-      internalID: -160874621
+      spriteID: 00097f0613407504cb7d42324411fc9b
+      internalID: -1099641463
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Imp_die_3
+      name: Imp_23
       rect:
         serializedVersion: 2
         x: 64
@@ -594,14 +594,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11d0adefde2f4ef4f981a592131a1e77
-      internalID: -1907155950
+      spriteID: fd6beaccce062774e80a149fc489c499
+      internalID: 2050695893
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Imp_die_4
+      name: Imp_24
       rect:
         serializedVersion: 2
         x: 96
@@ -615,14 +615,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1c492c2f46d3bb4abfd7760b997d680
-      internalID: -2053298820
+      spriteID: b307053af6fa7664ea9d5be83b5b3fb8
+      internalID: -886783531
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Imp_die_5
+      name: Imp_25
       rect:
         serializedVersion: 2
         x: 128
@@ -636,14 +636,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78882b6eef3aba64691548a1dc1e5e38
-      internalID: -1172154042
+      spriteID: 2f2356ff913f1b644afb884aeb7e6482
+      internalID: -665359927
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Imp_die_6
+      name: Imp_26
       rect:
         serializedVersion: 2
         x: 160
@@ -657,14 +657,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 868551425e17ffd48914cdbe1e7bf534
-      internalID: 57369340
+      spriteID: cb306b7a168ca2e458f722316d178971
+      internalID: 656728394
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Imp_projectile_0
+      name: Imp_27
       rect:
         serializedVersion: 2
         x: 0
@@ -678,14 +678,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d54e1ff59c2b934b89dd4d43c2e8b8c
-      internalID: -2047985097
+      spriteID: 324684364d2219541a8a604a58571ce2
+      internalID: -112404005
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Imp_projectile_1
+      name: Imp_28
       rect:
         serializedVersion: 2
         x: 32
@@ -699,14 +699,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4282f833732bcca46809b032d7a98ed9
-      internalID: -141781136
+      spriteID: 174dd1767e54c5543bd9134418cf05a7
+      internalID: 1005411884
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Imp_projectile_2
+      name: Imp_29
       rect:
         serializedVersion: 2
         x: 64
@@ -720,14 +720,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3c7f7c68f96993409ac79f956bb565e
-      internalID: 1893759419
+      spriteID: 9b1af7fdff1b3e64da6be4a7dd90f393
+      internalID: 2000129710
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Imp_projectile_3
+      name: Imp_30
       rect:
         serializedVersion: 2
         x: 96
@@ -741,14 +741,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f9cb7416182384448c14789b74963bb
-      internalID: -1843713964
+      spriteID: 8debb00bbc7365a43a3861c37906e3eb
+      internalID: -2118833997
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Imp_projectile_4
+      name: Imp_31
       rect:
         serializedVersion: 2
         x: 128
@@ -762,14 +762,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f27a2f203d0f817429e72706ee4b01fa
-      internalID: 946554260
+      spriteID: 87823d1949200444ab63b43f01d6518f
+      internalID: 569706878
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Imp_projectile_5
+      name: Imp_32
       rect:
         serializedVersion: 2
         x: 160
@@ -783,14 +783,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b53a99a2fe7acf4183e23667c3acbb8
-      internalID: -648344603
+      spriteID: 0ab1412d56310144ca0cfb178a6f2e9a
+      internalID: -2136053279
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Imp_projectile_6
+      name: Imp_33
       rect:
         serializedVersion: 2
         x: 192
@@ -804,8 +804,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66cba0a717d6dc340a494940d003a837
-      internalID: -258319654
+      spriteID: 99f32d5d383d85e438bd2a94e850b018
+      internalID: -79400409
       vertices: []
       indices: 
       edges: []
@@ -821,40 +821,40 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Imp_atk_0: 1458547061
-      Imp_atk_1: 611168963
-      Imp_atk_2: 1073714882
-      Imp_atk_3: 2035243920
-      Imp_atk_4: 9057898
-      Imp_atk_5: 1185907473
-      Imp_die_: -160874621
-      Imp_die_1: 1907911134
-      Imp_die_3: -1907155950
-      Imp_die_4: -2053298820
-      Imp_die_5: -1172154042
-      Imp_die_6: 57369340
-      Imp_idle_0: 981405776
-      Imp_idle_1: 982873125
-      Imp_idle_2: 1108324238
-      Imp_idle_3: 686473750
-      Imp_idle_4: -506763096
-      Imp_idle_5: -1031945657
-      Imp_idle_6: -377405003
-      Imp_projectile_0: -2047985097
-      Imp_projectile_1: -141781136
-      Imp_projectile_2: 1893759419
-      Imp_projectile_3: -1843713964
-      Imp_projectile_4: 946554260
-      Imp_projectile_5: -648344603
-      Imp_projectile_6: -258319654
-      Imp_walk_0: 913831902
-      Imp_walk_1: 1817273604
-      Imp_walk_2: -543533663
-      Imp_walk_3: 1817041226
-      Imp_walk_4: 586492046
-      Imp_walk_5: 71359391
-      Imp_walk_6: 1586715251
-      Imp_walk_7: -1179767183
+      Imp_0: -1464229265
+      Imp_1: 940395228
+      Imp_10: 918208749
+      Imp_11: 1016545761
+      Imp_12: -176596847
+      Imp_13: -523632355
+      Imp_14: -1895335908
+      Imp_15: -2058217081
+      Imp_16: -1104698746
+      Imp_17: 1852560644
+      Imp_18: 1266176773
+      Imp_19: 1493322103
+      Imp_2: -401994938
+      Imp_20: 1650260288
+      Imp_21: 866303814
+      Imp_22: -1099641463
+      Imp_23: 2050695893
+      Imp_24: -886783531
+      Imp_25: -665359927
+      Imp_26: 656728394
+      Imp_27: -112404005
+      Imp_28: 1005411884
+      Imp_29: 2000129710
+      Imp_3: -1034011117
+      Imp_30: -2118833997
+      Imp_31: 569706878
+      Imp_32: -2136053279
+      Imp_33: -79400409
+      Imp_4: -517502625
+      Imp_5: -2056344575
+      Imp_6: -1239816244
+      Imp_7: -464281964
+      Imp_8: 1498240257
+      Imp_9: -2036715107
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

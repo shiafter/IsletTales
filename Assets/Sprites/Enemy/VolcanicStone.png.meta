@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 24e1c90811cfa0044aa76bdc5752d06d
+guid: 217fdaff076266e46b280f4f3daeed48
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,610 +97,589 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Plant Monster_0
+      name: VolcanicStone_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 256
-        width: 64
-        height: 64
+        y: 96
+        width: 48
+        height: 32
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.35, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc3b756a46b525c4cbaf891a09b4e46d
-      internalID: -1856715644
+      spriteID: caa045a72f15e8c48a17c08e1b59da55
+      internalID: 296305783
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_1
+      name: VolcanicStone_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 256
-        width: 64
-        height: 64
+        x: 48
+        y: 96
+        width: 48
+        height: 32
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.35, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3daf1548603d1604ba4351772cc2799e
-      internalID: 647603868
+      spriteID: dd21aa2ecaed0474090fb5aa62d47f43
+      internalID: -191524181
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_2
+      name: VolcanicStone_2
       rect:
         serializedVersion: 2
-        x: 128
-        y: 256
-        width: 64
-        height: 64
+        x: 96
+        y: 96
+        width: 48
+        height: 32
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.35, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b791efed4cf09344cba1c1a2722677b9
-      internalID: -1847482752
+      spriteID: a7e268d891ce57945b600ec6a7ea79d3
+      internalID: 247992616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_3
+      name: VolcanicStone_3
       rect:
         serializedVersion: 2
-        x: 192
-        y: 256
-        width: 64
-        height: 64
+        x: 144
+        y: 96
+        width: 48
+        height: 32
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.35, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c406050c291a3f448f933fd07df23a7
-      internalID: -1256584257
+      spriteID: f33566540f894eb45aa8d4853d5c797f
+      internalID: 28748425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 192
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3344466da8d82d74aaae3366bb47c3c8
-      internalID: -1516987764
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Plant Monster_5
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 192
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: da95f939b7f832d4f997de28e8650173
-      internalID: -623373281
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Plant Monster_6
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 192
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6798b3df277ccaf4a83ac6566a3521ed
-      internalID: -1676954312
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Plant Monster_7
+      name: VolcanicStone_4
       rect:
         serializedVersion: 2
         x: 192
-        y: 192
-        width: 64
-        height: 64
+        y: 96
+        width: 48
+        height: 32
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.35, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef0fec3d8c5a8b84e873c10962c847b8
-      internalID: -624914722
+      spriteID: 07d45da5c18c62944ba39b0bfa9f6bf9
+      internalID: -1877764153
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_8
+      name: VolcanicStone_5
       rect:
         serializedVersion: 2
-        x: 256
-        y: 192
-        width: 64
-        height: 64
+        x: 240
+        y: 96
+        width: 48
+        height: 32
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.35, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 699bfdd81b1ea154db4ecf1e21cbb2d3
-      internalID: 586075604
+      spriteID: f071b9ac351f89a43a30e9db4ca1e2db
+      internalID: 131724435
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_9
+      name: VolcanicStone_6
       rect:
         serializedVersion: 2
-        x: 320
-        y: 192
-        width: 64
-        height: 64
+        x: 288
+        y: 96
+        width: 48
+        height: 32
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.35, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ad5bf32b9cbac944b5ba92c42bc542f
-      internalID: 1429528416
+      spriteID: 425a36f1a28766042afcaec55355aaac
+      internalID: -545488319
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_10
+      name: VolcanicStone_7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 128
-        width: 64
-        height: 64
+        x: 336
+        y: 96
+        width: 48
+        height: 32
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.35, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72e6431d9a698f54f9d584f085302513
-      internalID: 1536419177
+      spriteID: 29f3f630a169aa94d903feca8482f511
+      internalID: -668372607
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_11
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 128
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c36355bc4df282146afd01fb23993375
-      internalID: 647742452
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Plant Monster_12
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 128
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 80c61f772763deb4b899cf3c8b08e3ae
-      internalID: 243120957
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Plant Monster_13
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 128
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 05c42bcb59d8c7c4899796ffdd4e2d9a
-      internalID: 718772824
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Plant Monster_14
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 128
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4f683b2b1889f744c842b920fef4b472
-      internalID: -1879820122
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Plant Monster_15
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 128
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c5c6e58f6d7b2de4c8861c6d1c3cd5ba
-      internalID: 1871318887
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Plant Monster_16
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 128
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: baa0e5c5f2855aa4a812d0b1aa2ca4d9
-      internalID: -665635160
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Plant Monster_17
+      name: VolcanicStone_8
       rect:
         serializedVersion: 2
         x: 0
         y: 64
-        width: 64
-        height: 64
+        width: 48
+        height: 32
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.35, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8aeb653c61c51eb408263413504d41c0
-      internalID: -819136309
+      spriteID: de864fa43c95ca64ab6fa872f063fdcf
+      internalID: 1842746903
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_18
+      name: VolcanicStone_9
       rect:
         serializedVersion: 2
-        x: 64
+        x: 48
         y: 64
-        width: 64
-        height: 64
+        width: 48
+        height: 32
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.35, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfb0c0b740e4b9e49aea8ad4a64b1f32
-      internalID: 1387620922
+      spriteID: 8c57f41b4ca07a54c84ad375b3a8fd63
+      internalID: -1985143413
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_19
+      name: VolcanicStone_10
       rect:
         serializedVersion: 2
-        x: 128
+        x: 96
         y: 64
-        width: 64
-        height: 64
+        width: 48
+        height: 32
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.35, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e0b1b9276569c447b2bf21643cfc0dc
-      internalID: -1259033272
+      spriteID: 7d5384ce57dccfb429dbab0dddc1e9b7
+      internalID: 1239559129
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_20
+      name: VolcanicStone_11
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.35, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2214fb19027d27d41b5d1b8ac082f4f5
+      internalID: -571115893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VolcanicStone_12
       rect:
         serializedVersion: 2
         x: 192
         y: 64
-        width: 64
-        height: 64
+        width: 48
+        height: 32
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.35, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 632e5dc0e423eb2498050fa635f637af
-      internalID: 1066567350
+      spriteID: 233f3913c3800bd46aa2c502efe792ba
+      internalID: 2028947782
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_21
+      name: VolcanicStone_13
       rect:
         serializedVersion: 2
-        x: 256
+        x: 240
         y: 64
-        width: 64
-        height: 64
+        width: 48
+        height: 32
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.35, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0809ebfa2a14ca44c8464fdedba6b51b
-      internalID: -1818003453
+      spriteID: fb58763e1ecad644aa63773027f2babb
+      internalID: -1989337230
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_22
+      name: VolcanicStone_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.35, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d26c273564066a4385bcd05c6d3ee3b
+      internalID: -87449577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VolcanicStone_15
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.35, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543785299066cff418d0f878ba0894e4
+      internalID: -1708592386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VolcanicStone_16
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.35, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e92144e2b5bdf640ac0b137259bbead
+      internalID: 1341080506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VolcanicStone_17
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.35, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc78f3e294840a348a00bdf3bc004dcd
+      internalID: -191985947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VolcanicStone_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.35, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e72a3139372b74e9608346faa21151
+      internalID: 1704521777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VolcanicStone_19
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 32
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.35, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59418916b70ae4744b26df10bde4f757
+      internalID: -2111216123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VolcanicStone_20
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 64
+        width: 48
+        height: 32
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.35, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e17840475de682e429f15ccfa8ee67d3
-      internalID: 311845867
+      spriteID: 5ead18d35ae5d4f47b0927a2974d75f5
+      internalID: 2055579614
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_23
+      name: VolcanicStone_21
       rect:
         serializedVersion: 2
-        x: 64
+        x: 48
         y: 0
-        width: 64
-        height: 64
+        width: 48
+        height: 32
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.35, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62e78f7cb95ae3a4ba131e6535de0455
-      internalID: 2035777601
+      spriteID: 8456b2b4d4e445845ac9c2c5ceb88590
+      internalID: 1594685016
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_24
+      name: VolcanicStone_22
       rect:
         serializedVersion: 2
-        x: 128
+        x: 96
         y: 0
-        width: 64
-        height: 64
+        width: 48
+        height: 32
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.35, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b23945b5603a55409eeb12627422ac8
-      internalID: -207837313
+      spriteID: bb7ff1f9645630a429f12fb8b0f0c248
+      internalID: -724919424
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_25
+      name: VolcanicStone_23
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.35, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9524828c5c5bf64fa96df1de6e4d836
+      internalID: -1089892053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VolcanicStone_24
       rect:
         serializedVersion: 2
         x: 192
         y: 0
-        width: 64
-        height: 64
+        width: 48
+        height: 32
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.35, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 053f6519532c4484eb47ce5377fcfd87
-      internalID: -941450076
+      spriteID: 2e5bf29608df03b4698d6174fbd64916
+      internalID: -1036016277
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_26
+      name: VolcanicStone_25
       rect:
         serializedVersion: 2
-        x: 256
+        x: 240
         y: 0
-        width: 64
-        height: 64
+        width: 48
+        height: 32
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.35, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15f19b52f49c5a64b969037df83339b4
-      internalID: -701021070
+      spriteID: be5de1350e96f454884735d70ac1f25e
+      internalID: 161077743
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_27
+      name: VolcanicStone_26
       rect:
         serializedVersion: 2
-        x: 320
+        x: 288
         y: 0
-        width: 64
-        height: 64
+        width: 48
+        height: 32
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.35, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3a0d04c854652e4999468bffb014839
-      internalID: -1987927360
+      spriteID: 4859bac32abb71c4495d850b97e9e056
+      internalID: -500659845
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant Monster_28
+      name: VolcanicStone_27
       rect:
         serializedVersion: 2
-        x: 384
+        x: 336
         y: 0
-        width: 64
-        height: 64
+        width: 48
+        height: 32
       alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      pivot: {x: 0.35, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21a04531d86d2104aa03c01ae2934f32
-      internalID: -1003136653
+      spriteID: d210c8ce87307354f9eb4a2c81cff377
+      internalID: 1215743842
       vertices: []
       indices: 
       edges: []
@@ -716,35 +695,34 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Plant Monster_0: -1856715644
-      Plant Monster_1: 647603868
-      Plant Monster_10: 1536419177
-      Plant Monster_11: 647742452
-      Plant Monster_12: 243120957
-      Plant Monster_13: 718772824
-      Plant Monster_14: -1879820122
-      Plant Monster_15: 1871318887
-      Plant Monster_16: -665635160
-      Plant Monster_17: -819136309
-      Plant Monster_18: 1387620922
-      Plant Monster_19: -1259033272
-      Plant Monster_2: -1847482752
-      Plant Monster_20: 1066567350
-      Plant Monster_21: -1818003453
-      Plant Monster_22: 311845867
-      Plant Monster_23: 2035777601
-      Plant Monster_24: -207837313
-      Plant Monster_25: -941450076
-      Plant Monster_26: -701021070
-      Plant Monster_27: -1987927360
-      Plant Monster_28: -1003136653
-      Plant Monster_3: -1256584257
-      Plant Monster_4: -1516987764
-      Plant Monster_5: -623373281
-      Plant Monster_6: -1676954312
-      Plant Monster_7: -624914722
-      Plant Monster_8: 586075604
-      Plant Monster_9: 1429528416
+      VolcanicStone_0: 296305783
+      VolcanicStone_1: -191524181
+      VolcanicStone_10: 1239559129
+      VolcanicStone_11: -571115893
+      VolcanicStone_12: 2028947782
+      VolcanicStone_13: -1989337230
+      VolcanicStone_14: -87449577
+      VolcanicStone_15: -1708592386
+      VolcanicStone_16: 1341080506
+      VolcanicStone_17: -191985947
+      VolcanicStone_18: 1704521777
+      VolcanicStone_19: -2111216123
+      VolcanicStone_2: 247992616
+      VolcanicStone_20: 2055579614
+      VolcanicStone_21: 1594685016
+      VolcanicStone_22: -724919424
+      VolcanicStone_23: -1089892053
+      VolcanicStone_24: -1036016277
+      VolcanicStone_25: 161077743
+      VolcanicStone_26: -500659845
+      VolcanicStone_27: 1215743842
+      VolcanicStone_3: 28748425
+      VolcanicStone_4: -1877764153
+      VolcanicStone_5: 131724435
+      VolcanicStone_6: -545488319
+      VolcanicStone_7: -668372607
+      VolcanicStone_8: 1842746903
+      VolcanicStone_9: -1985143413
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
