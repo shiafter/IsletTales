@@ -16,8 +16,8 @@ MonoBehaviour:
   moveSpeed: 2
   enemyType: 2
   respawn: 1
-  chaseRange: 2
-  attackRange: 1.5
+  chaseRange: 1.5
+  attackRange: 0.75
   targetLayer:
     serializedVersion: 2
     m_Bits: 64

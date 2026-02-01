@@ -12,17 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c59bc76afafe3084683bb8faaa6ac38b, type: 3}
   m_Name: ShardSoul
   m_EditorClassIdentifier: 
-  maxHealth: 7
-  moveSpeed: 1.5
+  maxHealth: 30
+  moveSpeed: 2
   enemyType: 1
-  respawn: 1
-  chaseRange: 2
-  attackRange: 1
+  respawn: 0
+  chaseRange: 3
+  attackRange: 1.5
   targetLayer:
     serializedVersion: 2
     m_Bits: 64
   collisionDamage: 0
-  meeleDamage: 3
+  meeleDamage: 5
   explodeDamage: 0
   rangeDamage: 0
   attackCooldown: 1

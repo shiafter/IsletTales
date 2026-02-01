@@ -22,7 +22,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   collisionDamage: 0
-  meeleDamage: 3
+  meeleDamage: 5
   explodeDamage: 0
   rangeDamage: 0
   attackCooldown: 1

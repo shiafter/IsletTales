@@ -25,5 +25,5 @@ MonoBehaviour:
   meeleDamage: 5
   explodeDamage: 0
   rangeDamage: 0
-  attackCooldown: 1
+  attackCooldown: 1.5
   knockbackTime: 0.2

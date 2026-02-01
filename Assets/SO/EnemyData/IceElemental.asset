@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 7
   moveSpeed: 1.5
-  enemyType: 1
+  enemyType: 0
   respawn: 1
-  chaseRange: 2
-  attackRange: 1
+  chaseRange: 1.75
+  attackRange: 0.75
   targetLayer:
     serializedVersion: 2
     m_Bits: 64
-  collisionDamage: 0
-  meeleDamage: 3
+  collisionDamage: 3
+  meeleDamage: 0
   explodeDamage: 0
   rangeDamage: 0
   attackCooldown: 1

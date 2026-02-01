@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: WhiteBrainMole
   m_EditorClassIdentifier: 
   maxHealth: 7
-  moveSpeed: 3
+  moveSpeed: 2
   enemyType: 2
   respawn: 1
   chaseRange: 2

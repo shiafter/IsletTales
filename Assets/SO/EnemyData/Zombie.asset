@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Zombie
   m_EditorClassIdentifier: 
   maxHealth: 3
-  moveSpeed: 1
+  moveSpeed: 1.25
   enemyType: 1
   respawn: 1
   chaseRange: 2
