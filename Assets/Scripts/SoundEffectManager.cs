@@ -8,7 +8,7 @@ public class SoundEffectManager : MonoBehaviour
     private static SoundEffectManager instance;
     private static AudioSource audioSource;
     private static SoundEffectLibrary soundEffectLibrary;
-    //[SerializeField] private Slider sfxSlider;
+    [SerializeField] private Slider sfxSlider;
 
     private void Awake()
     {
@@ -26,7 +26,7 @@ public class SoundEffectManager : MonoBehaviour
     }
     private void Start()
     {
-        //sfxSlider.onValueChanged.AddListener(delegate { OnValueChanged(); });
+        sfxSlider.onValueChanged.AddListener(delegate { OnValueChanged(); });
     }
     public static void Play(string soundName)
     {
@@ -42,6 +42,6 @@ public class SoundEffectManager : MonoBehaviour
     }
     public void OnValueChanged()
     {
-        //SetVolume(sfxSlider.value);
+        SetVolume(sfxSlider.value);
     }
 }

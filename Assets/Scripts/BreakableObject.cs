@@ -4,24 +4,23 @@ using UnityEngine;
 
 public class BreakableObject : MonoBehaviour
 {
+    //public float respawnTime;
     [SerializeField]
-    public ItemData[] dropItems;
+    public DropItem[] dropItems;
 
-    public int minQuantity;
-    public int maxQuantity;
     public void DestroyObject()
     {
         for (int i = 0; i < dropItems.Length; i++)
         {
-            ItemData itemData = dropItems[i];
+            DropItem drop = dropItems[i];
 
-            int randomQuantity = Random.Range(minQuantity, maxQuantity + 1);
+            int randomQuantity = Random.Range(drop.minQuantity, drop.maxQuantity + 1);
             if (randomQuantity <= 0) continue;
 
             Vector3 offset = Random.insideUnitCircle * 0.5f;
 
             GameObject itemDrop = Instantiate(
-                itemData.dropPrefab,
+                drop.itemData.dropPrefab,
                 transform.position + offset,
                 Quaternion.identity
             );
@@ -29,8 +28,15 @@ public class BreakableObject : MonoBehaviour
             Item item = itemDrop.GetComponent<Item>();
 
             // GÁN DATA
-            item.item = itemData;
+            item.item = drop.itemData;
             item.quantity = randomQuantity;
         }
     }
+}
+[System.Serializable]
+public class DropItem
+{
+    public ItemData itemData;
+    public int minQuantity;
+    public int maxQuantity;
 }

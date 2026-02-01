@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80cf74606ae67c478d16b351d383c1d, type: 3}
+  m_Name: SnowCrystal
+  m_EditorClassIdentifier: 
+  itemName: Snow Crystal
+  itemImage: {fileID: -1049519245, guid: 4b9653fa641115e46affbcb5dc76204c, type: 3}
+  itemDescription: Hold the power of Snow Mountaint
+  maxStack: 1
+  empty: 0
+  currency: 0
+  currencyData: {fileID: 0}
+  dropPrefab: {fileID: 4310256103486053023, guid: 3b7a860554318d749af69536fa312049, type: 3}
+  type: 2

@@ -15,7 +15,8 @@ MonoBehaviour:
   maxHealth: 10
   moveSpeed: 2
   enemyType: 1
-  chaseRange: 3.5
+  respawn: 0
+  chaseRange: 3
   attackRange: 1.5
   targetLayer:
     serializedVersion: 2

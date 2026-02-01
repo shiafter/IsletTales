@@ -9,6 +9,7 @@ public class EnemyData : ScriptableObject
     public int maxHealth;
     public float moveSpeed;
     public EnemyType enemyType;
+    public bool respawn;
 
     [Header("Detection")]
     public float chaseRange;

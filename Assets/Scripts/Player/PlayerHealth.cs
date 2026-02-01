@@ -103,8 +103,4 @@ public class PlayerHealth : MonoBehaviour
                 script.enabled = false;
         }
     }
-    public void RemovePlayer()
-    {
-        Destroy(gameObject);
-    }
 }

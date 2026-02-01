@@ -165,7 +165,7 @@ SpriteRenderer:
   m_SortingLayerID: 512415979
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1198769678, guid: c804ef10667e1b54c9320d76b24859b0, type: 3}
+  m_Sprite: {fileID: 997969429, guid: c804ef10667e1b54c9320d76b24859b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -333,6 +333,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dropItems:
-  - {fileID: 11400000, guid: 6094514adb3e4a9468209e78856a606d, type: 2}
-  minQuantity: 1
-  maxQuantity: 3
+  - itemData: {fileID: 11400000, guid: 6094514adb3e4a9468209e78856a606d, type: 2}
+    minQuantity: 1
+    maxQuantity: 3

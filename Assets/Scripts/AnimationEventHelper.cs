@@ -29,7 +29,6 @@ public class AnimationEventHelper : MonoBehaviour
     public void RemovePlayer()
     {
         Debug.Log("Game Over");
-        PlayerHealth.instance.RemovePlayer();
         GameController.instance.OnPlayerDead();
     }
 }

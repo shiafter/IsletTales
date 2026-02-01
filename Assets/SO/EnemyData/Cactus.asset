@@ -15,8 +15,9 @@ MonoBehaviour:
   maxHealth: 5
   moveSpeed: 1
   enemyType: 1
+  respawn: 1
   chaseRange: 2.5
-  attackRange: 0.5
+  attackRange: 1
   targetLayer:
     serializedVersion: 2
     m_Bits: 64

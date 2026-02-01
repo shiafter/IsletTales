@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80cf74606ae67c478d16b351d383c1d, type: 3}
+  m_Name: VolcanicCrystal
+  m_EditorClassIdentifier: 
+  itemName: Volcanic Crystal
+  itemImage: {fileID: 966011978, guid: 4b9653fa641115e46affbcb5dc76204c, type: 3}
+  itemDescription: Hold the power of Volcano.
+  maxStack: 1
+  empty: 0
+  currency: 0
+  currencyData: {fileID: 0}
+  dropPrefab: {fileID: 7177078831901337448, guid: f9cf0934228ca3045a553ffd867cde25, type: 3}
+  type: 2
