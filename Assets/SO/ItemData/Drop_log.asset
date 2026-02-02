@@ -17,5 +17,9 @@ MonoBehaviour:
   itemDescription: Used to craft things
   maxStack: 16
   empty: 0
+  canSell: 1
+  sellPrice: 1
+  currency: 0
+  currencyData: {fileID: 0}
   dropPrefab: {fileID: 3891158351871058457, guid: 4b3a0f9f623c9fc498c47728bc73f241, type: 3}
   type: 2

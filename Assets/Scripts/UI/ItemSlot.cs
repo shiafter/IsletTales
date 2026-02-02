@@ -83,6 +83,10 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, 
         {
             OnLeftClick();
         }
+        else if (eventData.button == PointerEventData.InputButton.Right)
+        {
+            OnRightClick();
+        }
     }
     public void OnLeftClick()
     {
@@ -119,6 +123,32 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, 
             selectedFrame.SetActive(true);
             thisItemSelected = true;
             inventoryManager.UpdateItemInfo(itemData);
+        }
+    }
+    public void OnRightClick()
+    {
+        if (itemData == null || itemData.empty) return;
+        if (!thisItemSelected) return;
+        if (!itemData.canSell) return;
+
+        // Cộng silver
+        CurrencyController.instance.AddCurrency(
+            CurrencyData.CurrencyType.Silver,
+            itemData.sellPrice
+        );
+
+        // Trừ số lượng item
+        quantity -= 1;
+
+        if (quantity <= 0)
+        {
+            EmptySlot();
+            inventoryManager.UpdateItemInfo(null);
+        }
+        else
+        {
+            quantityText.text = quantity.ToString();
+            quantityText.enabled = quantity > 1;
         }
     }
     public void EmptySlot()

@@ -10,6 +10,7 @@ public class EnemyMovement : MonoBehaviour
     private float cooldownTimer;
     public Transform attackPoint;
     public Transform detectionPoint;
+    private bool lockAction = true;
 
     //component
     private Transform player;
@@ -18,25 +19,34 @@ public class EnemyMovement : MonoBehaviour
     //enemy data
     public EnemyData enemyData;
     private EnemyState enemyState;
-    void Start()
+    private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+    }
+    void Start()
+    {
         ChangeState(EnemyState.Idle);
     }
     void Update()
     {
-        if (enemyState == EnemyState.Attack)
-            return;
+        if (!lockAction) return;
+
         CheckForPlayer();
+
         if(cooldownTimer > 0)
         {
             cooldownTimer -= Time.deltaTime;
         }
-        if(enemyState == EnemyState.Chase)
+    }
+    private void FixedUpdate()
+    {
+        if (!lockAction) return;
+        if (enemyState == EnemyState.Chase)
         {
             Chase();
-        }else if(enemyState == EnemyState.Attack)
+        }
+        else if (enemyState == EnemyState.Attack)
         {
             rb.velocity = Vector2.zero;
         }
@@ -116,10 +126,37 @@ public class EnemyMovement : MonoBehaviour
             animator.SetBool("attack", true);
         }
     }
+    public void ResetState()
+    {
+        lockAction = false;
+
+        enemyState = EnemyState.Idle;
+        cooldownTimer = 0f;
+        player = null;
+
+        rb.velocity = Vector2.zero;
+        rb.angularVelocity = 0f;
+        rb.position = (Vector2)transform.position;
+        rb.Sleep();
+
+        facingDirection = 1;
+        transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+
+        animator.SetBool("idle", true);
+        animator.SetBool("walk", false);
+        animator.SetBool("attack", false);
+
+        StartCoroutine(EnableAction());
+    }
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(detectionPoint.position, enemyData.chaseRange);
+    }
+    private IEnumerator EnableAction()
+    {
+        yield return new WaitForFixedUpdate(); 
+        lockAction = true;
     }
 }
 public enum EnemyState

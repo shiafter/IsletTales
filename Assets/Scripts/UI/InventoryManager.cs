@@ -14,6 +14,7 @@ public class InventoryManager : MonoBehaviour
     public Image itemInfoImage;
     public TMP_Text itemInfoName;
     public TMP_Text itemInfoDescriptionText;
+    public TMP_Text itemSellPrice;
     public Sprite emptySprite;
 
     private void Awake()
@@ -60,12 +61,21 @@ public class InventoryManager : MonoBehaviour
             itemInfoImage.sprite = emptySprite;
             itemInfoName.text = "";
             itemInfoDescriptionText.text = "";
+            itemSellPrice.text = "";
             return;
         }
 
         itemInfoImage.sprite = item.itemImage;
         itemInfoName.text = item.itemName;
         itemInfoDescriptionText.text = item.itemDescription;
+        if (item.canSell)
+        {
+            itemSellPrice.text = "Sell Price (Silver): " + item.sellPrice.ToString();
+        }
+        else
+        {
+            itemSellPrice.text = "Cannot Sell" ;
+        }
     }
 
     public void DeselectAllSlot()

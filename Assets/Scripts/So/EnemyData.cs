@@ -10,6 +10,7 @@ public class EnemyData : ScriptableObject
     public float moveSpeed;
     public EnemyType enemyType;
     public bool respawn;
+    public float respawnTime;
 
     [Header("Detection")]
     public float chaseRange;

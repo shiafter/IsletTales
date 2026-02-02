@@ -17,6 +17,9 @@ MonoBehaviour:
   itemDescription: Used to gain 2 health point
   maxStack: 16
   empty: 0
-  gold: 0
+  canSell: 1
+  sellPrice: 2
+  currency: 0
+  currencyData: {fileID: 0}
   dropPrefab: {fileID: 8396953992590536942, guid: e75663f04aa16b843b9cb9df3fbecd58, type: 3}
   type: 1

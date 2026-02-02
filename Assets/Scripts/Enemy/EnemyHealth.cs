@@ -8,40 +8,36 @@ public class EnemyHealth : MonoBehaviour
 {
     private Rigidbody2D rb;
     private Animator animator;
-    [SerializeField]
-    private int currentHealth;
-    [SerializeField]
-    private bool dead = false;
-
     private SpriteRenderer spriteRenderer;
+    private Collider2D collider;
     private Color color;
 
+    [SerializeField] private int currentHealth;
+    [SerializeField] private bool dead = false;
+    private Vector3 spawnPosition;
+
+    private EnemyMovement enemyMovement;
     public EnemyData enemyData;
     public BreakableObject breakable;
-
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         breakable = GetComponent<BreakableObject>();
-
         spriteRenderer = GetComponent<SpriteRenderer>();
+        collider = GetComponent<Collider2D>();
+        enemyMovement = GetComponent<EnemyMovement>();
 
         if (spriteRenderer != null)
         {
             color = spriteRenderer.color;
         }
+        spawnPosition = transform.position;
     }
     private void Start()
     {
-        InitializeHealth(enemyData.maxHealth);
+        ResetEnemy();
     }
-    public void InitializeHealth(int health)
-    {
-        currentHealth = health;
-        dead = false;
-    }
-
     public void GetHit(int amount, GameObject sender)
     {
         if (dead) return;
@@ -49,29 +45,73 @@ public class EnemyHealth : MonoBehaviour
 
         currentHealth -= amount;
         StartCoroutine(DamageFlash());
+
         if (currentHealth <= 0)
         {
+            dead = true;
             Defeated();
-            if (breakable != null)
-            {
-                breakable.DestroyObject();
-            }
         }
     }
+    public void Defeated()
+    {
+        rb.velocity = Vector2.zero;
+        if(breakable != null)
+        {
+            breakable.DestroyObject();
+        }
+        animator.SetTrigger("dead");
+    }
+    private void ResetEnemy()
+    {
+        dead = false;
+        currentHealth = enemyData.maxHealth;
+        transform.position = spawnPosition;
 
+        rb.velocity = Vector2.zero;
+        if(breakable != null)
+        {
+            breakable.ResetDrop();
+        }
+        animator.Rebind();
+        animator.Update(0f);
+
+        if(enemyMovement != null)
+        {
+            enemyMovement.ResetState();
+        }
+    }
+    public void RemoveEnemy()
+    {
+        if (enemyData.respawn)
+        {
+            StartCoroutine(Respawn());
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
     private IEnumerator DamageFlash()
     {
         spriteRenderer.color = Color.red;
         yield return new WaitForSeconds(0.15f);
         spriteRenderer.color = color;
     }
-    public void Defeated()
+    private IEnumerator Respawn()
     {
-        rb.velocity = Vector2.zero;
-        animator.SetTrigger("dead");
-    }
-    public void RemoveEnemy()
-    {
-        Destroy(gameObject);
+        if (enemyMovement != null) enemyMovement.enabled = false;
+        if (spriteRenderer != null) spriteRenderer.enabled = false;
+        if (collider != null) collider.enabled = false;
+
+        float time = enemyData.respawnTime;
+        if(time > 0)
+        {
+            yield return new WaitForSeconds(time);
+        }
+        ResetEnemy();
+
+        if (spriteRenderer != null) spriteRenderer.enabled = true;
+        if (collider != null) collider.enabled = true;
+        if (enemyMovement != null) enemyMovement.enabled = true;
     }
 }

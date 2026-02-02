@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class BreakableObject : MonoBehaviour
 {
-    //public float respawnTime;
-    [SerializeField]
-    public DropItem[] dropItems;
-
+    [SerializeField] public DropItem[] dropItems;
+    private bool dropped;
     public void DestroyObject()
     {
+        if (dropped) return;
+        dropped = true;
+
         for (int i = 0; i < dropItems.Length; i++)
         {
             DropItem drop = dropItems[i];
@@ -19,18 +20,17 @@ public class BreakableObject : MonoBehaviour
 
             Vector3 offset = Random.insideUnitCircle * 0.5f;
 
-            GameObject itemDrop = Instantiate(
-                drop.itemData.dropPrefab,
-                transform.position + offset,
-                Quaternion.identity
-            );
-
-            Item item = itemDrop.GetComponent<Item>();
-
+            GameObject itemDrop = Instantiate(drop.itemData.dropPrefab, transform.position + offset, Quaternion.identity);
+            
             // GÁN DATA
+            Item item = itemDrop.GetComponent<Item>();
             item.item = drop.itemData;
             item.quantity = randomQuantity;
         }
+    }
+    public void ResetDrop()
+    {
+        dropped = false;
     }
 }
 [System.Serializable]

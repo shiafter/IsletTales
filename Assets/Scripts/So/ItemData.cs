@@ -12,12 +12,12 @@ public class ItemData : ScriptableObject
 
     public int maxStack;
     public bool empty;
+    public bool canSell;
+    public int sellPrice;
 
     public bool currency;
     public CurrencyData currencyData;
-
     public GameObject dropPrefab; 
-
     public enum ItemType
     {
         Equipment,

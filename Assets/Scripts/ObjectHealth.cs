@@ -5,17 +5,15 @@ using UnityEngine.Events;
 
 public class ObjectHealth : MonoBehaviour
 {
-    [SerializeField]
-    public int currentHealth, maxHealth;
-    [SerializeField]
+    [SerializeField] private int currentHealth, maxHealth;
     private bool dead = false;
+    private Vector3 spawnPosition;
+    public float respawnTime;
 
     private SpriteRenderer spriteRenderer;
+    private Collider2D collider;
     private Color color;
-    [SerializeField]
-    private Color hitFlash;
-    BreakableObject breakable;
-
+    private BreakableObject breakable;
     public enum RequiredTool
     {
         None,
@@ -27,11 +25,14 @@ public class ObjectHealth : MonoBehaviour
     {
         breakable = GetComponent<BreakableObject>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        collider = GetComponent<Collider2D>();
 
         if(spriteRenderer != null)
         {
             color = spriteRenderer.color;
         }
+        spawnPosition = transform.position;
+        currentHealth = maxHealth;
     }
     public void GetHit(int amount, GameObject sender, EquipmentData currentEquip)
     {
@@ -41,20 +42,40 @@ public class ObjectHealth : MonoBehaviour
 
         currentHealth -= amount;
         StartCoroutine(DamageFlash());
+
         if (currentHealth <= 0)
         {
             dead = true;
-            if (breakable != null)
-            {
-                breakable.DestroyObject();
-            }
-            Destroy(gameObject);
+            StartCoroutine(Respawn());
         }
     }
     private IEnumerator DamageFlash()
     {
-        spriteRenderer.color = hitFlash;
+        spriteRenderer.color = Color.red;
         yield return new WaitForSeconds(0.15f);
         spriteRenderer.color = color;
+    }
+    private IEnumerator Respawn()
+    {
+        if(breakable != null)
+        {
+            breakable.DestroyObject();
+        }
+        if (spriteRenderer != null) spriteRenderer.enabled = false;
+        if(collider != null) collider.enabled = false;
+
+        yield return new WaitForSeconds(respawnTime);
+
+        transform.position = spawnPosition;
+        currentHealth = maxHealth;
+        dead = false;
+
+        if(breakable != null)
+        {
+            breakable.ResetDrop();
+        }
+
+        if(spriteRenderer != null) spriteRenderer.enabled = true;
+        if(collider != null) collider.enabled = true;
     }
 }

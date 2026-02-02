@@ -16,6 +16,7 @@ MonoBehaviour:
   moveSpeed: 1.5
   enemyType: 3
   respawn: 1
+  respawnTime: 20
   chaseRange: 2
   attackRange: 1.5
   targetLayer:
