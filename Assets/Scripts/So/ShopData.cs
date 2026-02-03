@@ -11,20 +11,18 @@ public class ShopData : ScriptableObject
     public List<ShopItem> items;
     public NPCData npcData;
 }
-
 [System.Serializable]
 public class ItemPrice
 {
     public CurrencyData currencyData;
     public int amount;
 }
-
 [System.Serializable]
 public class ShopItem
 {
     public ItemData itemData;
     public List<ItemPrice> price;
 
-    //===LIMIT BUY TIMES===
+    //giới hạn số lượng mua 
     public int inStock = 99;
 }

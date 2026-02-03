@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -64,11 +64,6 @@ public class EnemyCombat : MonoBehaviour
 
         DealDamage(enemyData.explodeDamage);
         Destroy(gameObject);
-    }
-    public void Shoot()
-    {
-        if (enemyData.enemyType != EnemyData.EnemyType.Range) return;
-        //logic spawn prefab
     }
     private void OnDrawGizmos()
     {

@@ -21,8 +21,6 @@ public class EnemyData : ScriptableObject
     public int collisionDamage;
     public int meeleDamage;
     public int explodeDamage;
-    public int rangeDamage;
-
     public float attackCooldown;
     public float knockbackTime;
 
@@ -30,7 +28,6 @@ public class EnemyData : ScriptableObject
     {
         Collision,
         Melee,
-        Explode,
-        Range
+        Explode
     }
 }

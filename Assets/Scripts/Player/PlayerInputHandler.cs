@@ -11,6 +11,7 @@ public class PlayerInputHandler : MonoBehaviour
     public UnityEvent OnAttack;
     public UnityEvent OnInteract;
 
+    [SerializeField] private PlayerInteract playerInteract;
     [SerializeField]
     private InputActionReference movement, attack, pointerPosition, interact;
 
@@ -49,6 +50,7 @@ public class PlayerInputHandler : MonoBehaviour
     }
     private void PerformAttack(InputAction.CallbackContext context)
     {
+        if (DialogueController.instance != null && DialogueController.instance.isDialogueActive) return;
         OnAttack?.Invoke();
     }
     private void PerformInteract(InputAction.CallbackContext context)
@@ -60,6 +62,6 @@ public class PlayerInputHandler : MonoBehaviour
             return;
             
         }
-        OnInteract?.Invoke();
+        playerInteract.Interact();
     }
 }
