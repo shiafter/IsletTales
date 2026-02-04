@@ -205,8 +205,8 @@ TextureImporter:
       name: big_tree_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 160
+        x: 400
+        y: 240
         width: 80
         height: 80
       alignment: 7
@@ -226,7 +226,7 @@ TextureImporter:
       name: big_tree_6
       rect:
         serializedVersion: 2
-        x: 80
+        x: 0
         y: 160
         width: 80
         height: 80
@@ -247,7 +247,7 @@ TextureImporter:
       name: big_tree_7
       rect:
         serializedVersion: 2
-        x: 160
+        x: 80
         y: 160
         width: 80
         height: 80
@@ -268,7 +268,7 @@ TextureImporter:
       name: big_tree_8
       rect:
         serializedVersion: 2
-        x: 240
+        x: 160
         y: 160
         width: 80
         height: 80
@@ -289,7 +289,7 @@ TextureImporter:
       name: big_tree_9
       rect:
         serializedVersion: 2
-        x: 320
+        x: 240
         y: 160
         width: 80
         height: 80
@@ -310,8 +310,8 @@ TextureImporter:
       name: big_tree_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 80
+        x: 320
+        y: 160
         width: 80
         height: 80
       alignment: 7
@@ -331,8 +331,8 @@ TextureImporter:
       name: big_tree_11
       rect:
         serializedVersion: 2
-        x: 80
-        y: 80
+        x: 400
+        y: 160
         width: 80
         height: 80
       alignment: 7
@@ -352,7 +352,7 @@ TextureImporter:
       name: big_tree_12
       rect:
         serializedVersion: 2
-        x: 160
+        x: 0
         y: 80
         width: 80
         height: 80
@@ -373,7 +373,7 @@ TextureImporter:
       name: big_tree_13
       rect:
         serializedVersion: 2
-        x: 240
+        x: 80
         y: 80
         width: 80
         height: 80
@@ -394,7 +394,7 @@ TextureImporter:
       name: big_tree_14
       rect:
         serializedVersion: 2
-        x: 320
+        x: 160
         y: 80
         width: 80
         height: 80
@@ -415,12 +415,12 @@ TextureImporter:
       name: big_tree_15
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 240
+        y: 80
         width: 80
         height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -436,12 +436,12 @@ TextureImporter:
       name: big_tree_16
       rect:
         serializedVersion: 2
-        x: 80
-        y: 0
+        x: 320
+        y: 80
         width: 80
         height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -457,12 +457,12 @@ TextureImporter:
       name: big_tree_17
       rect:
         serializedVersion: 2
-        x: 160
-        y: 0
+        x: 400
+        y: 80
         width: 80
         height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -478,12 +478,12 @@ TextureImporter:
       name: big_tree_18
       rect:
         serializedVersion: 2
-        x: 240
+        x: 0
         y: 0
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -499,12 +499,12 @@ TextureImporter:
       name: big_tree_19
       rect:
         serializedVersion: 2
-        x: 320
+        x: 80
         y: 0
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -512,6 +512,90 @@ TextureImporter:
       bones: []
       spriteID: d48bf756b8ed8f14caa3cb54f776022e
       internalID: 2109576532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_tree_20
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d71c88c62b20e47930fdef1cd98dbc
+      internalID: 785593600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_tree_21
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6a64cd79d5a65498d042af677ebb16
+      internalID: 1306923098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_tree_22
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c595ad985fd057c419d12a73b397f33e
+      internalID: 1033697215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_tree_23
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b37b475ed9fef42ac29ce442723c01
+      internalID: 1406209668
       vertices: []
       indices: 
       edges: []
@@ -540,6 +624,10 @@ TextureImporter:
       big_tree_18: 530226983
       big_tree_19: 2109576532
       big_tree_2: 10725054
+      big_tree_20: 785593600
+      big_tree_21: 1306923098
+      big_tree_22: 1033697215
+      big_tree_23: 1406209668
       big_tree_3: 1436602143
       big_tree_4: 1449499224
       big_tree_5: -1541274379

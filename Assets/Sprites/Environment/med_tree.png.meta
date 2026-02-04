@@ -205,8 +205,8 @@ TextureImporter:
       name: med_tree_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 128
+        x: 240
+        y: 192
         width: 48
         height: 64
       alignment: 7
@@ -226,7 +226,7 @@ TextureImporter:
       name: med_tree_6
       rect:
         serializedVersion: 2
-        x: 48
+        x: 0
         y: 128
         width: 48
         height: 64
@@ -247,7 +247,7 @@ TextureImporter:
       name: med_tree_7
       rect:
         serializedVersion: 2
-        x: 96
+        x: 48
         y: 128
         width: 48
         height: 64
@@ -268,7 +268,7 @@ TextureImporter:
       name: med_tree_8
       rect:
         serializedVersion: 2
-        x: 144
+        x: 96
         y: 128
         width: 48
         height: 64
@@ -289,7 +289,7 @@ TextureImporter:
       name: med_tree_9
       rect:
         serializedVersion: 2
-        x: 192
+        x: 144
         y: 128
         width: 48
         height: 64
@@ -310,8 +310,8 @@ TextureImporter:
       name: med_tree_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
+        x: 192
+        y: 128
         width: 48
         height: 64
       alignment: 7
@@ -331,8 +331,8 @@ TextureImporter:
       name: med_tree_11
       rect:
         serializedVersion: 2
-        x: 48
-        y: 64
+        x: 240
+        y: 128
         width: 48
         height: 64
       alignment: 7
@@ -352,7 +352,7 @@ TextureImporter:
       name: med_tree_12
       rect:
         serializedVersion: 2
-        x: 96
+        x: 0
         y: 64
         width: 48
         height: 64
@@ -373,7 +373,7 @@ TextureImporter:
       name: med_tree_13
       rect:
         serializedVersion: 2
-        x: 144
+        x: 48
         y: 64
         width: 48
         height: 64
@@ -394,7 +394,7 @@ TextureImporter:
       name: med_tree_14
       rect:
         serializedVersion: 2
-        x: 192
+        x: 96
         y: 64
         width: 48
         height: 64
@@ -415,12 +415,12 @@ TextureImporter:
       name: med_tree_15
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 144
+        y: 64
         width: 48
         height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -436,12 +436,12 @@ TextureImporter:
       name: med_tree_16
       rect:
         serializedVersion: 2
-        x: 48
-        y: 0
+        x: 192
+        y: 64
         width: 48
         height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -457,12 +457,12 @@ TextureImporter:
       name: med_tree_17
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
+        x: 240
+        y: 64
         width: 48
         height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -478,7 +478,7 @@ TextureImporter:
       name: med_tree_18
       rect:
         serializedVersion: 2
-        x: 144
+        x: 0
         y: 0
         width: 48
         height: 64
@@ -499,7 +499,7 @@ TextureImporter:
       name: med_tree_19
       rect:
         serializedVersion: 2
-        x: 192
+        x: 48
         y: 0
         width: 48
         height: 64
@@ -512,6 +512,90 @@ TextureImporter:
       bones: []
       spriteID: fa389f4fabc532b4e9cca4db13b00548
       internalID: 383026414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: med_tree_20
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f88ab865154f34fa391e34acaa5820
+      internalID: -457591036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: med_tree_21
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e5f068901034344802ad727f00396c
+      internalID: 822488016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: med_tree_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d43acb33a61274996fbd5f4b4fe57c
+      internalID: 1881583282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: med_tree_23
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb7f94ba0fd5fb4c9213b96d095aa30
+      internalID: 1475905679
       vertices: []
       indices: 
       edges: []
@@ -540,6 +624,10 @@ TextureImporter:
       med_tree_18: -1312394148
       med_tree_19: 383026414
       med_tree_2: 440925628
+      med_tree_20: -457591036
+      med_tree_21: 822488016
+      med_tree_22: 1881583282
+      med_tree_23: 1475905679
       med_tree_3: -1879685382
       med_tree_4: -1896706973
       med_tree_5: -1282636769
