@@ -101,9 +101,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 48
-        width: 48
-        height: 48
+        y: 0
+        width: 64
+        height: 80
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -122,8 +122,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 48
-        width: 48
+        y: 80
+        width: 32
         height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -142,9 +142,9 @@ TextureImporter:
       name: Desert_house_2
       rect:
         serializedVersion: 2
-        x: 96
-        y: 48
-        width: 48
+        x: 80
+        y: 80
+        width: 32
         height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -160,64 +160,22 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Desert_house_3
+      name: Desert_house_6
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 80
         width: 48
         height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.49999997, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a032d8ecef679646b93e11f975b9678
-      internalID: -991332965
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Desert_house_4
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 0
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 809ab0615c741534a9cbe2d65c739b60
-      internalID: 500376306
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Desert_house_5
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 91740dc8f808936459ec59993ea26073
-      internalID: -765400824
+      spriteID: efe98dbefcc03dd44abd7b1fefa05b17
+      internalID: -1830195709
       vertices: []
       indices: 
       edges: []
@@ -239,6 +197,7 @@ TextureImporter:
       Desert_house_3: -991332965
       Desert_house_4: 500376306
       Desert_house_5: -765400824
+      Desert_house_6: -1830195709
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

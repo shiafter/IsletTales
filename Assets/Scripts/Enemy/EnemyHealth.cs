@@ -65,10 +65,14 @@ public class EnemyHealth : MonoBehaviour
     {
         dead = false;
         currentHealth = enemyData.maxHealth;
-        transform.position = spawnPosition;
 
         rb.velocity = Vector2.zero;
-        if(breakable != null)
+        rb.angularVelocity = 0f;
+        rb.position = spawnPosition;
+        rb.Sleep();
+        rb.WakeUp();
+
+        if (breakable != null)
         {
             breakable.ResetDrop();
         }
@@ -103,12 +107,11 @@ public class EnemyHealth : MonoBehaviour
         if (spriteRenderer != null) spriteRenderer.enabled = false;
         if (collider != null) collider.enabled = false;
 
-        float time = enemyData.respawnTime;
-        if(time > 0)
-        {
-            yield return new WaitForSeconds(time);
-        }
+        yield return new WaitForSeconds(enemyData.respawnTime);
+
         ResetEnemy();
+
+        yield return new WaitForFixedUpdate();
 
         if (spriteRenderer != null) spriteRenderer.enabled = true;
         if (collider != null) collider.enabled = true;

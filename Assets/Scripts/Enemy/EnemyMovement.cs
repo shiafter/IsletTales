@@ -46,7 +46,7 @@ public class EnemyMovement : MonoBehaviour
         {
             Chase();
         }
-        else if (enemyState == EnemyState.Attack)
+        else
         {
             rb.velocity = Vector2.zero;
         }
@@ -136,8 +136,6 @@ public class EnemyMovement : MonoBehaviour
 
         rb.velocity = Vector2.zero;
         rb.angularVelocity = 0f;
-        rb.position = (Vector2)transform.position;
-        rb.Sleep();
 
         facingDirection = 1;
         transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
