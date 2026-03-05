@@ -17,7 +17,7 @@ MonoBehaviour:
   enemyType: 1
   respawn: 1
   respawnTime: 20
-  chaseRange: 2
+  chaseRange: 1.5
   attackRange: 0.75
   targetLayer:
     serializedVersion: 2

@@ -25,6 +25,5 @@ MonoBehaviour:
   collisionDamage: 0
   meeleDamage: 3
   explodeDamage: 0
-  rangeDamage: 0
   attackCooldown: 1
   knockbackTime: 0.1

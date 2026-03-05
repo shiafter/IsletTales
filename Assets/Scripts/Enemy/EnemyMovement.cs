@@ -11,6 +11,7 @@ public class EnemyMovement : MonoBehaviour
     public Transform attackPoint;
     public Transform detectionPoint;
     private bool lockAction = true;
+    private float respawnBlockTimer = 0f;
 
     //component
     private Transform player;
@@ -31,6 +32,12 @@ public class EnemyMovement : MonoBehaviour
     void Update()
     {
         if (!lockAction) return;
+
+        if (respawnBlockTimer > 0)
+        {
+            respawnBlockTimer -= Time.deltaTime;
+            return; 
+        }
 
         CheckForPlayer();
 
@@ -143,6 +150,8 @@ public class EnemyMovement : MonoBehaviour
         animator.SetBool("idle", true);
         animator.SetBool("walk", false);
         animator.SetBool("attack", false);
+
+        respawnBlockTimer = 0.3f;
 
         StartCoroutine(EnableAction());
     }

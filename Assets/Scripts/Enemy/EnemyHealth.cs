@@ -54,12 +54,7 @@ public class EnemyHealth : MonoBehaviour
     }
     public void Defeated()
     {
-        rb.velocity = Vector2.zero;
-        if(breakable != null)
-        {
-            breakable.DestroyObject();
-        }
-        animator.SetTrigger("dead");
+        StartCoroutine(DeathRoutine());
     }
     private void ResetEnemy()
     {
@@ -68,17 +63,14 @@ public class EnemyHealth : MonoBehaviour
 
         rb.velocity = Vector2.zero;
         rb.angularVelocity = 0f;
-        rb.position = spawnPosition;
-        rb.Sleep();
-        rb.WakeUp();
+        transform.position = spawnPosition;
+
+        animator.SetBool("isDead", false);
 
         if (breakable != null)
         {
             breakable.ResetDrop();
         }
-        animator.Rebind();
-        animator.Update(0f);
-
         if(enemyMovement != null)
         {
             enemyMovement.ResetState();
@@ -101,6 +93,23 @@ public class EnemyHealth : MonoBehaviour
         yield return new WaitForSeconds(0.15f);
         spriteRenderer.color = color;
     }
+    private IEnumerator DeathRoutine()
+    {
+        rb.velocity = Vector2.zero;
+        rb.angularVelocity = 0f;
+        rb.simulated = false;
+
+        if (enemyMovement != null)
+            enemyMovement.enabled = false;
+
+        if (breakable != null)
+            breakable.DestroyObject();
+
+        animator.SetBool("isDead", true);
+
+        yield return new WaitForSeconds(0.75f);
+        RemoveEnemy();
+    }
     private IEnumerator Respawn()
     {
         if (enemyMovement != null) enemyMovement.enabled = false;
@@ -110,6 +119,7 @@ public class EnemyHealth : MonoBehaviour
         yield return new WaitForSeconds(enemyData.respawnTime);
 
         ResetEnemy();
+        rb.simulated = true;
 
         yield return new WaitForFixedUpdate();
 

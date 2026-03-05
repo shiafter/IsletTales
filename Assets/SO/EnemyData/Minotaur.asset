@@ -16,7 +16,8 @@ MonoBehaviour:
   moveSpeed: 2
   enemyType: 1
   respawn: 0
-  chaseRange: 3
+  respawnTime: 0
+  chaseRange: 2
   attackRange: 1.5
   targetLayer:
     serializedVersion: 2
@@ -24,6 +25,5 @@ MonoBehaviour:
   collisionDamage: 0
   meeleDamage: 5
   explodeDamage: 0
-  rangeDamage: 0
   attackCooldown: 1
   knockbackTime: 0.2
