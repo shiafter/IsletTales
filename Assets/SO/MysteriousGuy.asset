@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NPCName: Mysterious Guy
   NPCImage: {fileID: 592544629, guid: 9b185a2a999ca9540aa051c927ab3d3d, type: 3}
+  endGameNPC: 1
   dialogueLines:
   - Have you collected all the artifacts?
   - Cool. Let me take you home

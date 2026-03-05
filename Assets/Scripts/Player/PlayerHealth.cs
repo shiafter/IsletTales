@@ -38,9 +38,11 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        Debug.Log("Damage received: " + damage);
         if (dead) return;
 
         currenthealth -= damage;
+
         if (healthDisplay != null)
         {
             healthDisplay.UpdateHearts();

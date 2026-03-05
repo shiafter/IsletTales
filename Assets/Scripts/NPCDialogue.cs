@@ -7,6 +7,7 @@ public class NPCDialogue : ScriptableObject
 {
     public string NPCName;
     public Sprite NPCImage;
+    public bool endGameNPC;
     public string[] dialogueLines;
     public bool[] autoProgessLines;//đánh dấu dòng nào tự chạy
     public bool[] endDialogueLines;//đánh dấu dòng nào là kết thúc

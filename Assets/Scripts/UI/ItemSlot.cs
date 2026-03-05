@@ -67,6 +67,8 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, 
         int addAmount = Mathf.Min(spaceLeft, amount); //số lượng thêm vào slot 
         quantity += addAmount;
 
+        UpdateUI();
+
         quantityText.text = quantity.ToString();
         quantityText.enabled = quantity > 1;
 
@@ -179,11 +181,10 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, 
 
         itemImage.enabled = true;
         itemImage.sprite = itemData.itemImage;
-
     }
     public void OnBeginDrag(PointerEventData eventData)
     {
-        if (itemData.empty)
+        if (itemData == null || itemData.empty)
         {
             return;
         }
