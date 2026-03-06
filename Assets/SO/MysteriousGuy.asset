@@ -21,7 +21,7 @@ MonoBehaviour:
   - Comeback when you have enough artifact.
   autoProgessLines: 000000
   endDialogueLines: 000101
-  typingSpeed: 0.05
+  typingSpeed: 0.1
   voiceSound: {fileID: 8300000, guid: f0025bdf3ae3f4947897afb76013172e, type: 3}
   voicePitch: 1
   autoProgressDelay: 1.5

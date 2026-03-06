@@ -42,6 +42,7 @@ public class PlayerHealth : MonoBehaviour
         if (dead) return;
 
         currenthealth -= damage;
+        SoundEffectManager.Play("Hurt");
 
         if (healthDisplay != null)
         {
@@ -52,6 +53,7 @@ public class PlayerHealth : MonoBehaviour
         {
             if(dead) return;
             dead = true;
+            SoundEffectManager.Play("GameOver");
 
             rb.velocity = Vector2.zero;
             rb.simulated = false;
@@ -89,6 +91,8 @@ public class PlayerHealth : MonoBehaviour
     public void IncreaseMaxHealth(int amount)
     {
         maxHealth += amount;
+        currenthealth += amount;
+        SoundEffectManager.Play("IncreaseHealth");
 
         if (healthDisplay != null)
         {

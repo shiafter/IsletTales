@@ -28,9 +28,9 @@ MonoBehaviour:
   - When you collect all 6 artifacts, look for the man in purple.
   - He will take you home.
   - Goodluck on this adventure!
-  autoProgessLines: 000000010101010101010101
+  autoProgessLines: 000000000000000000000000
   endDialogueLines: 000000010000000100000001
-  typingSpeed: 0.05
+  typingSpeed: 0.1
   voiceSound: {fileID: 8300000, guid: f0025bdf3ae3f4947897afb76013172e, type: 3}
   voicePitch: 1
   autoProgressDelay: 1.5

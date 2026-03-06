@@ -18,7 +18,7 @@ MonoBehaviour:
   respawn: 1
   respawnTime: 20
   chaseRange: 1.5
-  attackRange: 1
+  attackRange: 0.75
   targetLayer:
     serializedVersion: 2
     m_Bits: 64

@@ -18,12 +18,12 @@ MonoBehaviour:
   respawn: 0
   respawnTime: 0
   chaseRange: 2
-  attackRange: 1.5
+  attackRange: 1.25
   targetLayer:
     serializedVersion: 2
     m_Bits: 64
   collisionDamage: 0
-  meeleDamage: 5
+  meeleDamage: 3
   explodeDamage: 0
   attackCooldown: 1
   knockbackTime: 0.2
